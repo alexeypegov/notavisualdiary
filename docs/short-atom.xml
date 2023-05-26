@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:base="https://alexeypegov.com/">
+  <title>(not) a visual diary</title>
+  <link href="https://alexeypegov.com/short-atom.xml" rel="self" />
+  <link href="https://alexeypegov.com" />
+  <id>https://alexeypegov.com/</id>
+  <updated>2023-05-24T00:00:00+00:00</updated>
+    <entry>
+      <title><![CDATA[#1]]></title>
+      <link href="https://alexeypegov.com/1.html" />
+      <id>urn:uuid:420984f6-b225-32b2-b414-183043bfb5b9</id>
+      <updated>2023-05-24T00:00:00+00:00</updated>
+    </entry>
+</feed>

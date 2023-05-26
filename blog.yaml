@@ -1,0 +1,27 @@
+general:
+  notes-dir: posts/
+  page-template: page
+  notes-per-page: 0
+  sitemap-template: sitemap
+  singles-dir: pages/
+  single-template: page
+  output-dir: docs/
+  base-url: https://alexeypegov.com/
+  feeds:
+    - atom
+    - short-atom
+  copy:
+    - theme/styles/
+    - theme/js/
+    - posts/images/
+    - static/robots.txt
+    - static/CNAME
+
+vars:
+  blog-title: (not) a visual diary
+  blog-url: https://alexeypegov.com
+  feed-url: https://alexeypegov.com/atom.xml
+  feed-author: Alexey Pegov
+  feed-email: iam@alexeypegov.com
+  description: 'Alexey Pegov film photography: a bunch of random analog images'
+  keywords: 'pegov,leica,film,analog,black and white,alexey pegov,35mm,photography'
