@@ -6,7 +6,7 @@
 
 <main class="${class}" data-prev="${prev!""}" data-next="${next!""}">
   <header>
-    <a href="/">${vars.blog_title}</a> · <a href="${slug}.html">${title}</a>
+    <a href="/">${vars.blog_title}</a> · <a href="https://fm.alexeypegov.com">blog/ru</a> · <a href="${slug}.html">${title}</a>
   </header>
   <article>
     ${body}
