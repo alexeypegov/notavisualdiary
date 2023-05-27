@@ -8,7 +8,9 @@
   --line-height: 1.5;
 
   --row-height: calc(var(--base-size) * var(--line-height));
+  --unit-100vh: 100vh;
 }
+
 * {
   padding: 0;
   margin: 0;
@@ -26,6 +28,12 @@ body {
 }
 
 @media only screen and (hover: none) {
+  /* Safari iPad 100vh "feature" fix */
+  @supports (height: 100dvh) {
+    :root {
+      --unit-100vh: 100dvh;
+    }
+  }
 }
 
 
@@ -43,7 +51,7 @@ header {
   }
 
   main {
-    max-height: calc(100vh - 2 * var(--row-height));
+    max-height: calc(var(--unit-100vh) - 2 * var(--row-height));
   }
 
   main article p {
@@ -62,11 +70,11 @@ header {
   main.vertical article {
     justify-content: flex-end;
     flex-wrap: wrap;
-    height: calc(100vh - 2 * var(--row-height));
+    height: calc(var(--unit-100vh) - 2 * var(--row-height));
   }
 
   main.horizontal article {
-    height: calc(100vh - 3 * var(--row-height));
+    height: calc(var(--unit-100vh) - 3 * var(--row-height));
   }
 
   main article img {
@@ -88,7 +96,7 @@ header {
   }
 
   main.vertical p:first-child {
-    max-height: calc(100vh - 2 * var(--row-height));
+    max-height: calc(var(--unit-100vh) - 2 * var(--row-height));
   }
   
   main.horizontal p:first-child {
