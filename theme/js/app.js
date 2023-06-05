@@ -1,4 +1,3 @@
-
 function go(direction) {
   let mains = document.getElementsByTagName('main');
   if (mains.length) {

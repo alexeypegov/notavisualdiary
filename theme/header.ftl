@@ -22,7 +22,7 @@
     <link rel="stylesheet" type="text/css" href="styles/styles.css">
 
     <script src="js/lc-swiper.min.js"></script>
-    <script src="js/app.js"></script>
+    <script src="js/app.js?seed=${.now?string["HHmmss"]}"></script>
   </head>
 <#if real_slug??>
 <body class="wrapper">
