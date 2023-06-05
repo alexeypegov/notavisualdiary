@@ -4,26 +4,7 @@
   <link href="https://alexeypegov.com/atom.xml" rel="self" />
   <link href="https://alexeypegov.com" />
   <id>https://alexeypegov.com/</id>
-  <updated>2023-06-05T00:00:00+00:00</updated>
-    <entry>
-      <title><![CDATA[#2]]></title>
-      <link href="https://alexeypegov.com/2.html" />
-      <id>urn:uuid:9d29502a-8780-3f82-aa2f-e674e649b01e</id>
-      <updated>2023-06-05T00:00:00+00:00</updated>
-      <content type="html">
-	<![CDATA[
-        <p><img src="https://alexeypegov.com/images/002-cappadocia.webp" alt="Cappadocia, 2022" /></p>
-<p>Reality tends to transform into a dream over time, and all the real places I have visited in the past become dreams to me.<br />
-However, some become dreams within a dream, almost surreal, like the six months we spent in Nevşehir in 2022.</p>
-<p>Cappadocia, Turkey (2022)</p>
-
-	]]>
-      </content>
-      <author>
-        <name>Alexey Pegov</name>
-        <email>iam@alexeypegov.com</email>
-      </author>
-    </entry>
+  <updated>2023-05-24T00:00:00+00:00</updated>
     <entry>
       <title><![CDATA[#1]]></title>
       <link href="https://alexeypegov.com/1.html" />
