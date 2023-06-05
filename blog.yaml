@@ -2,6 +2,7 @@ general:
   notes-dir: posts/
   page-template: page
   notes-per-page: 0
+  copy-last-as-index: true
   sitemap-template: sitemap
   singles-dir: pages/
   single-template: page
