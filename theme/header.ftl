@@ -24,4 +24,8 @@
     <script src="js/lc-swiper.min.js"></script>
     <script src="js/app.js"></script>
   </head>
+<#if real_slug??>
+<body class="wrapper">
+<#else>
 <body>
+</#if>

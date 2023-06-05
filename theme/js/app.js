@@ -19,9 +19,9 @@ function go_prev() {
 }
 
 new lc_swiper('html', function (direction, $el) {
-  if (direction.up) {
+  if (direction.right) {
     go_prev();
-  } else if (direction.down) {
+  } else if (direction.left) {
     go_next();
   }
 });

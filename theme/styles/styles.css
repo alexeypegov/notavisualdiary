@@ -22,7 +22,7 @@ html {
   line-height: var(--line-height);
 }
 
-body {
+body:not(.wrapper) {
   margin: var(--row-height);
   color: var(--text-color);
 }
@@ -36,11 +36,9 @@ body {
   }
 }
 
-
 header {
   color: #999;
 }
-
 
 @media (orientation: landscape) {
   main {
