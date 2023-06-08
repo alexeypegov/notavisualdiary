@@ -21,7 +21,6 @@
     <link rel="alternate" type="application/atom+xml" title="All images" href="${vars.feed_url}">
     <link rel="stylesheet" type="text/css" href="styles/styles.css">
 
-    <script src="js/lc-swiper.min.js"></script>
     <script src="js/app.js?seed=${.now?string["HHmmss"]}"></script>
   </head>
 <#if real_slug??>
