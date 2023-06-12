@@ -36,20 +36,27 @@ body:not(.wrapper) {
   }
 }
 
+:root {
+  --max-height: calc(var(--unit-100vh) - 2 * var(--row-height));
+}
+
+main {
+  margin-left: auto;
+  margin-right: auto;
+}
 header {
   color: #999;
 }
 
-@media (orientation: landscape) and (min-width: 500px) {
+
+@media (min-aspect-ratio: 4/3) {
   main {
     aspect-ratio: 16 / 9;
-    margin-left: auto;
-    margin-right: auto;
-    min-width: 500px;
+    max-height: var(--max-height);
   }
 
-  main {
-    max-height: calc(var(--unit-100vh) - 2 * var(--row-height));
+  main.horizontal header {
+    padding-bottom: 1rem;
   }
 
   main article p {
@@ -68,11 +75,11 @@ header {
   main.vertical article {
     justify-content: flex-end;
     flex-wrap: wrap;
-    height: calc(var(--unit-100vh) - 2 * var(--row-height));
+    height: var(--max-height);
   }
 
   main.horizontal article {
-    height: calc(var(--unit-100vh) - 3 * var(--row-height));
+    height: calc(var(--max-height) - 2 * var(--row-height));
   }
 
   main article img {
@@ -94,7 +101,7 @@ header {
   }
 
   main.vertical p:first-child {
-    max-height: calc(var(--unit-100vh) - 2 * var(--row-height));
+    max-height: var(--max-height);
   }
   
   main.horizontal p:first-child {
@@ -118,10 +125,11 @@ header {
   }
 }
 
-@media (orientation: portrait) or (max-width: 500px) {
+@media (max-aspect-ratio: 4/3) {
   main article {
     display: flex;
     flex-flow: column;
+    max-height: var(--max-height);
   }
 
   main article img {
@@ -129,9 +137,11 @@ header {
     height: auto;
   }
 
+  main.vertical article img {
+    aspect-ratio: 3/4;
+  }
+
   main article p {
     margin-top: 1rem;
   }
 }
-
-

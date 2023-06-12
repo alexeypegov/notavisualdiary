@@ -6,7 +6,14 @@
 
 <main class="${class}" data-prev="${prev!""}" data-next="${next!""}">
   <header>
-    <a href="/">${vars.blog_title}</a> ∷ <a href="${prev}.html">previous</a> – <a href="${next}.html">next</a> 
+    <#assign next_link>
+      <#if next == slug>
+      next
+      <#else>
+      <a href="${next}.html">next</a>
+      </#if>
+    </#assign>
+    <a href="/">${vars.blog_title}</a> · ${index} of ${count} · ${next_link} 
   </header>
   <article>
     ${body}
