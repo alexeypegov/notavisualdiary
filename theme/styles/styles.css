@@ -137,10 +137,6 @@ header {
     height: auto;
   }
 
-  main.vertical article img {
-    aspect-ratio: 3/4;
-  }
-
   main article p {
     margin-top: 1rem;
   }
