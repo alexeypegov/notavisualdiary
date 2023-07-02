@@ -4,7 +4,13 @@
   <link href="https://alexeypegov.com/short-atom.xml" rel="self" />
   <link href="https://alexeypegov.com" />
   <id>https://alexeypegov.com/</id>
-  <updated>2023-05-24T00:00:00+00:00</updated>
+  <updated>2023-07-02T00:00:00+00:00</updated>
+    <entry>
+      <title><![CDATA[#2]]></title>
+      <link href="https://alexeypegov.com/2.html" />
+      <id>urn:uuid:9d29502a-8780-3f82-aa2f-e674e649b01e</id>
+      <updated>2023-07-02T00:00:00+00:00</updated>
+    </entry>
     <entry>
       <title><![CDATA[#1]]></title>
       <link href="https://alexeypegov.com/1.html" />

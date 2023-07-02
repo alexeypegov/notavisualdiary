@@ -4,7 +4,26 @@
   <link href="https://alexeypegov.com/atom.xml" rel="self" />
   <link href="https://alexeypegov.com" />
   <id>https://alexeypegov.com/</id>
-  <updated>2023-05-24T00:00:00+00:00</updated>
+  <updated>2023-07-02T00:00:00+00:00</updated>
+    <entry>
+      <title><![CDATA[#2]]></title>
+      <link href="https://alexeypegov.com/2.html" />
+      <id>urn:uuid:9d29502a-8780-3f82-aa2f-e674e649b01e</id>
+      <updated>2023-07-02T00:00:00+00:00</updated>
+      <content type="html">
+	<![CDATA[
+        <p><img src="https://alexeypegov.com/images/002-cappadocia.webp" alt="Cappadocia, 2022" /></p>
+<p>Although this is a view of Cappadocia, it is relatively easy for someone to imagine this landscape as being from another planet.<br />
+This has happened before to someone else there, and it has also happened to me.</p>
+<p>Mars, 2022</p>
+
+	]]>
+      </content>
+      <author>
+        <name>Alexey Pegov</name>
+        <email>iam@alexeypegov.com</email>
+      </author>
+    </entry>
     <entry>
       <title><![CDATA[#1]]></title>
       <link href="https://alexeypegov.com/1.html" />
