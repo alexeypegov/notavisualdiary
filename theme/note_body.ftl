@@ -10,7 +10,7 @@
       <#if next == slug>
       next
       <#else>
-      <a href="${next}.html">next</a>
+      <a href="${prev}.html">next</a>
       </#if>
     </#assign>
     <a href="/">${vars.blog_title}</a> · ${index} of ${count} · ${next_link} 

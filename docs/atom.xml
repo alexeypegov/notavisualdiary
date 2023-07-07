@@ -4,7 +4,25 @@
   <link href="https://alexeypegov.com/atom.xml" rel="self" />
   <link href="https://alexeypegov.com" />
   <id>https://alexeypegov.com/</id>
-  <updated>2023-07-02T00:00:00+00:00</updated>
+  <updated>2023-07-07T00:00:00+00:00</updated>
+    <entry>
+      <title><![CDATA[#3]]></title>
+      <link href="https://alexeypegov.com/3.html" />
+      <id>urn:uuid:acbc9f7a-5b92-3f6e-95de-72c76dfb12a6</id>
+      <updated>2023-07-07T00:00:00+00:00</updated>
+      <content type="html">
+	<![CDATA[
+        <p><img src="https://alexeypegov.com/images/003-triangles.webp" alt="Triangles, 2023" /></p>
+<p>I just like accidental triangles at this picture.</p>
+<p>Phuket, 2023</p>
+
+	]]>
+      </content>
+      <author>
+        <name>Alexey Pegov</name>
+        <email>iam@alexeypegov.com</email>
+      </author>
+    </entry>
     <entry>
       <title><![CDATA[#2]]></title>
       <link href="https://alexeypegov.com/2.html" />
