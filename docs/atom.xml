@@ -4,7 +4,26 @@
   <link href="https://alexeypegov.com/atom.xml" rel="self" />
   <link href="https://alexeypegov.com" />
   <id>https://alexeypegov.com/</id>
-  <updated>2023-07-07T00:00:00+00:00</updated>
+  <updated>2023-07-22T00:00:00+00:00</updated>
+    <entry>
+      <title><![CDATA[#4]]></title>
+      <link href="https://alexeypegov.com/4.html" />
+      <id>urn:uuid:1df865c0-4212-31d8-9238-c930ca59ec85</id>
+      <updated>2023-07-22T00:00:00+00:00</updated>
+      <content type="html">
+	<![CDATA[
+        <p><img src="https://alexeypegov.com/images/004-zakhary.webp" alt="Zakhary with camera, 2021" /></p>
+<p>My younger son got recently his third toy camera, and he is only four<br />
+(and he is two at the picture).</p>
+<p>2021</p>
+
+	]]>
+      </content>
+      <author>
+        <name>Alexey Pegov</name>
+        <email>iam@alexeypegov.com</email>
+      </author>
+    </entry>
     <entry>
       <title><![CDATA[#3]]></title>
       <link href="https://alexeypegov.com/3.html" />
