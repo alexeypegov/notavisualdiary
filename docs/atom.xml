@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom" xml:base="https://alexeypegov.com/">
+<feed xmlns="http://www.w3.org/2005/Atom" xml:base="https://www.alexeypegov.com/">
   <title>(not) a visual diary</title>
-  <link href="https://alexeypegov.com/atom.xml" rel="self" />
-  <link href="https://alexeypegov.com" />
-  <id>https://alexeypegov.com/</id>
+  <link href="https://www.alexeypegov.com/atom.xml" rel="self" />
+  <link href="https://www.alexeypegov.com" />
+  <id>https://www.alexeypegov.com/</id>
   <updated>2023-07-22T00:00:00+00:00</updated>
     <entry>
       <title><![CDATA[#4]]></title>
-      <link href="https://alexeypegov.com/4.html" />
+      <link href="https://www.alexeypegov.com/4.html" />
       <id>urn:uuid:1df865c0-4212-31d8-9238-c930ca59ec85</id>
       <updated>2023-07-22T00:00:00+00:00</updated>
       <content type="html">
 	<![CDATA[
-        <p><img src="https://alexeypegov.com/images/004-zakhary.webp" alt="Zakhary with camera, 2021" /></p>
+        <p><img src="https://www.alexeypegov.com/images/004-zakhary.webp" alt="Zakhary with camera, 2021" /></p>
 <p>My younger son got recently his third toy camera, and he is only four<br />
 (and he is two at the picture).</p>
 <p>2021</p>
@@ -26,12 +26,12 @@
     </entry>
     <entry>
       <title><![CDATA[#3]]></title>
-      <link href="https://alexeypegov.com/3.html" />
+      <link href="https://www.alexeypegov.com/3.html" />
       <id>urn:uuid:acbc9f7a-5b92-3f6e-95de-72c76dfb12a6</id>
       <updated>2023-07-07T00:00:00+00:00</updated>
       <content type="html">
 	<![CDATA[
-        <p><img src="https://alexeypegov.com/images/003-triangles.webp" alt="Triangles, 2023" /></p>
+        <p><img src="https://www.alexeypegov.com/images/003-triangles.webp" alt="Triangles, 2023" /></p>
 <p>I just like accidental triangles at this picture.</p>
 <p>2023</p>
 
@@ -44,12 +44,12 @@
     </entry>
     <entry>
       <title><![CDATA[#2]]></title>
-      <link href="https://alexeypegov.com/2.html" />
+      <link href="https://www.alexeypegov.com/2.html" />
       <id>urn:uuid:9d29502a-8780-3f82-aa2f-e674e649b01e</id>
       <updated>2023-07-02T00:00:00+00:00</updated>
       <content type="html">
 	<![CDATA[
-        <p><img src="https://alexeypegov.com/images/002-cappadocia.webp" alt="Cappadocia, 2022" /></p>
+        <p><img src="https://www.alexeypegov.com/images/002-cappadocia.webp" alt="Cappadocia, 2022" /></p>
 <p>Although this is a view of Cappadocia, it is relatively easy for someone to imagine this landscape as being from another planet.<br />
 This has happened before to someone else there, and it has also happened to me.</p>
 <p>2022</p>
@@ -63,12 +63,12 @@ This has happened before to someone else there, and it has also happened to me.<
     </entry>
     <entry>
       <title><![CDATA[#1]]></title>
-      <link href="https://alexeypegov.com/1.html" />
+      <link href="https://www.alexeypegov.com/1.html" />
       <id>urn:uuid:420984f6-b225-32b2-b414-183043bfb5b9</id>
       <updated>2023-05-24T00:00:00+00:00</updated>
       <content type="html">
 	<![CDATA[
-        <p><img src="https://alexeypegov.com/images/001-zakhar.webp" alt="Zakhar, 2023" /></p>
+        <p><img src="https://www.alexeypegov.com/images/001-zakhar.webp" alt="Zakhar, 2023" /></p>
 <p>I'm sure my son knows nothing about Robocop or Daft Punk.<br />
 Yet somehow he reminds me of both at once.</p>
 <p>2023</p>

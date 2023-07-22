@@ -7,7 +7,7 @@ general:
   singles-dir: pages/
   single-template: page
   output-dir: docs/
-  base-url: https://alexeypegov.com/
+  base-url: https://www.alexeypegov.com/
   feeds:
     - atom
     - short-atom
@@ -20,8 +20,8 @@ general:
 
 vars:
   blog-title: (not) a visual diary
-  blog-url: https://alexeypegov.com
-  feed-url: https://alexeypegov.com/atom.xml
+  blog-url: https://www.alexeypegov.com
+  feed-url: https://www.alexeypegov.com/atom.xml
   feed-author: Alexey Pegov
   feed-email: iam@alexeypegov.com
   description: 'Alexey Pegov film photography: a bunch of random analog images'

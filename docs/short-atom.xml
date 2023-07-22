@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom" xml:base="https://alexeypegov.com/">
+<feed xmlns="http://www.w3.org/2005/Atom" xml:base="https://www.alexeypegov.com/">
   <title>(not) a visual diary</title>
-  <link href="https://alexeypegov.com/short-atom.xml" rel="self" />
-  <link href="https://alexeypegov.com" />
-  <id>https://alexeypegov.com/</id>
+  <link href="https://www.alexeypegov.com/short-atom.xml" rel="self" />
+  <link href="https://www.alexeypegov.com" />
+  <id>https://www.alexeypegov.com/</id>
   <updated>2023-07-22T00:00:00+00:00</updated>
     <entry>
       <title><![CDATA[#4]]></title>
-      <link href="https://alexeypegov.com/4.html" />
+      <link href="https://www.alexeypegov.com/4.html" />
       <id>urn:uuid:1df865c0-4212-31d8-9238-c930ca59ec85</id>
       <updated>2023-07-22T00:00:00+00:00</updated>
     </entry>
     <entry>
       <title><![CDATA[#3]]></title>
-      <link href="https://alexeypegov.com/3.html" />
+      <link href="https://www.alexeypegov.com/3.html" />
       <id>urn:uuid:acbc9f7a-5b92-3f6e-95de-72c76dfb12a6</id>
       <updated>2023-07-07T00:00:00+00:00</updated>
     </entry>
     <entry>
       <title><![CDATA[#2]]></title>
-      <link href="https://alexeypegov.com/2.html" />
+      <link href="https://www.alexeypegov.com/2.html" />
       <id>urn:uuid:9d29502a-8780-3f82-aa2f-e674e649b01e</id>
       <updated>2023-07-02T00:00:00+00:00</updated>
     </entry>
     <entry>
       <title><![CDATA[#1]]></title>
-      <link href="https://alexeypegov.com/1.html" />
+      <link href="https://www.alexeypegov.com/1.html" />
       <id>urn:uuid:420984f6-b225-32b2-b414-183043bfb5b9</id>
       <updated>2023-05-24T00:00:00+00:00</updated>
     </entry>
