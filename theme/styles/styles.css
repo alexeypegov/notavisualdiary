@@ -23,8 +23,8 @@ html {
 }
 
 body:not(.wrapper) {
-  margin: var(--row-height);
   color: var(--text-color);
+  background-color: #fcfcfc;
 }
 
 @media only screen and (hover: none) {
@@ -40,32 +40,33 @@ body:not(.wrapper) {
   --max-height: min(800px, calc(var(--unit-100vh) - 2 * var(--row-height)));
 }
 
-body {
-  background-color: #fcfcfc;
-}
-
 main {
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: calc((var(--unit-100vh) - var(--max-height)) / 2);
+  padding: var(--row-height);
 }
 
 header {
   color: #999;
 }
 
+@media (min-aspect-ratio: 4/3) or (min-width: 1100px) {
+  body {
+    border: calc((var(--unit-100vh) - var(--max-height) - 2 * var(--row-height)) / 2) solid #222;
+    border-left: 0;
+    border-right: 0;
+  }
 
-@media (min-aspect-ratio: 4/3) or (min-width: 800px) {
   main {
     aspect-ratio: 16 / 9;
     max-height: var(--max-height);
+    margin-left: auto;
+    margin-right: auto;
   }
 
   main.horizontal header {
     padding-bottom: 1rem;
   }
 
-  main article p {
+  main article p:not(:first-child) {
     padding-top: 1rem;
   }
 
@@ -122,7 +123,7 @@ header {
   }
 
   main.vertical article p:not(:first-child) {
-    width: 50%;
+    width: 49%;
   }
 
   main.horizontal article p {
@@ -131,11 +132,29 @@ header {
   }
 }
 
-@media (max-aspect-ratio: 4/3) and (max-width: 799px){
+@media (max-aspect-ratio: 4/3) and (max-width: 1099px){
+  :root {
+    --max-width: min(600px, 100vw)
+  }
+  
+  body {
+    border: calc((100vw - var(--max-width) - 2 * var(--row-height)) / 2) solid #222;
+    border-top: 0;
+    border-bottom: 0;
+    height: var(--unit-100vh);
+  }
+
+/*
+  main {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+*/
+
   main article {
     display: flex;
     flex-flow: column;
-    max-height: var(--max-height);
   }
 
   main article img {
