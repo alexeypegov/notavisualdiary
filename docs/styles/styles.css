@@ -37,19 +37,25 @@ body:not(.wrapper) {
 }
 
 :root {
-  --max-height: calc(var(--unit-100vh) - 2 * var(--row-height));
+  --max-height: min(800px, calc(var(--unit-100vh) - 2 * var(--row-height)));
+}
+
+body {
+  background-color: #fcfcfc;
 }
 
 main {
   margin-left: auto;
   margin-right: auto;
+  margin-top: calc((var(--unit-100vh) - var(--max-height)) / 2);
 }
+
 header {
   color: #999;
 }
 
 
-@media (min-aspect-ratio: 4/3) {
+@media (min-aspect-ratio: 4/3) or (min-width: 800px) {
   main {
     aspect-ratio: 16 / 9;
     max-height: var(--max-height);
@@ -125,7 +131,7 @@ header {
   }
 }
 
-@media (max-aspect-ratio: 4/3) {
+@media (max-aspect-ratio: 4/3) and (max-width: 799px){
   main article {
     display: flex;
     flex-flow: column;
