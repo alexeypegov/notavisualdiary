@@ -43,7 +43,7 @@ body:not(.wrapper) {
 }
 
 :root {
-  --max-height: min(700px, calc(var(--unit-100vh) - 2 * var(--row-height)));
+  --max-height: min(800px, calc(var(--unit-100vh) - 2 * var(--row-height)));
 }
 
 main {
@@ -54,7 +54,7 @@ header {
   color: #999;
 }
 
-@media (min-aspect-ratio: 4/3) or (min-width: 1000px) {
+@media (min-aspect-ratio: 4/3) or (min-width: 1100px) {
   body {
     border: calc((var(--unit-100vh) - var(--max-height) - 2 * var(--row-height)) / 2) solid #222;
     border-left: 0;
@@ -138,7 +138,7 @@ header {
   }
 }
 
-@media (max-aspect-ratio: 4/3) and (max-width: 999px){
+@media (max-aspect-ratio: 4/3) and (max-width: 1099px){
   :root {
     --max-width: min(600px, 100vw)
   }
