@@ -4,7 +4,26 @@
   <link href="https://www.alexeypegov.com/atom.xml" rel="self" />
   <link href="https://www.alexeypegov.com" />
   <id>https://www.alexeypegov.com/</id>
-  <updated>2023-07-22T00:00:00+00:00</updated>
+  <updated>2023-08-15T00:00:00+00:00</updated>
+    <entry>
+      <title><![CDATA[#5]]></title>
+      <link href="https://www.alexeypegov.com/5.html" />
+      <id>urn:uuid:e3bb4829-4949-3792-8826-ab5626d5e87d</id>
+      <updated>2023-08-15T00:00:00+00:00</updated>
+      <content type="html">
+	<![CDATA[
+        <p><img src="https://www.alexeypegov.com/images/005-bathtime.webp" alt="Zakhary in the bath, 2019" /></p>
+<p>At first, our son was afraid of water, and he cried every time we gave him a bath. We were puzzled.<br />
+Then somebody told us to wrap him in a sheet. And indeed, it worked out pretty well.</p>
+<p>2019</p>
+
+	]]>
+      </content>
+      <author>
+        <name>Alexey Pegov</name>
+        <email>iam@alexeypegov.com</email>
+      </author>
+    </entry>
     <entry>
       <title><![CDATA[#4]]></title>
       <link href="https://www.alexeypegov.com/4.html" />
