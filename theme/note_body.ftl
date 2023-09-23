@@ -8,9 +8,11 @@
   <header>
     <#assign next_link>
       <#if next == slug>
-      next
+      previous
+      <#elseif index == 1>
+      <a href="${prev}.html">start over</a>
       <#else>
-      <a href="${prev}.html">next</a>
+      <a href="${prev}.html">previous</a>
       </#if>
     </#assign>
     <a href="/">${vars.blog_title}</a> · ${index} of ${count} · ${next_link} 
