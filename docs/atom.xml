@@ -6,7 +6,7 @@
   <id>https://www.alexeypegov.com/</id>
   <updated>2023-08-15T00:00:00+00:00</updated>
     <entry>
-      <title><![CDATA[#5]]></title>
+      <title><![CDATA[#6]]></title>
       <link href="https://www.alexeypegov.com/6.html" />
       <id>urn:uuid:b16b26c1-7534-3aa9-9efd-9a5ed084d0b5</id>
       <updated>2023-08-15T00:00:00+00:00</updated>
@@ -110,6 +110,30 @@ This has happened before to someone else there, and it has also happened to me.<
         <p><img src="https://www.alexeypegov.com/images/001-zakhar.webp" alt="Zakhar, 2023" /></p>
 <p>I'm sure my son knows nothing about Robocop or Daft Punk.<br />
 Yet somehow he reminds me of both at once.</p>
+<p>2023</p>
+
+	]]>
+      </content>
+      <author>
+        <name>Alexey Pegov</name>
+        <email>iam@alexeypegov.com</email>
+      </author>
+    </entry>
+    <entry>
+      <title><![CDATA[about]]></title>
+      <link href="https://www.alexeypegov.com/0.html" />
+      <id>urn:uuid:1da1454e-53c0-3cde-9147-c101b0d3fc9a</id>
+      <updated>2023-11-07T00:00:00+00:00</updated>
+      <content type="html">
+	<![CDATA[
+        <p><img src="https://www.alexeypegov.com/images/000-about.webp" alt="Me, 2023" /></p>
+<p>Hi there!</p>
+<p>My name is Alexey Pegov and this site is for photographs I've made.</p>
+<p>But if you come for something else, I have also a separate place for my <a href="pegov.dev">work</a> and another for my <a href="fm.alexeypegov.com">blog</a> (the blog is in Russian).</p>
+<p>For the last 20 years or so I enjoy developing software.</p>
+<p>But beside that I really like shooting on black &amp; white film with old cameras (one of my cameras is from sixties and another one is from beginning of eighties).</p>
+<p>You can reach me at iam[at]alexeypegov.com.</p>
+<p>C ya.</p>
 <p>2023</p>
 
 	]]>
