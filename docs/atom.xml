@@ -4,7 +4,26 @@
   <link href="https://www.alexeypegov.com/atom.xml" rel="self" />
   <link href="https://www.alexeypegov.com" />
   <id>https://www.alexeypegov.com/</id>
-  <updated>2023-08-15T00:00:00+00:00</updated>
+  <updated>2023-12-26T00:00:00+00:00</updated>
+    <entry>
+      <title><![CDATA[#7]]></title>
+      <link href="https://www.alexeypegov.com/7.html" />
+      <id>urn:uuid:f10596bc-a409-3f10-8cfe-f47320c7dc4f</id>
+      <updated>2023-12-26T00:00:00+00:00</updated>
+      <content type="html">
+	<![CDATA[
+        <p><img src="https://www.alexeypegov.com/images/007-metro.webp" alt="Katya underground, 2018" /></p>
+<p>For me, it was always hard to take pictures of strangers. And I thought that it is much easier to take pictures of people you know well.</p>
+<p>I'm not that certain about it anymore.</p>
+<p>2018</p>
+
+	]]>
+      </content>
+      <author>
+        <name>Alexey Pegov</name>
+        <email>iam@alexeypegov.com</email>
+      </author>
+    </entry>
     <entry>
       <title><![CDATA[#6]]></title>
       <link href="https://www.alexeypegov.com/6.html" />
