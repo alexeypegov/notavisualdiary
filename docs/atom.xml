@@ -4,7 +4,25 @@
   <link href="https://www.alexeypegov.com/atom.xml" rel="self" />
   <link href="https://www.alexeypegov.com" />
   <id>https://www.alexeypegov.com/</id>
-  <updated>2023-12-26T00:00:00+00:00</updated>
+  <updated>2023-12-27T00:00:00+00:00</updated>
+    <entry>
+      <title><![CDATA[#8]]></title>
+      <link href="https://www.alexeypegov.com/8.html" />
+      <id>urn:uuid:5d4065c8-693c-3461-ac2e-d73db241cc32</id>
+      <updated>2023-12-27T00:00:00+00:00</updated>
+      <content type="html">
+	<![CDATA[
+        <p><img src="https://www.alexeypegov.com/images/008-selfportrait.webp" alt="Selfportrait, 2022" /></p>
+<p>Me with a long hair (rare occasion), packing my staff before a long trip.</p>
+<p>2022</p>
+
+	]]>
+      </content>
+      <author>
+        <name>Alexey Pegov</name>
+        <email>iam@alexeypegov.com</email>
+      </author>
+    </entry>
     <entry>
       <title><![CDATA[#7]]></title>
       <link href="https://www.alexeypegov.com/7.html" />
