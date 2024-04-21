@@ -6,6 +6,24 @@
   <id>https://www.alexeypegov.com/</id>
   <updated>2023-12-27T00:00:00+00:00</updated>
     <entry>
+      <title><![CDATA[#9]]></title>
+      <link href="https://www.alexeypegov.com/9.html" />
+      <id>urn:uuid:155256c9-8aa9-3125-a015-a9443c7b47ad</id>
+      <updated>2023-12-27T00:00:00+00:00</updated>
+      <content type="html">
+	<![CDATA[
+        <p><img src="https://www.alexeypegov.com/images/009-zakhars-secret-place.webp" alt="Zakhar's secret place, 2024" /></p>
+<p>Zakhar's secret place</p>
+<p>2024</p>
+
+	]]>
+      </content>
+      <author>
+        <name>Alexey Pegov</name>
+        <email>iam@alexeypegov.com</email>
+      </author>
+    </entry>
+    <entry>
       <title><![CDATA[#8]]></title>
       <link href="https://www.alexeypegov.com/8.html" />
       <id>urn:uuid:5d4065c8-693c-3461-ac2e-d73db241cc32</id>
