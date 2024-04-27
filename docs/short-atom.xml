@@ -4,65 +4,65 @@
   <link href="https://www.alexeypegov.com/short-atom.xml" rel="self" />
   <link href="https://www.alexeypegov.com" />
   <id>https://www.alexeypegov.com/</id>
-  <updated>2023-12-27T00:00:00+00:00</updated>
+  <updated>2024-04-27T00:00:00+00:00</updated>
+    <entry>
+      <title><![CDATA[#11]]></title>
+      <link href="https://www.alexeypegov.com/011.html" />
+      <id>urn:uuid:7e0e3088-50d8-385c-b283-da0200816d5b</id>
+      <updated>2024-04-27T00:00:00+00:00</updated>
+    </entry>
+    <entry>
+      <title><![CDATA[#10]]></title>
+      <link href="https://www.alexeypegov.com/010.html" />
+      <id>urn:uuid:f390152b-2226-3310-a3d4-8f59a70781d8</id>
+      <updated>2024-04-27T00:00:00+00:00</updated>
+    </entry>
     <entry>
       <title><![CDATA[#9]]></title>
-      <link href="https://www.alexeypegov.com/9.html" />
-      <id>urn:uuid:155256c9-8aa9-3125-a015-a9443c7b47ad</id>
+      <link href="https://www.alexeypegov.com/009.html" />
+      <id>urn:uuid:f327e0e6-9f37-3ded-b026-20376dc3259d</id>
       <updated>2023-12-27T00:00:00+00:00</updated>
     </entry>
     <entry>
       <title><![CDATA[#8]]></title>
-      <link href="https://www.alexeypegov.com/8.html" />
-      <id>urn:uuid:5d4065c8-693c-3461-ac2e-d73db241cc32</id>
+      <link href="https://www.alexeypegov.com/008.html" />
+      <id>urn:uuid:2c6f7fc9-8e15-35d0-95ae-513c8cb394e0</id>
       <updated>2023-12-27T00:00:00+00:00</updated>
     </entry>
     <entry>
       <title><![CDATA[#7]]></title>
-      <link href="https://www.alexeypegov.com/7.html" />
-      <id>urn:uuid:f10596bc-a409-3f10-8cfe-f47320c7dc4f</id>
+      <link href="https://www.alexeypegov.com/007.html" />
+      <id>urn:uuid:188a5905-6993-33cd-a4de-a384c464a829</id>
       <updated>2023-12-26T00:00:00+00:00</updated>
     </entry>
     <entry>
       <title><![CDATA[#6]]></title>
-      <link href="https://www.alexeypegov.com/6.html" />
-      <id>urn:uuid:b16b26c1-7534-3aa9-9efd-9a5ed084d0b5</id>
+      <link href="https://www.alexeypegov.com/006.html" />
+      <id>urn:uuid:836e9aba-ad32-317a-935b-e608d81c396b</id>
       <updated>2023-08-15T00:00:00+00:00</updated>
     </entry>
     <entry>
       <title><![CDATA[#5]]></title>
-      <link href="https://www.alexeypegov.com/5.html" />
-      <id>urn:uuid:e3bb4829-4949-3792-8826-ab5626d5e87d</id>
+      <link href="https://www.alexeypegov.com/005.html" />
+      <id>urn:uuid:f5ee229d-151e-3a3c-b8e0-8a0c31677bd7</id>
       <updated>2023-08-15T00:00:00+00:00</updated>
     </entry>
     <entry>
       <title><![CDATA[#4]]></title>
-      <link href="https://www.alexeypegov.com/4.html" />
-      <id>urn:uuid:1df865c0-4212-31d8-9238-c930ca59ec85</id>
+      <link href="https://www.alexeypegov.com/004.html" />
+      <id>urn:uuid:c0613ca7-cc0c-315e-a171-09cf923a683b</id>
       <updated>2023-07-22T00:00:00+00:00</updated>
     </entry>
     <entry>
       <title><![CDATA[#3]]></title>
-      <link href="https://www.alexeypegov.com/3.html" />
-      <id>urn:uuid:acbc9f7a-5b92-3f6e-95de-72c76dfb12a6</id>
+      <link href="https://www.alexeypegov.com/003.html" />
+      <id>urn:uuid:eebc6e6b-6f4a-373e-b503-50f3a3bab97c</id>
       <updated>2023-07-07T00:00:00+00:00</updated>
     </entry>
     <entry>
       <title><![CDATA[#2]]></title>
-      <link href="https://www.alexeypegov.com/2.html" />
-      <id>urn:uuid:9d29502a-8780-3f82-aa2f-e674e649b01e</id>
+      <link href="https://www.alexeypegov.com/002.html" />
+      <id>urn:uuid:7688c6dd-7c38-394e-9d83-e6f4700836f2</id>
       <updated>2023-07-02T00:00:00+00:00</updated>
-    </entry>
-    <entry>
-      <title><![CDATA[#1]]></title>
-      <link href="https://www.alexeypegov.com/1.html" />
-      <id>urn:uuid:420984f6-b225-32b2-b414-183043bfb5b9</id>
-      <updated>2023-05-24T00:00:00+00:00</updated>
-    </entry>
-    <entry>
-      <title><![CDATA[about]]></title>
-      <link href="https://www.alexeypegov.com/0.html" />
-      <id>urn:uuid:1da1454e-53c0-3cde-9147-c101b0d3fc9a</id>
-      <updated>2023-11-07T00:00:00+00:00</updated>
     </entry>
 </feed>
