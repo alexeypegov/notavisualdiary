@@ -4,7 +4,19 @@
   <link href="https://www.alexeypegov.com/short-atom.xml" rel="self" />
   <link href="https://www.alexeypegov.com" />
   <id>https://www.alexeypegov.com/</id>
-  <updated>2024-04-27T00:00:00+00:00</updated>
+  <updated>2024-05-03T00:00:00+00:00</updated>
+    <entry>
+      <title><![CDATA[#13]]></title>
+      <link href="https://www.alexeypegov.com/013.html" />
+      <id>urn:uuid:1de20acd-9d9e-3d93-a1bf-c2f4baf1c4e2</id>
+      <updated>2024-05-03T00:00:00+00:00</updated>
+    </entry>
+    <entry>
+      <title><![CDATA[#12]]></title>
+      <link href="https://www.alexeypegov.com/012.html" />
+      <id>urn:uuid:4202f150-9cab-35b1-bbc2-64ac6dfd3053</id>
+      <updated>2024-05-03T00:00:00+00:00</updated>
+    </entry>
     <entry>
       <title><![CDATA[#11]]></title>
       <link href="https://www.alexeypegov.com/011.html" />
@@ -52,17 +64,5 @@
       <link href="https://www.alexeypegov.com/004.html" />
       <id>urn:uuid:c0613ca7-cc0c-315e-a171-09cf923a683b</id>
       <updated>2023-07-22T00:00:00+00:00</updated>
-    </entry>
-    <entry>
-      <title><![CDATA[#3]]></title>
-      <link href="https://www.alexeypegov.com/003.html" />
-      <id>urn:uuid:eebc6e6b-6f4a-373e-b503-50f3a3bab97c</id>
-      <updated>2023-07-07T00:00:00+00:00</updated>
-    </entry>
-    <entry>
-      <title><![CDATA[#2]]></title>
-      <link href="https://www.alexeypegov.com/002.html" />
-      <id>urn:uuid:7688c6dd-7c38-394e-9d83-e6f4700836f2</id>
-      <updated>2023-07-02T00:00:00+00:00</updated>
     </entry>
 </feed>
