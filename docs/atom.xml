@@ -4,7 +4,25 @@
   <link href="https://www.alexeypegov.com/atom.xml" rel="self" />
   <link href="https://www.alexeypegov.com" />
   <id>https://www.alexeypegov.com/</id>
-  <updated>2024-05-03T00:00:00+00:00</updated>
+  <updated>2024-05-14T00:00:00+00:00</updated>
+    <entry>
+      <title><![CDATA[#14]]></title>
+      <link href="https://www.alexeypegov.com/014.html" />
+      <id>urn:uuid:ff4117fa-e887-3185-b2e4-3c4fc11a627f</id>
+      <updated>2024-05-14T00:00:00+00:00</updated>
+      <content type="html">
+	<![CDATA[
+        <p><img src="https://www.alexeypegov.com/images/014-tanya.webp" alt="Tanya, 2023" /></p>
+<p>Usually, I don't use any special effects besides color filters in my black and white photography. But this time, Tanya brought some kind of foil and asked if I didn't mind using it. And I really didn't mind.</p>
+<p>Tanya, 2024</p>
+
+	]]>
+      </content>
+      <author>
+        <name>Alexey Pegov</name>
+        <email>iam@alexeypegov.com</email>
+      </author>
+    </entry>
     <entry>
       <title><![CDATA[#13]]></title>
       <link href="https://www.alexeypegov.com/013.html" />
@@ -159,25 +177,6 @@
 <p>At first, our son was afraid of water, and he cried every time we gave him a bath. We were puzzled.<br />
 Then somebody told us to wrap him in a sheet. And indeed, it worked out pretty well.</p>
 <p>2019</p>
-
-	]]>
-      </content>
-      <author>
-        <name>Alexey Pegov</name>
-        <email>iam@alexeypegov.com</email>
-      </author>
-    </entry>
-    <entry>
-      <title><![CDATA[#4]]></title>
-      <link href="https://www.alexeypegov.com/004.html" />
-      <id>urn:uuid:c0613ca7-cc0c-315e-a171-09cf923a683b</id>
-      <updated>2023-07-22T00:00:00+00:00</updated>
-      <content type="html">
-	<![CDATA[
-        <p><img src="https://www.alexeypegov.com/images/004-zakhary.webp" alt="Zakhary with camera, 2021" /></p>
-<p>My younger son recently got his third toy camera, and he is only four<br />
-(and he is two at the picture).</p>
-<p>2021</p>
 
 	]]>
       </content>
