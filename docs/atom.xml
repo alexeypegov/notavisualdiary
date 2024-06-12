@@ -4,7 +4,76 @@
   <link href="https://www.alexeypegov.com/atom.xml" rel="self" />
   <link href="https://www.alexeypegov.com" />
   <id>https://www.alexeypegov.com/</id>
-  <updated>2024-05-14T00:00:00+00:00</updated>
+  <updated>2024-06-12T00:00:00+00:00</updated>
+    <entry>
+      <title><![CDATA[#18]]></title>
+      <link href="https://www.alexeypegov.com/018.html" />
+      <id>urn:uuid:aa4c0dd8-6534-3dc3-a4c1-47c26ad49bbf</id>
+      <updated>2024-06-12T00:00:00+00:00</updated>
+      <content type="html">
+	<![CDATA[
+        <p><img src="https://www.alexeypegov.com/images/018-timur.webp" alt="Timur, 2019" /></p>
+<p>Timur, 2019</p>
+
+	]]>
+      </content>
+      <author>
+        <name>Alexey Pegov</name>
+        <email>iam@alexeypegov.com</email>
+      </author>
+    </entry>
+    <entry>
+      <title><![CDATA[#17]]></title>
+      <link href="https://www.alexeypegov.com/017.html" />
+      <id>urn:uuid:d2876a88-ccd6-3ac8-b472-7cb2920b2c65</id>
+      <updated>2024-06-12T00:00:00+00:00</updated>
+      <content type="html">
+	<![CDATA[
+        <p><img src="https://www.alexeypegov.com/images/017-les.webp" alt="Lesotechniheskaya akademiya, 2019" /></p>
+<p>Lesotechnicheskaya academia, Saint-Petersburg, 2019</p>
+
+	]]>
+      </content>
+      <author>
+        <name>Alexey Pegov</name>
+        <email>iam@alexeypegov.com</email>
+      </author>
+    </entry>
+    <entry>
+      <title><![CDATA[#16]]></title>
+      <link href="https://www.alexeypegov.com/016.html" />
+      <id>urn:uuid:463ca760-1f3a-3afe-857c-843053feac82</id>
+      <updated>2024-06-12T00:00:00+00:00</updated>
+      <content type="html">
+	<![CDATA[
+        <p><img src="https://www.alexeypegov.com/images/016-sasha.webp" alt="Sasha, 2019" /></p>
+<p>Sasha somewhere in the backyards of Petrogradka street.</p>
+<p>Saint-Petersburg, 2019</p>
+
+	]]>
+      </content>
+      <author>
+        <name>Alexey Pegov</name>
+        <email>iam@alexeypegov.com</email>
+      </author>
+    </entry>
+    <entry>
+      <title><![CDATA[#15]]></title>
+      <link href="https://www.alexeypegov.com/015.html" />
+      <id>urn:uuid:961ecef4-ff20-3629-9733-d0bf47a29b62</id>
+      <updated>2024-06-12T00:00:00+00:00</updated>
+      <content type="html">
+	<![CDATA[
+        <p><img src="https://www.alexeypegov.com/images/015-selfportrait.webp" alt="Self-portrait with Timur, 2018" /></p>
+<p>Selfportrait with Timur, 2018</p>
+
+	]]>
+      </content>
+      <author>
+        <name>Alexey Pegov</name>
+        <email>iam@alexeypegov.com</email>
+      </author>
+    </entry>
     <entry>
       <title><![CDATA[#14]]></title>
       <link href="https://www.alexeypegov.com/014.html" />
@@ -101,82 +170,6 @@
         <p><img src="https://www.alexeypegov.com/images/009-zakhars-secret-place.webp" alt="Zakhar's secret place, 2024" /></p>
 <p>Zakhar's secret place</p>
 <p>2024</p>
-
-	]]>
-      </content>
-      <author>
-        <name>Alexey Pegov</name>
-        <email>iam@alexeypegov.com</email>
-      </author>
-    </entry>
-    <entry>
-      <title><![CDATA[#8]]></title>
-      <link href="https://www.alexeypegov.com/008.html" />
-      <id>urn:uuid:2c6f7fc9-8e15-35d0-95ae-513c8cb394e0</id>
-      <updated>2023-12-27T00:00:00+00:00</updated>
-      <content type="html">
-	<![CDATA[
-        <p><img src="https://www.alexeypegov.com/images/008-selfportrait.webp" alt="Selfportrait, 2022" /></p>
-<p>Me with a long hair (rare occasion), packing my stuff before a long trip.</p>
-<p>2022</p>
-
-	]]>
-      </content>
-      <author>
-        <name>Alexey Pegov</name>
-        <email>iam@alexeypegov.com</email>
-      </author>
-    </entry>
-    <entry>
-      <title><![CDATA[#7]]></title>
-      <link href="https://www.alexeypegov.com/007.html" />
-      <id>urn:uuid:188a5905-6993-33cd-a4de-a384c464a829</id>
-      <updated>2023-12-26T00:00:00+00:00</updated>
-      <content type="html">
-	<![CDATA[
-        <p><img src="https://www.alexeypegov.com/images/007-metro.webp" alt="Katya underground, 2018" /></p>
-<p>For me, it was always hard to take pictures of strangers. And I thought that it is much easier to take pictures of people you know well.</p>
-<p>I'm not that certain about it anymore.</p>
-<p>2018</p>
-
-	]]>
-      </content>
-      <author>
-        <name>Alexey Pegov</name>
-        <email>iam@alexeypegov.com</email>
-      </author>
-    </entry>
-    <entry>
-      <title><![CDATA[#6]]></title>
-      <link href="https://www.alexeypegov.com/006.html" />
-      <id>urn:uuid:836e9aba-ad32-317a-935b-e608d81c396b</id>
-      <updated>2023-08-15T00:00:00+00:00</updated>
-      <content type="html">
-	<![CDATA[
-        <p><img src="https://www.alexeypegov.com/images/006-shoulders.webp" alt="Zakhary on Sasha's shoulders, 2023" /></p>
-<p>I remember something. I think that's the earliest thing I can remember. I don't remember much. Almost nothing. But for some reason my memory has saved that moment for me.</p>
-<p>It is summer. It is windy and sunny. I hear the grass movement. Sun beam blinds me. I hear voices. Can't recognize them. Everything moves. I'm sitting on the shoulders of one of parents friends. We're walking somewhere far away.</p>
-<p>That's it. Nothing else. Just one single tiny moment. Not a memory but rather a feeling. A touch.</p>
-<p>Zakhar sitting on Sasha's shoulders, Belgrade, 2023</p>
-
-	]]>
-      </content>
-      <author>
-        <name>Alexey Pegov</name>
-        <email>iam@alexeypegov.com</email>
-      </author>
-    </entry>
-    <entry>
-      <title><![CDATA[#5]]></title>
-      <link href="https://www.alexeypegov.com/005.html" />
-      <id>urn:uuid:f5ee229d-151e-3a3c-b8e0-8a0c31677bd7</id>
-      <updated>2023-08-15T00:00:00+00:00</updated>
-      <content type="html">
-	<![CDATA[
-        <p><img src="https://www.alexeypegov.com/images/005-bathtime.webp" alt="Zakhary in the bath, 2019" /></p>
-<p>At first, our son was afraid of water, and he cried every time we gave him a bath. We were puzzled.<br />
-Then somebody told us to wrap him in a sheet. And indeed, it worked out pretty well.</p>
-<p>2019</p>
 
 	]]>
       </content>

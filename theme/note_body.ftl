@@ -15,7 +15,7 @@
       <a href="${prev}.html">previous</a>
       </#if>
     </#assign>
-    <a href="/">${vars.blog_title}</a> · <a href="000.html"/>about</a> · ${index} of ${count} · ${next_link} 
+    <a href="/">${vars.blog_title}</a> · <a href="000.html"/>about</a> · <a href="/atom.xml"/>rss</a> · ${index} of ${count} · ${next_link} 
   </header>
   <article>
     ${body}
