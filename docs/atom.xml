@@ -4,7 +4,41 @@
   <link href="https://www.alexeypegov.com/atom.xml" rel="self" />
   <link href="https://www.alexeypegov.com" />
   <id>https://www.alexeypegov.com/</id>
-  <updated>2024-06-20T00:00:00+00:00</updated>
+  <updated>2024-06-21T00:00:00+00:00</updated>
+    <entry>
+      <title><![CDATA[#30]]></title>
+      <link href="https://www.alexeypegov.com/030.html" />
+      <id>urn:uuid:0e6f622d-3d74-3797-872c-a7dbf68600a9</id>
+      <updated>2024-06-21T00:00:00+00:00</updated>
+      <content type="html">
+	<![CDATA[
+        <p><img src="https://www.alexeypegov.com/images/030-sons-2020.webp" alt="Sons, 2020" /></p>
+<p>2020</p>
+
+	]]>
+      </content>
+      <author>
+        <name>Alexey Pegov</name>
+        <email>iam@alexeypegov.com</email>
+      </author>
+    </entry>
+    <entry>
+      <title><![CDATA[#29]]></title>
+      <link href="https://www.alexeypegov.com/029.html" />
+      <id>urn:uuid:e919fe0c-b088-3049-9694-c9892478a804</id>
+      <updated>2024-06-21T00:00:00+00:00</updated>
+      <content type="html">
+	<![CDATA[
+        <p><img src="https://www.alexeypegov.com/images/029-nail-cutting-2020.webp" alt="Nail cutting, 2020" /></p>
+<p>2020</p>
+
+	]]>
+      </content>
+      <author>
+        <name>Alexey Pegov</name>
+        <email>iam@alexeypegov.com</email>
+      </author>
+    </entry>
     <entry>
       <title><![CDATA[#28]]></title>
       <link href="https://www.alexeypegov.com/028.html" />
@@ -133,40 +167,6 @@
 	<![CDATA[
         <p><img src="https://www.alexeypegov.com/images/021-old-car.webp" alt="Old car, 2018" /></p>
 <p>2019</p>
-
-	]]>
-      </content>
-      <author>
-        <name>Alexey Pegov</name>
-        <email>iam@alexeypegov.com</email>
-      </author>
-    </entry>
-    <entry>
-      <title><![CDATA[#20]]></title>
-      <link href="https://www.alexeypegov.com/020.html" />
-      <id>urn:uuid:3bd507dc-2fdc-3b86-8f71-8ac4e3187b5e</id>
-      <updated>2024-06-13T00:00:00+00:00</updated>
-      <content type="html">
-	<![CDATA[
-        <p><img src="https://www.alexeypegov.com/images/020-shadows.webp" alt="Shadows, 2019" /></p>
-<p>2019</p>
-
-	]]>
-      </content>
-      <author>
-        <name>Alexey Pegov</name>
-        <email>iam@alexeypegov.com</email>
-      </author>
-    </entry>
-    <entry>
-      <title><![CDATA[#19]]></title>
-      <link href="https://www.alexeypegov.com/019.html" />
-      <id>urn:uuid:6e7969a9-d996-3b34-b16f-5ae7901d9268</id>
-      <updated>2024-06-13T00:00:00+00:00</updated>
-      <content type="html">
-	<![CDATA[
-        <p><img src="https://www.alexeypegov.com/images/019-katya.webp" alt="Katya, 2018" /></p>
-<p>Katya, 2018</p>
 
 	]]>
       </content>
