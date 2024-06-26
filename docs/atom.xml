@@ -6,6 +6,23 @@
   <id>https://www.alexeypegov.com/</id>
   <updated>2024-06-26T00:00:00+00:00</updated>
     <entry>
+      <title><![CDATA[#35]]></title>
+      <link href="https://www.alexeypegov.com/035.html" />
+      <id>urn:uuid:4b5357be-03c5-36ec-a09f-a043d297739a</id>
+      <updated>2024-06-26T00:00:00+00:00</updated>
+      <content type="html">
+	<![CDATA[
+        <p><img src="https://www.alexeypegov.com/images/035-run-2022.webp" alt="Run, 2022" /></p>
+<p>2022</p>
+
+	]]>
+      </content>
+      <author>
+        <name>Alexey Pegov</name>
+        <email>iam@alexeypegov.com</email>
+      </author>
+    </entry>
+    <entry>
       <title><![CDATA[#34]]></title>
       <link href="https://www.alexeypegov.com/034.html" />
       <id>urn:uuid:6d634a3d-3546-3055-b051-8cdb3732f6c1</id>
@@ -150,23 +167,6 @@
 	<![CDATA[
         <p><img src="https://www.alexeypegov.com/images/026-katya-2018.webp" alt="Katya, 2018" /></p>
 <p>2018</p>
-
-	]]>
-      </content>
-      <author>
-        <name>Alexey Pegov</name>
-        <email>iam@alexeypegov.com</email>
-      </author>
-    </entry>
-    <entry>
-      <title><![CDATA[#25]]></title>
-      <link href="https://www.alexeypegov.com/025.html" />
-      <id>urn:uuid:8c2d719c-6619-309d-80c3-44a79a67532f</id>
-      <updated>2024-06-20T00:00:00+00:00</updated>
-      <content type="html">
-	<![CDATA[
-        <p><img src="https://www.alexeypegov.com/images/025-pasha-2018.webp" alt="Pasha, 2018" /></p>
-<p>Pasha, 2018</p>
 
 	]]>
       </content>

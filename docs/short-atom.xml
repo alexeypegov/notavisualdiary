@@ -6,6 +6,12 @@
   <id>https://www.alexeypegov.com/</id>
   <updated>2024-06-26T00:00:00+00:00</updated>
     <entry>
+      <title><![CDATA[#35]]></title>
+      <link href="https://www.alexeypegov.com/035.html" />
+      <id>urn:uuid:4b5357be-03c5-36ec-a09f-a043d297739a</id>
+      <updated>2024-06-26T00:00:00+00:00</updated>
+    </entry>
+    <entry>
       <title><![CDATA[#34]]></title>
       <link href="https://www.alexeypegov.com/034.html" />
       <id>urn:uuid:6d634a3d-3546-3055-b051-8cdb3732f6c1</id>
@@ -57,12 +63,6 @@
       <title><![CDATA[#26]]></title>
       <link href="https://www.alexeypegov.com/026.html" />
       <id>urn:uuid:b60e34a2-3ee7-351a-9b21-713f1af515f6</id>
-      <updated>2024-06-20T00:00:00+00:00</updated>
-    </entry>
-    <entry>
-      <title><![CDATA[#25]]></title>
-      <link href="https://www.alexeypegov.com/025.html" />
-      <id>urn:uuid:8c2d719c-6619-309d-80c3-44a79a67532f</id>
       <updated>2024-06-20T00:00:00+00:00</updated>
     </entry>
 </feed>
