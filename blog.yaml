@@ -17,6 +17,7 @@ general:
     - posts/images/
     - static/robots.txt
     - static/CNAME
+    - static/favicon.ico
 
 vars:
   blog-title: (not) a visual diary

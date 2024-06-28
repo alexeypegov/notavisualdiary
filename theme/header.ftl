@@ -20,7 +20,7 @@
     <meta property="og:image" content="${vars.blog_url + "/" + cover}"/>
     </#if>
 
-    <link rel="shortcut icon" type="image/png" href="i/favicon.png">
+    <link rel="shortcut icon" type="image/ico" href="favicon.ico">
     <link rel="alternate" type="application/atom+xml" title="All images" href="${vars.feed_url}">
     <link rel="stylesheet" type="text/css" href="styles/styles.css">
 
