@@ -2,8 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://fm.alexeypegov.com/</loc>
-    <lastmod>2024-06-28</lastmod>
+    <lastmod>2024-06-30</lastmod>
     <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://www.alexeypegov.com/041.html</loc>
+    <lastmod>2024-06-30</lastmod>
   </url>
   <url>
     <loc>https://www.alexeypegov.com/004.html</loc>
@@ -18,8 +22,16 @@
     <lastmod>2024-06-20</lastmod>
   </url>
   <url>
+    <loc>https://www.alexeypegov.com/038.html</loc>
+    <lastmod>2024-06-30</lastmod>
+  </url>
+  <url>
     <loc>https://www.alexeypegov.com/002.html</loc>
     <lastmod>2023-07-02</lastmod>
+  </url>
+  <url>
+    <loc>https://www.alexeypegov.com/040.html</loc>
+    <lastmod>2024-06-30</lastmod>
   </url>
   <url>
     <loc>https://www.alexeypegov.com/011.html</loc>
@@ -40,6 +52,10 @@
   <url>
     <loc>https://www.alexeypegov.com/020.html</loc>
     <lastmod>2024-06-13</lastmod>
+  </url>
+  <url>
+    <loc>https://www.alexeypegov.com/037.html</loc>
+    <lastmod>2024-06-30</lastmod>
   </url>
   <url>
     <loc>https://www.alexeypegov.com/033.html</loc>
@@ -96,6 +112,10 @@
   <url>
     <loc>https://www.alexeypegov.com/034.html</loc>
     <lastmod>2024-06-26</lastmod>
+  </url>
+  <url>
+    <loc>https://www.alexeypegov.com/039.html</loc>
+    <lastmod>2024-06-30</lastmod>
   </url>
   <url>
     <loc>https://www.alexeypegov.com/023.html</loc>

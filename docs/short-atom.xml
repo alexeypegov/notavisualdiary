@@ -4,7 +4,37 @@
   <link href="https://www.alexeypegov.com/short-atom.xml" rel="self" />
   <link href="https://www.alexeypegov.com" />
   <id>https://www.alexeypegov.com/</id>
-  <updated>2024-06-26T00:00:00+00:00</updated>
+  <updated>2024-06-30T00:00:00+00:00</updated>
+    <entry>
+      <title><![CDATA[mask, 2021]]></title>
+      <link href="https://www.alexeypegov.com/041.html" />
+      <id>urn:uuid:dc9880d6-e8cb-37f4-bc86-8a7c97a35df7</id>
+      <updated>2024-06-30T00:00:00+00:00</updated>
+    </entry>
+    <entry>
+      <title><![CDATA[petronas, 2022]]></title>
+      <link href="https://www.alexeypegov.com/040.html" />
+      <id>urn:uuid:56ff8560-4966-301d-bf26-c09a971f903b</id>
+      <updated>2024-06-30T00:00:00+00:00</updated>
+    </entry>
+    <entry>
+      <title><![CDATA[glass of milk, 2022]]></title>
+      <link href="https://www.alexeypegov.com/039.html" />
+      <id>urn:uuid:c346ea85-295c-3a64-a9a5-732f2b216451</id>
+      <updated>2024-06-30T00:00:00+00:00</updated>
+    </entry>
+    <entry>
+      <title><![CDATA[hong kong, 2023]]></title>
+      <link href="https://www.alexeypegov.com/038.html" />
+      <id>urn:uuid:588a1ef7-81ad-3355-ada1-3ccda32f2ee7</id>
+      <updated>2024-06-30T00:00:00+00:00</updated>
+    </entry>
+    <entry>
+      <title><![CDATA[curtains]]></title>
+      <link href="https://www.alexeypegov.com/037.html" />
+      <id>urn:uuid:2401f70a-22e0-3e1b-9d78-f0bfb2981a23</id>
+      <updated>2024-06-30T00:00:00+00:00</updated>
+    </entry>
     <entry>
       <title><![CDATA[m11, 2020]]></title>
       <link href="https://www.alexeypegov.com/036.html" />
@@ -34,35 +64,5 @@
       <link href="https://www.alexeypegov.com/032.html" />
       <id>urn:uuid:9bd86187-dd0e-30b1-a9e8-026f13230296</id>
       <updated>2024-06-26T00:00:00+00:00</updated>
-    </entry>
-    <entry>
-      <title><![CDATA[kabardinka, 2021]]></title>
-      <link href="https://www.alexeypegov.com/031.html" />
-      <id>urn:uuid:20c36a26-e541-3933-95fa-a7f71754dbdf</id>
-      <updated>2024-06-26T00:00:00+00:00</updated>
-    </entry>
-    <entry>
-      <title><![CDATA[spb, 2020]]></title>
-      <link href="https://www.alexeypegov.com/030.html" />
-      <id>urn:uuid:0e6f622d-3d74-3797-872c-a7dbf68600a9</id>
-      <updated>2024-06-21T00:00:00+00:00</updated>
-    </entry>
-    <entry>
-      <title><![CDATA[spb, 2020]]></title>
-      <link href="https://www.alexeypegov.com/029.html" />
-      <id>urn:uuid:e919fe0c-b088-3049-9694-c9892478a804</id>
-      <updated>2024-06-21T00:00:00+00:00</updated>
-    </entry>
-    <entry>
-      <title><![CDATA[slava, 2019]]></title>
-      <link href="https://www.alexeypegov.com/028.html" />
-      <id>urn:uuid:c7cb035c-72b4-3b1b-be0a-6fe6694c2bc5</id>
-      <updated>2024-06-20T00:00:00+00:00</updated>
-    </entry>
-    <entry>
-      <title><![CDATA[severodvinsk, 2019]]></title>
-      <link href="https://www.alexeypegov.com/027.html" />
-      <id>urn:uuid:6830c8af-f778-3c9f-acbd-5a75d48c0a88</id>
-      <updated>2024-06-20T00:00:00+00:00</updated>
     </entry>
 </feed>
