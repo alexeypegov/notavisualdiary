@@ -18,3 +18,5 @@ Cover: images/$prefixed_number-.webp
 ![](images/$prefixed_number-@2x.webp)
 
 EOL
+
+echo "$filename has been created"
