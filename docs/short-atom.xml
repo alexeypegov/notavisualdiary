@@ -6,6 +6,18 @@
   <id>https://www.alexeypegov.com/</id>
   <updated>2024-07-02T00:00:00+00:00</updated>
     <entry>
+      <title><![CDATA[horses, 2019]]></title>
+      <link href="https://www.alexeypegov.com/051.html" />
+      <id>urn:uuid:a1b7314d-f76c-373d-b493-98c968f97dc0</id>
+      <updated>2024-07-02T00:00:00+00:00</updated>
+    </entry>
+    <entry>
+      <title><![CDATA[hocus pokus, 2023]]></title>
+      <link href="https://www.alexeypegov.com/050.html" />
+      <id>urn:uuid:0228edab-07bf-362e-84e1-9717b4f1d636</id>
+      <updated>2024-07-02T00:00:00+00:00</updated>
+    </entry>
+    <entry>
       <title><![CDATA[eugene, 2019]]></title>
       <link href="https://www.alexeypegov.com/049.html" />
       <id>urn:uuid:f7d39436-2c8e-35b5-a729-054e7adcc3c1</id>
@@ -18,7 +30,7 @@
       <updated>2024-07-02T00:00:00+00:00</updated>
     </entry>
     <entry>
-      <title><![CDATA[katya & zakhar, 2020]]></title>
+      <title><![CDATA[on the porch, 2020]]></title>
       <link href="https://www.alexeypegov.com/047.html" />
       <id>urn:uuid:cdb63a41-5800-3ac5-b527-9b21b2605c6c</id>
       <updated>2024-07-02T00:00:00+00:00</updated>
@@ -51,18 +63,6 @@
       <title><![CDATA[flowers, 2021]]></title>
       <link href="https://www.alexeypegov.com/042.html" />
       <id>urn:uuid:92b0de46-e639-379d-977b-5c9f1265cdf8</id>
-      <updated>2024-06-30T00:00:00+00:00</updated>
-    </entry>
-    <entry>
-      <title><![CDATA[mask, 2021]]></title>
-      <link href="https://www.alexeypegov.com/041.html" />
-      <id>urn:uuid:dc9880d6-e8cb-37f4-bc86-8a7c97a35df7</id>
-      <updated>2024-06-30T00:00:00+00:00</updated>
-    </entry>
-    <entry>
-      <title><![CDATA[petronas, 2022]]></title>
-      <link href="https://www.alexeypegov.com/040.html" />
-      <id>urn:uuid:56ff8560-4966-301d-bf26-c09a971f903b</id>
       <updated>2024-06-30T00:00:00+00:00</updated>
     </entry>
 </feed>

@@ -6,6 +6,40 @@
   <id>https://www.alexeypegov.com/</id>
   <updated>2024-07-02T00:00:00+00:00</updated>
     <entry>
+      <title><![CDATA[horses, 2019]]></title>
+      <link href="https://www.alexeypegov.com/051.html" />
+      <id>urn:uuid:a1b7314d-f76c-373d-b493-98c968f97dc0</id>
+      <updated>2024-07-02T00:00:00+00:00</updated>
+      <content type="html">
+	<![CDATA[
+        <p><img src="https://www.alexeypegov.com/images/051-horses-2019.webp" alt="horses, 2019" /></p>
+<p>horses, 2019</p>
+
+	]]>
+      </content>
+      <author>
+        <name>Alexey Pegov</name>
+        <email>iam@alexeypegov.com</email>
+      </author>
+    </entry>
+    <entry>
+      <title><![CDATA[hocus pokus, 2023]]></title>
+      <link href="https://www.alexeypegov.com/050.html" />
+      <id>urn:uuid:0228edab-07bf-362e-84e1-9717b4f1d636</id>
+      <updated>2024-07-02T00:00:00+00:00</updated>
+      <content type="html">
+	<![CDATA[
+        <p><img src="https://www.alexeypegov.com/images/050-hokus-pokus-2023.webp" alt="hokus pokus, 2023" /></p>
+<p>hokus pokus, 2023</p>
+
+	]]>
+      </content>
+      <author>
+        <name>Alexey Pegov</name>
+        <email>iam@alexeypegov.com</email>
+      </author>
+    </entry>
+    <entry>
       <title><![CDATA[eugene, 2019]]></title>
       <link href="https://www.alexeypegov.com/049.html" />
       <id>urn:uuid:f7d39436-2c8e-35b5-a729-054e7adcc3c1</id>
@@ -40,14 +74,14 @@
       </author>
     </entry>
     <entry>
-      <title><![CDATA[katya & zakhar, 2020]]></title>
+      <title><![CDATA[on the porch, 2020]]></title>
       <link href="https://www.alexeypegov.com/047.html" />
       <id>urn:uuid:cdb63a41-5800-3ac5-b527-9b21b2605c6c</id>
       <updated>2024-07-02T00:00:00+00:00</updated>
       <content type="html">
 	<![CDATA[
-        <p><img src="https://www.alexeypegov.com/images/047-kz-2020.webp" alt="katya &amp; zakhar, 2020" /></p>
-<p>katya &amp; zakhar, 2020</p>
+        <p><img src="https://www.alexeypegov.com/images/047-kz-2020.webp" alt="on the porch, 2020" /></p>
+<p>on the porch, 2020</p>
 
 	]]>
       </content>
@@ -133,40 +167,6 @@
 	<![CDATA[
         <p><img src="https://www.alexeypegov.com/images/042-flowers-2021.webp" alt="flowers, 2021" /></p>
 <p>flowers, 2021</p>
-
-	]]>
-      </content>
-      <author>
-        <name>Alexey Pegov</name>
-        <email>iam@alexeypegov.com</email>
-      </author>
-    </entry>
-    <entry>
-      <title><![CDATA[mask, 2021]]></title>
-      <link href="https://www.alexeypegov.com/041.html" />
-      <id>urn:uuid:dc9880d6-e8cb-37f4-bc86-8a7c97a35df7</id>
-      <updated>2024-06-30T00:00:00+00:00</updated>
-      <content type="html">
-	<![CDATA[
-        <p><img src="https://www.alexeypegov.com/images/041-mask-2021.webp" alt="mask, 2021" /></p>
-<p>mask, 2021</p>
-
-	]]>
-      </content>
-      <author>
-        <name>Alexey Pegov</name>
-        <email>iam@alexeypegov.com</email>
-      </author>
-    </entry>
-    <entry>
-      <title><![CDATA[petronas, 2022]]></title>
-      <link href="https://www.alexeypegov.com/040.html" />
-      <id>urn:uuid:56ff8560-4966-301d-bf26-c09a971f903b</id>
-      <updated>2024-06-30T00:00:00+00:00</updated>
-      <content type="html">
-	<![CDATA[
-        <p><img src="https://www.alexeypegov.com/images/040-petronas-2022.webp" alt="petronas, 2022" /></p>
-<p>petronas, 2022</p>
 
 	]]>
       </content>
