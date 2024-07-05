@@ -4,7 +4,49 @@
   <link href="https://www.alexeypegov.com/short-atom.xml" rel="self" />
   <link href="https://www.alexeypegov.com" />
   <id>https://www.alexeypegov.com/</id>
-  <updated>2024-07-02T00:00:00+00:00</updated>
+  <updated>2024-07-05T00:00:00+00:00</updated>
+    <entry>
+      <title><![CDATA[forgotten view, 2021]]></title>
+      <link href="https://www.alexeypegov.com/058.html" />
+      <id>urn:uuid:adf821c6-c286-3710-bc36-16a24381ceee</id>
+      <updated>2024-07-05T00:00:00+00:00</updated>
+    </entry>
+    <entry>
+      <title><![CDATA[sunbeam, 2023]]></title>
+      <link href="https://www.alexeypegov.com/057.html" />
+      <id>urn:uuid:2b5bd1c3-d104-3cd7-a6df-5478662e430a</id>
+      <updated>2024-07-05T00:00:00+00:00</updated>
+    </entry>
+    <entry>
+      <title><![CDATA[levashovo, 2021]]></title>
+      <link href="https://www.alexeypegov.com/056.html" />
+      <id>urn:uuid:da06f3b9-dba6-31f0-996d-ce667781ed75</id>
+      <updated>2024-07-05T00:00:00+00:00</updated>
+    </entry>
+    <entry>
+      <title><![CDATA[inna, 2021]]></title>
+      <link href="https://www.alexeypegov.com/055.html" />
+      <id>urn:uuid:17ae6123-0f87-3b29-a0a3-0c828c3bad1b</id>
+      <updated>2024-07-05T00:00:00+00:00</updated>
+    </entry>
+    <entry>
+      <title><![CDATA[time and space, 2022]]></title>
+      <link href="https://www.alexeypegov.com/054.html" />
+      <id>urn:uuid:6f454037-a8c4-3916-b0cf-346f24827259</id>
+      <updated>2024-07-05T00:00:00+00:00</updated>
+    </entry>
+    <entry>
+      <title><![CDATA[sons, 2019]]></title>
+      <link href="https://www.alexeypegov.com/053.html" />
+      <id>urn:uuid:424fc756-c56a-3dda-8764-226dfd8ecb99</id>
+      <updated>2024-07-05T00:00:00+00:00</updated>
+    </entry>
+    <entry>
+      <title><![CDATA[water, 2021]]></title>
+      <link href="https://www.alexeypegov.com/052.html" />
+      <id>urn:uuid:c2aa1e0f-b87c-3b2f-b062-cdf8d775571f</id>
+      <updated>2024-07-05T00:00:00+00:00</updated>
+    </entry>
     <entry>
       <title><![CDATA[horses, 2019]]></title>
       <link href="https://www.alexeypegov.com/051.html" />
@@ -22,47 +64,5 @@
       <link href="https://www.alexeypegov.com/049.html" />
       <id>urn:uuid:f7d39436-2c8e-35b5-a729-054e7adcc3c1</id>
       <updated>2024-07-02T00:00:00+00:00</updated>
-    </entry>
-    <entry>
-      <title><![CDATA[katya, 2020]]></title>
-      <link href="https://www.alexeypegov.com/048.html" />
-      <id>urn:uuid:f6b10787-32f1-3977-82ea-bdc3d12ca7f6</id>
-      <updated>2024-07-02T00:00:00+00:00</updated>
-    </entry>
-    <entry>
-      <title><![CDATA[on the porch, 2020]]></title>
-      <link href="https://www.alexeypegov.com/047.html" />
-      <id>urn:uuid:cdb63a41-5800-3ac5-b527-9b21b2605c6c</id>
-      <updated>2024-07-02T00:00:00+00:00</updated>
-    </entry>
-    <entry>
-      <title><![CDATA[kostya, 2020]]></title>
-      <link href="https://www.alexeypegov.com/046.html" />
-      <id>urn:uuid:e446becc-28a1-3979-ac2e-36fbb1c418a9</id>
-      <updated>2024-07-02T00:00:00+00:00</updated>
-    </entry>
-    <entry>
-      <title><![CDATA[timur, 2020]]></title>
-      <link href="https://www.alexeypegov.com/045.html" />
-      <id>urn:uuid:4dae5138-eca6-3fa5-9317-10cab6c5e25e</id>
-      <updated>2024-07-02T00:00:00+00:00</updated>
-    </entry>
-    <entry>
-      <title><![CDATA[through the door, 2021]]></title>
-      <link href="https://www.alexeypegov.com/044.html" />
-      <id>urn:uuid:2be700ab-12eb-3358-aeaa-d14775cfb6e3</id>
-      <updated>2024-06-30T00:00:00+00:00</updated>
-    </entry>
-    <entry>
-      <title><![CDATA[coastline, 2021]]></title>
-      <link href="https://www.alexeypegov.com/043.html" />
-      <id>urn:uuid:3ece6112-cf79-328e-92ba-986a5f8bed17</id>
-      <updated>2024-06-30T00:00:00+00:00</updated>
-    </entry>
-    <entry>
-      <title><![CDATA[flowers, 2021]]></title>
-      <link href="https://www.alexeypegov.com/042.html" />
-      <id>urn:uuid:92b0de46-e639-379d-977b-5c9f1265cdf8</id>
-      <updated>2024-06-30T00:00:00+00:00</updated>
     </entry>
 </feed>
