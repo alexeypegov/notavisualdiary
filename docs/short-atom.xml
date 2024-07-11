@@ -4,7 +4,25 @@
   <link href="https://www.alexeypegov.com/short-atom.xml" rel="self" />
   <link href="https://www.alexeypegov.com" />
   <id>https://www.alexeypegov.com/</id>
-  <updated>2024-07-05T00:00:00+00:00</updated>
+  <updated>2024-07-11T00:00:00+00:00</updated>
+    <entry>
+      <title><![CDATA[selfportrait with son, 2023]]></title>
+      <link href="https://www.alexeypegov.com/061.html" />
+      <id>urn:uuid:8238fdef-b01f-3a11-af86-0f80856c7658</id>
+      <updated>2024-07-11T00:00:00+00:00</updated>
+    </entry>
+    <entry>
+      <title><![CDATA[milk, 2023]]></title>
+      <link href="https://www.alexeypegov.com/060.html" />
+      <id>urn:uuid:1f7af5b5-4cce-3768-b964-3efa744f65e4</id>
+      <updated>2024-07-11T00:00:00+00:00</updated>
+    </entry>
+    <entry>
+      <title><![CDATA[constant motion, 2023]]></title>
+      <link href="https://www.alexeypegov.com/059.html" />
+      <id>urn:uuid:edd6bcab-9899-3f12-803b-73188728708c</id>
+      <updated>2024-07-11T00:00:00+00:00</updated>
+    </entry>
     <entry>
       <title><![CDATA[forgotten view, 2021]]></title>
       <link href="https://www.alexeypegov.com/058.html" />
@@ -46,23 +64,5 @@
       <link href="https://www.alexeypegov.com/052.html" />
       <id>urn:uuid:c2aa1e0f-b87c-3b2f-b062-cdf8d775571f</id>
       <updated>2024-07-05T00:00:00+00:00</updated>
-    </entry>
-    <entry>
-      <title><![CDATA[horses, 2019]]></title>
-      <link href="https://www.alexeypegov.com/051.html" />
-      <id>urn:uuid:a1b7314d-f76c-373d-b493-98c968f97dc0</id>
-      <updated>2024-07-02T00:00:00+00:00</updated>
-    </entry>
-    <entry>
-      <title><![CDATA[hocus pokus, 2023]]></title>
-      <link href="https://www.alexeypegov.com/050.html" />
-      <id>urn:uuid:0228edab-07bf-362e-84e1-9717b4f1d636</id>
-      <updated>2024-07-02T00:00:00+00:00</updated>
-    </entry>
-    <entry>
-      <title><![CDATA[eugene, 2019]]></title>
-      <link href="https://www.alexeypegov.com/049.html" />
-      <id>urn:uuid:f7d39436-2c8e-35b5-a729-054e7adcc3c1</id>
-      <updated>2024-07-02T00:00:00+00:00</updated>
     </entry>
 </feed>
