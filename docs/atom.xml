@@ -4,7 +4,24 @@
   <link href="https://www.alexeypegov.com/atom.xml" rel="self" />
   <link href="https://www.alexeypegov.com" />
   <id>https://www.alexeypegov.com/</id>
-  <updated>2024-07-14T00:00:00+00:00</updated>
+  <updated>2024-07-26T00:00:00+00:00</updated>
+    <entry>
+      <title><![CDATA[stranger, 2019]]></title>
+      <link href="https://www.alexeypegov.com/066.html" />
+      <id>urn:uuid:d567ba97-66bb-30ba-a603-074b34356932</id>
+      <updated>2024-07-26T00:00:00+00:00</updated>
+      <content type="html">
+	<![CDATA[
+        <p><img src="https://www.alexeypegov.com/images/066-stranger-2019.webp" alt="stranger, 2019" /></p>
+<p>stranger, 2019</p>
+
+	]]>
+      </content>
+      <author>
+        <name>Alexey Pegov</name>
+        <email>iam@alexeypegov.com</email>
+      </author>
+    </entry>
     <entry>
       <title><![CDATA[from above, 2022]]></title>
       <link href="https://www.alexeypegov.com/065.html" />
@@ -150,23 +167,6 @@
 	<![CDATA[
         <p><img src="https://www.alexeypegov.com/images/057-sunbeam-2023.webp" alt="sunbeam, 2023" /></p>
 <p>sunbeam, 2023</p>
-
-	]]>
-      </content>
-      <author>
-        <name>Alexey Pegov</name>
-        <email>iam@alexeypegov.com</email>
-      </author>
-    </entry>
-    <entry>
-      <title><![CDATA[levashovo, 2021]]></title>
-      <link href="https://www.alexeypegov.com/056.html" />
-      <id>urn:uuid:da06f3b9-dba6-31f0-996d-ce667781ed75</id>
-      <updated>2024-07-05T00:00:00+00:00</updated>
-      <content type="html">
-	<![CDATA[
-        <p><img src="https://www.alexeypegov.com/images/056-levashovo-2021.webp" alt="levashovo, 2021" /></p>
-<p>levashovo, 2021</p>
 
 	]]>
       </content>
