@@ -4,7 +4,24 @@
   <link href="https://www.alexeypegov.com/atom.xml" rel="self" />
   <link href="https://www.alexeypegov.com" />
   <id>https://www.alexeypegov.com/</id>
-  <updated>2024-07-26T00:00:00+00:00</updated>
+  <updated>2024-07-27T00:00:00+00:00</updated>
+    <entry>
+      <title><![CDATA[boy at the balcony, 2024]]></title>
+      <link href="https://www.alexeypegov.com/067.html" />
+      <id>urn:uuid:c247d6cb-828c-3ebb-ba81-f8a74496956c</id>
+      <updated>2024-07-27T00:00:00+00:00</updated>
+      <content type="html">
+	<![CDATA[
+        <p><img src="https://www.alexeypegov.com/images/067-boy-2024.webp" alt="boy at the balcony, 2024" /></p>
+<p>boy at the balcony, 2024</p>
+
+	]]>
+      </content>
+      <author>
+        <name>Alexey Pegov</name>
+        <email>iam@alexeypegov.com</email>
+      </author>
+    </entry>
     <entry>
       <title><![CDATA[stranger, 2019]]></title>
       <link href="https://www.alexeypegov.com/066.html" />
@@ -150,23 +167,6 @@
 	<![CDATA[
         <p><img src="https://www.alexeypegov.com/images/058-forgotten-view-2021.webp" alt="forgotten view, 2021" /></p>
 <p>forgotten view, 2021</p>
-
-	]]>
-      </content>
-      <author>
-        <name>Alexey Pegov</name>
-        <email>iam@alexeypegov.com</email>
-      </author>
-    </entry>
-    <entry>
-      <title><![CDATA[sunbeam, 2023]]></title>
-      <link href="https://www.alexeypegov.com/057.html" />
-      <id>urn:uuid:2b5bd1c3-d104-3cd7-a6df-5478662e430a</id>
-      <updated>2024-07-05T00:00:00+00:00</updated>
-      <content type="html">
-	<![CDATA[
-        <p><img src="https://www.alexeypegov.com/images/057-sunbeam-2023.webp" alt="sunbeam, 2023" /></p>
-<p>sunbeam, 2023</p>
 
 	]]>
       </content>
