@@ -4,7 +4,41 @@
   <link href="https://www.alexeypegov.com/atom.xml" rel="self" />
   <link href="https://www.alexeypegov.com" />
   <id>https://www.alexeypegov.com/</id>
-  <updated>2024-09-03T00:00:00+00:00</updated>
+  <updated>2024-09-12T00:00:00+00:00</updated>
+    <entry>
+      <title><![CDATA[fence, 2024]]></title>
+      <link href="https://www.alexeypegov.com/074.html" />
+      <id>urn:uuid:8de7f3b0-e8bd-3adf-862c-bb59c0118ade</id>
+      <updated>2024-09-12T00:00:00+00:00</updated>
+      <content type="html">
+	<![CDATA[
+        <p><img src="https://www.alexeypegov.com/images/074-fence-2024.webp" alt="fence, 2024" /></p>
+<p>fence, 2024</p>
+
+	]]>
+      </content>
+      <author>
+        <name>Alexey Pegov</name>
+        <email>iam@alexeypegov.com</email>
+      </author>
+    </entry>
+    <entry>
+      <title><![CDATA[forest in the sunlight, 2024]]></title>
+      <link href="https://www.alexeypegov.com/073.html" />
+      <id>urn:uuid:2d8c1082-6545-37d4-8dfb-27d2a7c9654d</id>
+      <updated>2024-09-12T00:00:00+00:00</updated>
+      <content type="html">
+	<![CDATA[
+        <p><img src="https://www.alexeypegov.com/images/073-forest-2024.webp" alt="forest in the sunlight, 2024" /></p>
+<p>forest in the sunlight, 2024</p>
+
+	]]>
+      </content>
+      <author>
+        <name>Alexey Pegov</name>
+        <email>iam@alexeypegov.com</email>
+      </author>
+    </entry>
     <entry>
       <title><![CDATA[sasha, 2024]]></title>
       <link href="https://www.alexeypegov.com/072.html" />
@@ -133,40 +167,6 @@
 	<![CDATA[
         <p><img src="https://www.alexeypegov.com/images/065-from-above-2022.webp" alt="from above, 2023" /></p>
 <p>from above, 2022</p>
-
-	]]>
-      </content>
-      <author>
-        <name>Alexey Pegov</name>
-        <email>iam@alexeypegov.com</email>
-      </author>
-    </entry>
-    <entry>
-      <title><![CDATA[sleeping, 2022]]></title>
-      <link href="https://www.alexeypegov.com/064.html" />
-      <id>urn:uuid:9e600ef2-758c-32dd-8ef2-e2666b778faf</id>
-      <updated>2024-07-14T00:00:00+00:00</updated>
-      <content type="html">
-	<![CDATA[
-        <p><img src="https://www.alexeypegov.com/images/064-sleeping-2022.webp" alt="sleeping, 2022" /></p>
-<p>sleeping, 2022</p>
-
-	]]>
-      </content>
-      <author>
-        <name>Alexey Pegov</name>
-        <email>iam@alexeypegov.com</email>
-      </author>
-    </entry>
-    <entry>
-      <title><![CDATA[early morning, 2020]]></title>
-      <link href="https://www.alexeypegov.com/063.html" />
-      <id>urn:uuid:d83e2710-f154-31a1-92ce-aa275d5502ef</id>
-      <updated>2024-07-14T00:00:00+00:00</updated>
-      <content type="html">
-	<![CDATA[
-        <p><img src="https://www.alexeypegov.com/images/063-morning-2020.webp" alt="early morning, 2020" /></p>
-<p>early morning, 2020</p>
 
 	]]>
       </content>
