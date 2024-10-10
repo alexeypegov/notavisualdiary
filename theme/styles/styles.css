@@ -1,19 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Literata:wght@400&display=swap');
 
 :root {
+  --background-color: #fcfcfc;
   --base-size: 16px;
-  --font-family:  "Literata", fallback, serif;
-  --text-color: #444;
-  --light-color: #777;
+  --font-family: "Literata", fallback, serif;
+  --text-color: #777;
+  --link-color: #000;
   --line-height: 1.5;
 
   --row-height: calc(var(--base-size) * var(--line-height));
   --unit-100vh: 100vh;
 }
 
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background-color: #111;
+    --text-color: #999;
+    --link-color: #fff;
+  }
+}
+
 * {
   padding: 0;
   margin: 0;
+}
+
+a {
+  color: var(--link-color);
 }
 
 @media (min-width: 1500px) {
@@ -30,7 +43,7 @@ html {
 
 body:not(.wrapper) {
   color: var(--text-color);
-  background-color: #fcfcfc;
+  background-color: var(--background-color);
 }
 
 @media only screen and (hover: none) {
@@ -48,10 +61,6 @@ body:not(.wrapper) {
 
 main {
   padding: var(--row-height);
-}
-
-header {
-  color: #999;
 }
 
 @media (min-aspect-ratio: 4/3) or (min-width: 1100px) {
@@ -116,7 +125,7 @@ header {
   main.vertical p:first-child {
     max-height: var(--max-height);
   }
-  
+
   main.horizontal p:first-child {
     flex: 1;
     position: relative;
@@ -138,7 +147,7 @@ header {
   }
 }
 
-@media (max-aspect-ratio: 4/3) and (max-width: 1099px){
+@media (max-aspect-ratio: 4/3) and (max-width: 1099px) {
   :root {
     --max-width: min(600px, 100vw)
   }
@@ -146,7 +155,7 @@ header {
   html {
     height: 100%;
   }
-  
+
   main {
     border: calc((100vw - var(--max-width) - 2 * var(--row-height)) / 2) solid #222;
     border-top: 0;
@@ -154,7 +163,7 @@ header {
     min-height: calc(var(--unit-100vh) - 2 * var(--row-height));
   }
 
-/*
+  /*
   main {
     position: relative;
     top: 50%;
