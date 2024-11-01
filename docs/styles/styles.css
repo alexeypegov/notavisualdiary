@@ -12,13 +12,13 @@
   --unit-100vh: 100vh;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background-color: #111;
-    --text-color: #999;
-    --link-color: #fff;
-  }
-}
+/* @media (prefers-color-scheme: dark) { */
+/* :root { */
+/* --background-color: #111; */
+/* --text-color: #999; */
+/* --link-color: #fff; */
+/* } */
+/* } */
 
 * {
   padding: 0;
