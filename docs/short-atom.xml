@@ -4,7 +4,31 @@
   <link href="https://www.alexeypegov.com/short-atom.xml" rel="self" />
   <link href="https://www.alexeypegov.com" />
   <id>https://www.alexeypegov.com/</id>
-  <updated>2024-09-12T00:00:00+00:00</updated>
+  <updated>2024-11-17T00:00:00+00:00</updated>
+    <entry>
+      <title><![CDATA[Kirill, 2024]]></title>
+      <link href="https://www.alexeypegov.com/078.html" />
+      <id>urn:uuid:108a9831-ed4c-31b2-ac9c-515b0221ee49</id>
+      <updated>2024-11-17T00:00:00+00:00</updated>
+    </entry>
+    <entry>
+      <title><![CDATA[Lego, 2024]]></title>
+      <link href="https://www.alexeypegov.com/077.html" />
+      <id>urn:uuid:43b6e4ed-6a25-3dec-ad99-e724c3c6863b</id>
+      <updated>2024-11-17T00:00:00+00:00</updated>
+    </entry>
+    <entry>
+      <title><![CDATA[Scene at Tara, 2024]]></title>
+      <link href="https://www.alexeypegov.com/076.html" />
+      <id>urn:uuid:e3bcdaee-2be5-310c-a5a2-101d9144eadc</id>
+      <updated>2024-11-17T00:00:00+00:00</updated>
+    </entry>
+    <entry>
+      <title><![CDATA[Scene at Tara, 2024]]></title>
+      <link href="https://www.alexeypegov.com/075.html" />
+      <id>urn:uuid:38fa1745-f2f8-3b26-8d9c-d83f8a8a582d</id>
+      <updated>2024-11-17T00:00:00+00:00</updated>
+    </entry>
     <entry>
       <title><![CDATA[fence, 2024]]></title>
       <link href="https://www.alexeypegov.com/074.html" />
@@ -40,29 +64,5 @@
       <link href="https://www.alexeypegov.com/069.html" />
       <id>urn:uuid:096717e4-ad4d-3663-a2b1-8b024e481c26</id>
       <updated>2024-09-03T00:00:00+00:00</updated>
-    </entry>
-    <entry>
-      <title><![CDATA[at the cafe, 2024]]></title>
-      <link href="https://www.alexeypegov.com/068.html" />
-      <id>urn:uuid:c5203bb9-cac1-3578-90ec-5a64df0fd9da</id>
-      <updated>2024-09-03T00:00:00+00:00</updated>
-    </entry>
-    <entry>
-      <title><![CDATA[boy at the balcony, 2024]]></title>
-      <link href="https://www.alexeypegov.com/067.html" />
-      <id>urn:uuid:c247d6cb-828c-3ebb-ba81-f8a74496956c</id>
-      <updated>2024-07-27T00:00:00+00:00</updated>
-    </entry>
-    <entry>
-      <title><![CDATA[stranger, 2019]]></title>
-      <link href="https://www.alexeypegov.com/066.html" />
-      <id>urn:uuid:d567ba97-66bb-30ba-a603-074b34356932</id>
-      <updated>2024-07-26T00:00:00+00:00</updated>
-    </entry>
-    <entry>
-      <title><![CDATA[from above, 2022]]></title>
-      <link href="https://www.alexeypegov.com/065.html" />
-      <id>urn:uuid:4411b5d6-d0e5-3ff0-a5fd-0d97e05ec06a</id>
-      <updated>2024-07-14T00:00:00+00:00</updated>
     </entry>
 </feed>
