@@ -4,7 +4,13 @@
   <link href="https://www.alexeypegov.com/short-atom.xml" rel="self" />
   <link href="https://www.alexeypegov.com" />
   <id>https://www.alexeypegov.com/</id>
-  <updated>2024-12-29T00:00:00+00:00</updated>
+  <updated>2025-01-26T00:00:00+00:00</updated>
+    <entry>
+      <title><![CDATA[eugene, 2025]]></title>
+      <link href="https://www.alexeypegov.com/080.html" />
+      <id>urn:uuid:08018419-e6f3-3ffa-bd30-35ba2b757b56</id>
+      <updated>2025-01-26T00:00:00+00:00</updated>
+    </entry>
     <entry>
       <title><![CDATA[in the train, 2024]]></title>
       <link href="https://www.alexeypegov.com/079.html" />
@@ -57,12 +63,6 @@
       <title><![CDATA[wand, 2024]]></title>
       <link href="https://www.alexeypegov.com/071.html" />
       <id>urn:uuid:dc8f0cf1-a89e-3c2b-bd78-ea3bd05c665d</id>
-      <updated>2024-09-03T00:00:00+00:00</updated>
-    </entry>
-    <entry>
-      <title><![CDATA[the gang, 2024]]></title>
-      <link href="https://www.alexeypegov.com/070.html" />
-      <id>urn:uuid:a64d5836-7669-32a1-9845-1447b7f82b38</id>
       <updated>2024-09-03T00:00:00+00:00</updated>
     </entry>
 </feed>

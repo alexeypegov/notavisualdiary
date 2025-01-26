@@ -4,7 +4,24 @@
   <link href="https://www.alexeypegov.com/atom.xml" rel="self" />
   <link href="https://www.alexeypegov.com" />
   <id>https://www.alexeypegov.com/</id>
-  <updated>2024-12-29T00:00:00+00:00</updated>
+  <updated>2025-01-26T00:00:00+00:00</updated>
+    <entry>
+      <title><![CDATA[eugene, 2025]]></title>
+      <link href="https://www.alexeypegov.com/080.html" />
+      <id>urn:uuid:08018419-e6f3-3ffa-bd30-35ba2b757b56</id>
+      <updated>2025-01-26T00:00:00+00:00</updated>
+      <content type="html">
+	<![CDATA[
+        <p><img src="https://www.alexeypegov.com/images/080-eugene-2025.webp" alt="euhene, 2025" /></p>
+<p>eugene, 2025</p>
+
+	]]>
+      </content>
+      <author>
+        <name>Alexey Pegov</name>
+        <email>iam@alexeypegov.com</email>
+      </author>
+    </entry>
     <entry>
       <title><![CDATA[in the train, 2024]]></title>
       <link href="https://www.alexeypegov.com/079.html" />
@@ -150,23 +167,6 @@
 	<![CDATA[
         <p><img src="https://www.alexeypegov.com/images/071-wand-2024.webp" alt="wand, 2024" /></p>
 <p>wand, 2024</p>
-
-	]]>
-      </content>
-      <author>
-        <name>Alexey Pegov</name>
-        <email>iam@alexeypegov.com</email>
-      </author>
-    </entry>
-    <entry>
-      <title><![CDATA[the gang, 2024]]></title>
-      <link href="https://www.alexeypegov.com/070.html" />
-      <id>urn:uuid:a64d5836-7669-32a1-9845-1447b7f82b38</id>
-      <updated>2024-09-03T00:00:00+00:00</updated>
-      <content type="html">
-	<![CDATA[
-        <p><img src="https://www.alexeypegov.com/images/070-gang-2024.webp" alt="the gang, 2024" /></p>
-<p>the gang, 2024</p>
 
 	]]>
       </content>
