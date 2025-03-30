@@ -4,7 +4,41 @@
   <link href="https://www.alexeypegov.com/atom.xml" rel="self" />
   <link href="https://www.alexeypegov.com" />
   <id>https://www.alexeypegov.com/</id>
-  <updated>2025-03-13T00:00:00+00:00</updated>
+  <updated>2025-03-30T00:00:00+00:00</updated>
+    <entry>
+      <title><![CDATA[bird watching, 2025]]></title>
+      <link href="https://www.alexeypegov.com/083.html" />
+      <id>urn:uuid:35fe2e02-aef8-3777-a6f7-e3a6ee2492c6</id>
+      <updated>2025-03-30T00:00:00+00:00</updated>
+      <content type="html">
+	<![CDATA[
+        <p><img src="https://www.alexeypegov.com/images/083-bird-watching-2025.webp" alt="" /></p>
+<p>bird watching, 2025</p>
+
+	]]>
+      </content>
+      <author>
+        <name>Alexey Pegov</name>
+        <email>iam@alexeypegov.com</email>
+      </author>
+    </entry>
+    <entry>
+      <title><![CDATA[igor, 2025]]></title>
+      <link href="https://www.alexeypegov.com/082.html" />
+      <id>urn:uuid:63524f98-85ea-37dd-b445-dbd053aa1563</id>
+      <updated>2025-03-30T00:00:00+00:00</updated>
+      <content type="html">
+	<![CDATA[
+        <p><img src="https://www.alexeypegov.com/images/082-igor-2025.webp" alt="" /></p>
+<p>igor, 2025</p>
+
+	]]>
+      </content>
+      <author>
+        <name>Alexey Pegov</name>
+        <email>iam@alexeypegov.com</email>
+      </author>
+    </entry>
     <entry>
       <title><![CDATA[sasha & tanya, 2024]]></title>
       <link href="https://www.alexeypegov.com/081.html" />
@@ -133,40 +167,6 @@
 	<![CDATA[
         <p><img src="https://www.alexeypegov.com/images/074-fence-2024.webp" alt="fence, 2024" /></p>
 <p>fence, 2024</p>
-
-	]]>
-      </content>
-      <author>
-        <name>Alexey Pegov</name>
-        <email>iam@alexeypegov.com</email>
-      </author>
-    </entry>
-    <entry>
-      <title><![CDATA[forest in the sunlight, 2024]]></title>
-      <link href="https://www.alexeypegov.com/073.html" />
-      <id>urn:uuid:2d8c1082-6545-37d4-8dfb-27d2a7c9654d</id>
-      <updated>2024-09-12T00:00:00+00:00</updated>
-      <content type="html">
-	<![CDATA[
-        <p><img src="https://www.alexeypegov.com/images/073-forest-2024.webp" alt="forest in the sunlight, 2024" /></p>
-<p>forest in the sunlight, 2024</p>
-
-	]]>
-      </content>
-      <author>
-        <name>Alexey Pegov</name>
-        <email>iam@alexeypegov.com</email>
-      </author>
-    </entry>
-    <entry>
-      <title><![CDATA[sasha, 2024]]></title>
-      <link href="https://www.alexeypegov.com/072.html" />
-      <id>urn:uuid:14ee2a8d-a9d1-30f7-9aaa-561a48cdb357</id>
-      <updated>2024-09-03T00:00:00+00:00</updated>
-      <content type="html">
-	<![CDATA[
-        <p><img src="https://www.alexeypegov.com/images/072-sasha-2024.webp" alt="sasha, 2024" /></p>
-<p>sasha, 2024</p>
 
 	]]>
       </content>
