@@ -4,7 +4,24 @@
   <link href="https://www.alexeypegov.com/atom.xml" rel="self" />
   <link href="https://www.alexeypegov.com" />
   <id>https://www.alexeypegov.com/</id>
-  <updated>2025-04-10T00:00:00+00:00</updated>
+  <updated>2025-06-01T00:00:00+00:00</updated>
+    <entry>
+      <title><![CDATA[Bubbles, 2025]]></title>
+      <link href="https://www.alexeypegov.com/085.html" />
+      <id>urn:uuid:89589f41-9405-31d1-a293-334f6cf1dd5d</id>
+      <updated>2025-06-01T00:00:00+00:00</updated>
+      <content type="html">
+	<![CDATA[
+        <p><img src="https://www.alexeypegov.com/images/085-bubbles-2025.webp" alt="Bubbles, 2025" /></p>
+<p>Bubbles, 2025</p>
+
+	]]>
+      </content>
+      <author>
+        <name>Alexey Pegov</name>
+        <email>iam@alexeypegov.com</email>
+      </author>
+    </entry>
     <entry>
       <title><![CDATA[sons, 2023]]></title>
       <link href="https://www.alexeypegov.com/084.html" />
@@ -149,23 +166,6 @@
       <content type="html">
 	<![CDATA[
         <p><img src="https://www.alexeypegov.com/images/076-scene-at-tara-2-2024.webp" alt="scene at Tara" /></p>
-<p>scene at Tara, 2024</p>
-
-	]]>
-      </content>
-      <author>
-        <name>Alexey Pegov</name>
-        <email>iam@alexeypegov.com</email>
-      </author>
-    </entry>
-    <entry>
-      <title><![CDATA[scene at Tara, 2024]]></title>
-      <link href="https://www.alexeypegov.com/075.html" />
-      <id>urn:uuid:38fa1745-f2f8-3b26-8d9c-d83f8a8a582d</id>
-      <updated>2024-11-17T00:00:00+00:00</updated>
-      <content type="html">
-	<![CDATA[
-        <p><img src="https://www.alexeypegov.com/images/075-scene-at-tara-2024.webp" alt="scene at Tara, 2024" /></p>
 <p>scene at Tara, 2024</p>
 
 	]]>
