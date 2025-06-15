@@ -4,7 +4,19 @@
   <link href="https://www.alexeypegov.com/short-atom.xml" rel="self" />
   <link href="https://www.alexeypegov.com" />
   <id>https://www.alexeypegov.com/</id>
-  <updated>2025-06-01T00:00:00+00:00</updated>
+  <updated>2025-06-15T00:00:00+00:00</updated>
+    <entry>
+      <title><![CDATA[in a bus, 2025]]></title>
+      <link href="https://www.alexeypegov.com/087.html" />
+      <id>urn:uuid:60ca08d0-9f41-3114-ba3e-2882174c3e02</id>
+      <updated>2025-06-15T00:00:00+00:00</updated>
+    </entry>
+    <entry>
+      <title><![CDATA[sugar face, 2025]]></title>
+      <link href="https://www.alexeypegov.com/086.html" />
+      <id>urn:uuid:5705289b-b367-3aea-9d98-201d17206221</id>
+      <updated>2025-06-15T00:00:00+00:00</updated>
+    </entry>
     <entry>
       <title><![CDATA[soap bubbles, 2025]]></title>
       <link href="https://www.alexeypegov.com/085.html" />
@@ -51,18 +63,6 @@
       <title><![CDATA[kirill, 2024]]></title>
       <link href="https://www.alexeypegov.com/078.html" />
       <id>urn:uuid:108a9831-ed4c-31b2-ac9c-515b0221ee49</id>
-      <updated>2024-11-17T00:00:00+00:00</updated>
-    </entry>
-    <entry>
-      <title><![CDATA[lego, 2024]]></title>
-      <link href="https://www.alexeypegov.com/077.html" />
-      <id>urn:uuid:43b6e4ed-6a25-3dec-ad99-e724c3c6863b</id>
-      <updated>2024-11-17T00:00:00+00:00</updated>
-    </entry>
-    <entry>
-      <title><![CDATA[scene at Tara, 2024]]></title>
-      <link href="https://www.alexeypegov.com/076.html" />
-      <id>urn:uuid:e3bcdaee-2be5-310c-a5a2-101d9144eadc</id>
       <updated>2024-11-17T00:00:00+00:00</updated>
     </entry>
 </feed>

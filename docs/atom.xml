@@ -4,7 +4,41 @@
   <link href="https://www.alexeypegov.com/atom.xml" rel="self" />
   <link href="https://www.alexeypegov.com" />
   <id>https://www.alexeypegov.com/</id>
-  <updated>2025-06-01T00:00:00+00:00</updated>
+  <updated>2025-06-15T00:00:00+00:00</updated>
+    <entry>
+      <title><![CDATA[in a bus, 2025]]></title>
+      <link href="https://www.alexeypegov.com/087.html" />
+      <id>urn:uuid:60ca08d0-9f41-3114-ba3e-2882174c3e02</id>
+      <updated>2025-06-15T00:00:00+00:00</updated>
+      <content type="html">
+	<![CDATA[
+        <p><img src="https://www.alexeypegov.com/images/087-in-a-bus-2025.webp" alt="in a bus, 2025" /></p>
+<p>in a bus, 2025</p>
+
+	]]>
+      </content>
+      <author>
+        <name>Alexey Pegov</name>
+        <email>iam@alexeypegov.com</email>
+      </author>
+    </entry>
+    <entry>
+      <title><![CDATA[sugar face, 2025]]></title>
+      <link href="https://www.alexeypegov.com/086.html" />
+      <id>urn:uuid:5705289b-b367-3aea-9d98-201d17206221</id>
+      <updated>2025-06-15T00:00:00+00:00</updated>
+      <content type="html">
+	<![CDATA[
+        <p><img src="https://www.alexeypegov.com/images/086-sugar-face-2025.webp" alt="sugar face, 2025" /></p>
+<p>sugar face, 2025</p>
+
+	]]>
+      </content>
+      <author>
+        <name>Alexey Pegov</name>
+        <email>iam@alexeypegov.com</email>
+      </author>
+    </entry>
     <entry>
       <title><![CDATA[soap bubbles, 2025]]></title>
       <link href="https://www.alexeypegov.com/085.html" />
@@ -133,40 +167,6 @@
 	<![CDATA[
         <p><img src="https://www.alexeypegov.com/images/078-kir-2024.webp" alt="kirill, 2024" /></p>
 <p>kirill, 2024</p>
-
-	]]>
-      </content>
-      <author>
-        <name>Alexey Pegov</name>
-        <email>iam@alexeypegov.com</email>
-      </author>
-    </entry>
-    <entry>
-      <title><![CDATA[lego, 2024]]></title>
-      <link href="https://www.alexeypegov.com/077.html" />
-      <id>urn:uuid:43b6e4ed-6a25-3dec-ad99-e724c3c6863b</id>
-      <updated>2024-11-17T00:00:00+00:00</updated>
-      <content type="html">
-	<![CDATA[
-        <p><img src="https://www.alexeypegov.com/images/077-lego-2024.webp" alt="lego, 2024" /></p>
-<p>lego, 2024</p>
-
-	]]>
-      </content>
-      <author>
-        <name>Alexey Pegov</name>
-        <email>iam@alexeypegov.com</email>
-      </author>
-    </entry>
-    <entry>
-      <title><![CDATA[scene at Tara, 2024]]></title>
-      <link href="https://www.alexeypegov.com/076.html" />
-      <id>urn:uuid:e3bcdaee-2be5-310c-a5a2-101d9144eadc</id>
-      <updated>2024-11-17T00:00:00+00:00</updated>
-      <content type="html">
-	<![CDATA[
-        <p><img src="https://www.alexeypegov.com/images/076-scene-at-tara-2-2024.webp" alt="scene at Tara" /></p>
-<p>scene at Tara, 2024</p>
 
 	]]>
       </content>
