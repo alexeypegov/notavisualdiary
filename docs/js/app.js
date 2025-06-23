@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
       );
     }
 
-    if (e.key === "i") {
+    if (e.code === "Space") {
       document.dispatchEvent(new CustomEvent("info"));
     }
   });
