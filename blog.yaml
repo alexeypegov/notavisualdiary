@@ -20,7 +20,7 @@ general:
     - static/favicon.ico
 
 vars:
-  version: 2
+  version: 3
   blog-title: (not) a visual diary
   blog-url: https://www.alexeypegov.com
   feed-url: https://www.alexeypegov.com/atom.xml

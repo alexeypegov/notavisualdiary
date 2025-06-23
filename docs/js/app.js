@@ -39,8 +39,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
   document.addEventListener("swiped-left", f("prev"));
   document.addEventListener("swiped-right", f("next"));
-  document.addEventListener("left", f("prev"));
-  document.addEventListener("right", f("next"));
+  document.addEventListener("left", f("next"));
+  document.addEventListener("right", f("prev"));
 
   document.addEventListener("click", info);
   document.addEventListener("info", info);
