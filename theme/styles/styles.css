@@ -23,6 +23,12 @@ html {
   line-height: var(--line-height);
 }
 
+body {
+  overscroll-behavior-x: none;
+  overflow-y: hidden;
+  touch-action: pan-x;
+}
+
 main {
   box-sizing: border-box;
   height: 100dvh;
@@ -34,6 +40,9 @@ main {
   justify-content: center;
 
   padding: 3vh;
+
+  padding-left: env(safe-area-inset-left);
+  padding-right: env(safe-area-inset-right);
 
   @media (max-width: 500px) {
     padding: 1vh;

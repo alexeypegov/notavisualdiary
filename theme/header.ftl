@@ -2,7 +2,8 @@
 <html lang="en">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1">
+    <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1, viewport-fit=cover">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
     <link rel="index" id="link-index" href="${vars.blog_url}">
     <title>${title} - ${vars.blog_title}</title>
@@ -23,6 +24,13 @@
     <link rel="shortcut icon" type="image/ico" href="favicon.ico">
     <link rel="alternate" type="application/atom+xml" title="All images" href="${vars.feed_url}">
     <link rel="stylesheet" type="text/css" href="styles/styles.css">
+
+    <#if prev??>
+    <link rel="prefetch" href="${prev}.html">
+    </#if>
+    <#if next??>
+    <link rel="prefetch" href="${next}.html">
+    </#if>
 
     <script src="js/pic.js?seed=${vars.version}"></script>
     <script src="js/swiped-events.min.js?seed=${vars.version}"></script>
