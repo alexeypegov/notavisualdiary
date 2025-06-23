@@ -19,6 +19,10 @@ document.addEventListener("DOMContentLoaded", function () {
     if (e.code === "Space") {
       document.dispatchEvent(new CustomEvent("info"));
     }
+
+    if (e.code === "KeyB") {
+      document.dispatchEvent(new CustomEvent("toggle-dark"));
+    }
   });
 
   const f = function (id) {
@@ -37,6 +41,11 @@ document.addEventListener("DOMContentLoaded", function () {
     overlay.style.display = overlay.style.display === "none" ? "block" : "none";
   };
 
+  const dark = function() {
+    const main = document.getElementById("wrapper");
+    main.classList.toggle('dark');
+  };
+
   document.addEventListener("swiped-left", f("prev"));
   document.addEventListener("swiped-right", f("next"));
   document.addEventListener("left", f("next"));
@@ -44,4 +53,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
   document.addEventListener("click", info);
   document.addEventListener("info", info);
+
+  document.addEventListener("toggle-dark", dark);
 });
