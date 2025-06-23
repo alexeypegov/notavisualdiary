@@ -15,7 +15,7 @@
       <#if description?exists>
       <content type="html">
 	<![CDATA[
-        ${note.body}
+        <img src="${vars.blog_url}/${note.cover}"/>
 	]]>
       </content>
       <author>
