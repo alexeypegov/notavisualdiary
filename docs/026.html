@@ -22,20 +22,20 @@
     <link rel="alternate" type="application/atom+xml" title="All images" href="https://www.alexeypegov.com/atom.xml">
     <link rel="stylesheet" type="text/css" href="styles/styles.css">
 
-    <script src="js/app.js?seed=191810"></script>
+    <script src="js/pic.js?seed=1"></script>
+    <script src="js/swiped-events.min.js?seed=1"></script>
+    <script src="js/app.js?seed=1"></script>
   </head>
 <body>
 
-<main class="horizontal" data-prev="025" data-next="027">
-  <header>
-    <a href="/">(not) a visual diary</a> · <a href="000.html"/>about</a> · <a href="/atom.xml"/>rss</a> · 27 of 88 ·       <a href="025.html">previous</a>
- 
-  </header>
-  <article>
-    <p><img src="images/026-katya-2018.webp" alt="katya, 2018" loading="lazy" width="1000" height="655" srcset="images/026-katya-2018@2x.webp 2x" /></p>
-<p>katya, 2018</p>
-
-  </article>
+<main id="wrapper" class="" data-prev="025" data-next="027">
+  <div class="overlay" style="display: none">
+    <div class="content">
+      <div class="title">katya, 2018</div>
+      <div class="help">Use <span class="key">&lt;</span> / <span class="key">&gt;</span> / <span class="key">i</span> or <span class="swiping">👆</span></div>
+    </div>
+  </div>
+  <custom-pic src="images/026-katya-2018@2x.webp"/>
 </main>
 </body>
 </html>

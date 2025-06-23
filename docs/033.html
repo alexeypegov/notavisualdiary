@@ -22,20 +22,20 @@
     <link rel="alternate" type="application/atom+xml" title="All images" href="https://www.alexeypegov.com/atom.xml">
     <link rel="stylesheet" type="text/css" href="styles/styles.css">
 
-    <script src="js/app.js?seed=191810"></script>
+    <script src="js/pic.js?seed=1"></script>
+    <script src="js/swiped-events.min.js?seed=1"></script>
+    <script src="js/app.js?seed=1"></script>
   </head>
 <body>
 
-<main class="vertical" data-prev="032" data-next="034">
-  <header>
-    <a href="/">(not) a visual diary</a> · <a href="000.html"/>about</a> · <a href="/atom.xml"/>rss</a> · 34 of 88 ·       <a href="032.html">previous</a>
- 
-  </header>
-  <article>
-    <p><img src="images/033-tree-2021.webp" alt="wounded tree, 2021" loading="lazy" width="656" height="1000" srcset="images/033-tree-2021@2x.webp 2x" /></p>
-<p>wounded tree, 2021</p>
-
-  </article>
+<main id="wrapper" class="" data-prev="032" data-next="034">
+  <div class="overlay" style="display: none">
+    <div class="content">
+      <div class="title">wounded tree, 2021</div>
+      <div class="help">Use <span class="key">&lt;</span> / <span class="key">&gt;</span> / <span class="key">i</span> or <span class="swiping">👆</span></div>
+    </div>
+  </div>
+  <custom-pic src="images/033-tree-2021@2x.webp"/>
 </main>
 </body>
 </html>

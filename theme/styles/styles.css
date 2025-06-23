@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Literata:wght@400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Literata:wght@400&display=swap");
 
 :root {
   --background-color: #fcfcfc;
@@ -12,27 +12,9 @@
   --unit-100vh: 100vh;
 }
 
-/* @media (prefers-color-scheme: dark) { */
-/* :root { */
-/* --background-color: #111; */
-/* --text-color: #999; */
-/* --link-color: #fff; */
-/* } */
-/* } */
-
 * {
   padding: 0;
   margin: 0;
-}
-
-a {
-  color: var(--link-color);
-}
-
-@media (min-width: 1500px) {
-  :root {
-    --base-size: 18px;
-  }
 }
 
 html {
@@ -41,147 +23,74 @@ html {
   line-height: var(--line-height);
 }
 
-body:not(.wrapper) {
-  color: var(--text-color);
-  background-color: var(--background-color);
-}
+main {
+  box-sizing: border-box;
+  height: 100vh;
+  background-color: #f8f8f8;
+  position: relative;
 
-@media only screen and (hover: none) {
-  /* Safari iPad 100vh "feature" fix */
-  @supports (height: 100dvh) {
-    :root {
-      --unit-100vh: 100dvh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 3vh;
+
+  @media (max-width: 500px) {
+    padding: 1vh;
+  }
+
+  .overlay {
+    z-index: 1000;
+    position: absolute;
+
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px) invert(0.3);
+
+    color: #1e1e1e;
+
+    .content {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      gap: 1rem;
+
+      box-sizing: border-box;
+      height: 100%;
+      padding: 1rem;
+
+      font-size: 2rem;
+
+      .key {
+        display: inline-block;
+
+        width: 3rem;
+        border-radius: 0.5rem;
+        background: #1e1e1e;
+        color: #efefef;
+        text-align: center;
+      }
+
+      @media (max-width: 500px) {
+        font-size: 1.5rem;
+
+        .key {
+          width: 2.3rem;
+        }
+      }
     }
   }
-}
 
-:root {
-  --max-height: min(800px, calc(var(--unit-100vh) - 2 * var(--row-height)));
-}
+  &.dark {
+    background-color: #1a1a1a;
+    color: #fefefe;
 
-main {
-  padding: var(--row-height);
-}
-
-@media (min-aspect-ratio: 4/3) or (min-width: 1100px) {
-  body {
-    border: calc((var(--unit-100vh) - var(--max-height) - 2 * var(--row-height)) / 2) solid #222;
-    border-left: 0;
-    border-right: 0;
-  }
-
-  main {
-    aspect-ratio: 16 / 9;
-    max-height: var(--max-height);
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  main.horizontal header {
-    padding-bottom: 1rem;
-  }
-
-  main article p:not(:first-child) {
-    padding-top: 1rem;
-  }
-
-  main.vertical header {
-    position: absolute;
-  }
-
-  main article {
-    display: flex;
-    flex-flow: column;
-  }
-
-  main.vertical article {
-    justify-content: flex-end;
-    flex-wrap: wrap;
-    height: var(--max-height);
-  }
-
-  main.horizontal article {
-    height: calc(var(--max-height) - 2 * var(--row-height));
-  }
-
-  main article img {
-    object-fit: contain;
-  }
-
-  main.vertical article img {
-    max-height: inherit;
-    width: auto;
-  }
-
-  main.horizontal article img {
-    position: absolute;
-    left: 100%;
-    top: 50%;
-    transform: translate(-100%, -50%);
-    height: 100%;
-    width: auto;
-  }
-
-  main.vertical p:first-child {
-    max-height: var(--max-height);
-  }
-
-  main.horizontal p:first-child {
-    flex: 1;
-    position: relative;
-    width: 100%;
-  }
-
-  main.vertical article p:first-child {
-    margin-left: auto;
-    order: 99;
-  }
-
-  main.vertical article p:not(:first-child) {
-    width: 49%;
-  }
-
-  main.horizontal article p {
-    align-self: end;
-    text-align: end;
-  }
-}
-
-@media (max-aspect-ratio: 4/3) and (max-width: 1099px) {
-  :root {
-    --max-width: min(600px, 100vw)
-  }
-
-  html {
-    height: 100%;
-  }
-
-  main {
-    border: calc((100vw - var(--max-width) - 2 * var(--row-height)) / 2) solid #222;
-    border-top: 0;
-    border-bottom: 0;
-    min-height: calc(var(--unit-100vh) - 2 * var(--row-height));
-  }
-
-  /*
-  main {
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
-  }
-*/
-
-  main article {
-    display: flex;
-    flex-flow: column;
-  }
-
-  main article img {
-    max-width: 100%;
-    height: auto;
-  }
-
-  main article p {
-    margin-top: 1rem;
+    .key {
+      border-color: #fefefe;
+    }
   }
 }

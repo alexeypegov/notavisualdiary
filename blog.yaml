@@ -20,10 +20,11 @@ general:
     - static/favicon.ico
 
 vars:
+  version: 1
   blog-title: (not) a visual diary
   blog-url: https://www.alexeypegov.com
   feed-url: https://www.alexeypegov.com/atom.xml
   feed-author: Alexey Pegov
   feed-email: iam@alexeypegov.com
-  description: 'Alexey Pegov film photography: a bunch of random analog images'
-  keywords: 'pegov,leica,film,analog,black and white,alexey pegov,35mm,photography'
+  description: "Alexey Pegov film photography: a bunch of random analog images"
+  keywords: "pegov,leica,film,analog,black and white,alexey pegov,35mm,photography"

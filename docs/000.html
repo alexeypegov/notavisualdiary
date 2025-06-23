@@ -22,26 +22,20 @@
     <link rel="alternate" type="application/atom+xml" title="All images" href="https://www.alexeypegov.com/atom.xml">
     <link rel="stylesheet" type="text/css" href="styles/styles.css">
 
-    <script src="js/app.js?seed=191810"></script>
+    <script src="js/pic.js?seed=1"></script>
+    <script src="js/swiped-events.min.js?seed=1"></script>
+    <script src="js/app.js?seed=1"></script>
   </head>
 <body>
 
-<main class="vertical" data-prev="087" data-next="001">
-  <header>
-    <a href="/">(not) a visual diary</a> · <a href="000.html"/>about</a> · <a href="/atom.xml"/>rss</a> · 1 of 88 ·       <a href="087.html">start over</a>
- 
-  </header>
-  <article>
-    <p><img src="images/000-about.webp" alt="Me, 2023" loading="lazy" width="667" height="1000" srcset="images/000-about@2x.webp 2x" /></p>
-<p>Hello there!</p>
-<p>I'm Alexey Pegov, and this website showcases my photography work. However, if you're looking for something different, I also have dedicated spaces for my <a href="https://pegov.dev">professional work</a> and <a href="https://fm.alexeypegov.com">blog</a> (which is in Russian).</p>
-<p>Over the past two decades, I've found immense enjoyment in software development.</p>
-<p>In addition to my passion for coding, I have a deep love for capturing moments on black and white film with vintage cameras, including one from the 1960s and another from the early 1980s.</p>
-<p>I hope you have an enjoyable experience while visiting my site.</p>
-<p>iam[at]alexeypegov.com</p>
-<p>2023</p>
-
-  </article>
+<main id="wrapper" class="" data-prev="087" data-next="001">
+  <div class="overlay" style="display: none">
+    <div class="content">
+      <div class="title">about</div>
+      <div class="help">Use <span class="key">&lt;</span> / <span class="key">&gt;</span> / <span class="key">i</span> or <span class="swiping">👆</span></div>
+    </div>
+  </div>
+  <custom-pic src="images/000-about@2x.webp"/>
 </main>
 </body>
 </html>

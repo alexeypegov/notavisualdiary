@@ -1,23 +1,14 @@
 <#setting locale="en_US">
 <#setting date_format="dd MMMM yyyy">
 
-<#assign class=orientation!"horizontal">
 <#assign parsed=date?date("yyyy-MM-dd")>
 
-<main class="${class}" data-prev="${prev!""}" data-next="${next!""}">
-  <header>
-    <#assign next_link>
-      <#if next == slug>
-      previous
-      <#elseif index == 1>
-      <a href="${prev}.html">start over</a>
-      <#else>
-      <a href="${prev}.html">previous</a>
-      </#if>
-    </#assign>
-    <a href="/">${vars.blog_title}</a> · <a href="000.html"/>about</a> · <a href="/atom.xml"/>rss</a> · ${index} of ${count} · ${next_link} 
-  </header>
-  <article>
-    ${body}
-  </article>
+<main id="wrapper" class="${bg!""}" data-prev="${prev!""}" data-next="${next!""}">
+  <div class="overlay" style="display: none">
+    <div class="content">
+      <div class="title">${title}</div>
+      <div class="help">Use <span class="key">&lt;</span> / <span class="key">&gt;</span> / <span class="key">i</span> or <span class="swiping">👆</span></div>
+    </div>
+  </div>
+  <custom-pic src="${image}"/>
 </main>
