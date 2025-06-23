@@ -37,8 +37,8 @@ document.addEventListener("DOMContentLoaded", function () {
     overlay.style.display = overlay.style.display === "none" ? "block" : "none";
   };
 
-  document.addEventListener("swiped-left", f("next"));
-  document.addEventListener("swiped-right", f("prev"));
+  document.addEventListener("swiped-left", f("prev"));
+  document.addEventListener("swiped-right", f("next"));
   document.addEventListener("left", f("prev"));
   document.addEventListener("right", f("next"));
 
