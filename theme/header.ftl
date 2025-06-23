@@ -4,6 +4,11 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1, viewport-fit=cover">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <#if bg?? && bg == "dark">
+    <meta name="theme-color" content="#1a1a1a">
+    <#else>
+    <meta name="theme-color" content="#f8f8f8">
+    </#if>
 
     <link rel="index" id="link-index" href="${vars.blog_url}">
     <title>${title} - ${vars.blog_title}</title>
