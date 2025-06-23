@@ -27,7 +27,7 @@
 
     <#if prev??>
     <link rel="prefetch" href="${prev}.html">
-    <link rel="prefetch" href="${prev}@2x.webp">
+    <link rel="prefetch" href="images/${prev}@2x.webp">
     </#if>
 
     <script src="js/pic.js?seed=${vars.version}"></script>
