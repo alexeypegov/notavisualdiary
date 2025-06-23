@@ -25,7 +25,7 @@ html {
 
 main {
   box-sizing: border-box;
-  height: 100vh;
+  height: 100dvh;
   background-color: #f8f8f8;
   position: relative;
 
@@ -60,7 +60,7 @@ main {
       gap: 1rem;
 
       box-sizing: border-box;
-      height: 100dvh;
+      height: 100%;
       padding: 1rem;
 
       font-size: 2rem;
