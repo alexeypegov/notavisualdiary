@@ -27,9 +27,7 @@
 
     <#if prev??>
     <link rel="prefetch" href="${prev}.html">
-    </#if>
-    <#if next??>
-    <link rel="prefetch" href="${next}.html">
+    <link rel="prefetch" href="${prev}@2x.webp">
     </#if>
 
     <script src="js/pic.js?seed=${vars.version}"></script>
