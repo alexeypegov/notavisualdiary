@@ -1,27 +1,23 @@
 document.addEventListener("DOMContentLoaded", function () {
   document.addEventListener("keydown", (e) => {
     if (e.key === "ArrowRight") {
-      document.dispatchEvent(
-        new CustomEvent("right", {
-          detail: { direction: "right" },
-        }),
-      );
+      document.dispatchEvent(new CustomEvent("right"));
     }
 
     if (e.key === "ArrowLeft") {
-      document.dispatchEvent(
-        new CustomEvent("left", {
-          detail: { direction: "left" },
-        }),
-      );
+      document.dispatchEvent(new CustomEvent("left"));
     }
 
     if (e.code === "Space") {
-      document.dispatchEvent(new CustomEvent("info"));
+      document.dispatchEvent(new CustomEvent("right"));
     }
 
-    if (e.code === "KeyB") {
-      document.dispatchEvent(new CustomEvent("toggle-dark"));
+    if (e.code === "KeyT") {
+      document.dispatchEvent(new CustomEvent("theme"));
+    }
+    
+    if (e.code === "KeyI" || e.key === "Enter") {
+      document.dispatchEvent(new CustomEvent("info"));
     }
   });
 
@@ -54,5 +50,5 @@ document.addEventListener("DOMContentLoaded", function () {
   document.addEventListener("click", info);
   document.addEventListener("info", info);
 
-  document.addEventListener("toggle-dark", dark);
+  document.addEventListener("theme", dark);
 });

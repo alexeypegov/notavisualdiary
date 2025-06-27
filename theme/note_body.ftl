@@ -6,8 +6,9 @@
 <main id="wrapper" class="${bg!""}" data-prev="${prev!""}" data-next="${next!""}">
   <div class="overlay" style="display: none">
     <div class="content">
+      <div class="author">${vars.blog_title}</div>
       <div class="title">${title}</div>
-      <div class="help">Use <span class="key">&lt;</span> / <span class="key">&gt;</span> / <span class="key">⎵</span> or <span class="swiping">👆</span></div>
+      <div class="help">Use <span class="key">&lt;</span> / <span class="key">&gt;</span> / <span class="key">i</span> or <span class="swiping">👆</span></div>
     </div>
   </div>
   <custom-pic src="${image}"/>
