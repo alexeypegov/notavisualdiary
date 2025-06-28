@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
       document.dispatchEvent(new CustomEvent("left"));
     }
 
-    if (e.code === "Space") {
+    if (e.code === "Enter") {
       document.dispatchEvent(new CustomEvent("right"));
     }
 
@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
       document.dispatchEvent(new CustomEvent("theme"));
     }
     
-    if (e.code === "KeyI" || e.key === "Enter") {
+    if (e.code === "KeyI" || e.code === "Space") {
       document.dispatchEvent(new CustomEvent("info"));
     }
   });

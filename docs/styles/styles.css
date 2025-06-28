@@ -57,10 +57,7 @@ main {
     top: 0;
     bottom: 0;
 
-    background: rgba(255, 255, 255, 0.2);
-    backdrop-filter: blur(100px);
-
-    color: #1e1e1e;
+    backdrop-filter: blur(100px) invert(0.2);
 
     .content {
       display: flex;
@@ -74,6 +71,7 @@ main {
       text-align: center;
 
       font-size: 2rem;
+      color: #fefefe;
 
       .key {
         display: inline-block;
@@ -97,14 +95,5 @@ main {
 
   &.dark {
     background-color: #1a1a1a;
-    color: #fefefe;
-
-    .key {
-      border-color: #fefefe;
-    }
-
-    .overlay {
-      color: #fefefe;
-    }
   }
 }
