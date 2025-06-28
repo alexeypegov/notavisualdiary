@@ -8,7 +8,7 @@
     <div class="content">
       <div class="author">${vars.blog_title}</div>
       <div class="title">${title}</div>
-      <div class="help">Use <span class="key">&lt;</span> / <span class="key">&gt;</span> / <span class="key">i</span> or <span class="swiping">👆</span></div>
+      <div class="help">Use <span class="key">&lt;</span> / <span class="key">&gt;</span> / <span class="key">i</span> / <span class="key">t</span> or <span class="swiping">👆</span></div>
     </div>
   </div>
   <custom-pic src="${image}"/>
