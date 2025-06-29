@@ -8,15 +8,18 @@ customElements.define(
     }
 
     static get observedAttributes() {
-      return ["url"];
+      return ["url", "srcset"];
     }
 
-    async loadImage(url) {
+    async loadImage(src, srcset) {
       let result;
       await new Promise((resolve) => {
         result = new Image();
         result.onload = resolve;
-        result.src = url;
+        result.src = src;
+        if (srcset) {
+          result.srcset = srcset;
+        }
       });
 
       return result;
@@ -24,7 +27,8 @@ customElements.define(
 
     connectedCallback() {
       const src = this.getAttribute("src");
-      this.loadImage(src).then((image) => {
+      const srcset = this.getAttribute("srcset");
+      this.loadImage(src, srcset).then((image) => {
         const imageSize = this.getNativeSize(image);
         var sheet = new CSSStyleSheet();
         sheet.replaceSync(`
@@ -62,10 +66,9 @@ customElements.define(
     }
 
     getNativeSize(image) {
-      const dpr = window.devicePixelRatio || 1;
       return {
-        width: Math.floor(image.naturalWidth / dpr),
-        height: Math.floor(image.naturalHeight / dpr),
+        width: image.naturalWidth,
+        height: image.naturalHeight,
       };
     }
 

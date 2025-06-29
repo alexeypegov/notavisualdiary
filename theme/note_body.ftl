@@ -11,5 +11,5 @@
       <div class="help"><span class="key">&lt;</span> <span class="key">&gt;</span> <span class="key">i</span> <span class="key">t</span> / <span class="swiping">👆</span></div>
     </div>
   </div>
-  <custom-pic src="${image}"/>
+  <custom-pic src="${image?replace("@2x", "")}" srcset="${image?replace("@2x", "")} 1x, ${image} 2x"/>
 </main>

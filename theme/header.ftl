@@ -32,7 +32,7 @@
 
     <#if prev??>
     <link rel="prefetch" href="${prev}.html">
-    <link rel="prefetch" href="images/${prev}@2x.webp">
+    <link rel="preload" href="images/${prev}.webp" as="image" type="image/webp" imagesrcset="images/${prev}.webp 1x, images/${prev}@2x.webp 2x">
     </#if>
 
     <script src="js/pic.js?seed=${vars.version}"></script>
