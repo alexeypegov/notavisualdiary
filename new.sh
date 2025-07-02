@@ -11,12 +11,9 @@ cat <<EOL > "${filename}"
 ---
 Title:
 Date: $(date +'%Y-%m-%d')
-Orientation: vertical
-Cover: images/$prefixed_number-.webp
+Cover: images/$prefixed_number.webp
+Image: images/$prefixed_number@2x.webp
 ---
-
-![](images/$prefixed_number-@2x.webp)
-
 EOL
 
 echo "$filename has been created"
