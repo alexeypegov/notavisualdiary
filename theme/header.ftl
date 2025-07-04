@@ -22,6 +22,7 @@
     <meta property="og:description" content="${vars.description}">
     <meta property="og:title" content="${title}">
     <meta property="og:url" content="${vars.blog_url + link}">
+    <meta name="auto-transition-duration" content="${vars.auto_transition_duration?c}">
     <#if cover??>
     <meta property="og:image" content="${vars.blog_url + "/" + cover}"/>
     </#if>

@@ -20,7 +20,7 @@ general:
     - static/favicon.ico
 
 vars:
-  version: 7
+  version: 8
   blog-title: (not) a visual diary
   blog-author: Alexey Pegov
   blog-url: https://www.alexeypegov.com
@@ -29,3 +29,4 @@ vars:
   feed-email: iam@alexeypegov.com
   description: "Alexey Pegov film photography: a bunch of random analog images"
   keywords: "pegov,leica,film,analog,black and white,alexey pegov,35mm,photography"
+  auto-transition-duration: 5000
