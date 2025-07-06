@@ -5,6 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
   let pausedElapsed = 0;
   let animationFrame = null;
   const TRANSITION_DURATION = parseInt(document.querySelector('meta[name="auto-transition-duration"]')?.content) || 3000;
+  const TIMEOUT_DURATION = 5 * 60 * 1000; // 5 minutes in milliseconds
 
   const isAutoTransitionEnabled = () => {
     return isDesktop && localStorage.getItem('autoTransition') === 'true';
@@ -16,6 +17,11 @@ document.addEventListener("DOMContentLoaded", function () {
     } else {
       localStorage.removeItem('autoTransition');
     }
+  };
+
+  const isTransitionTimedOut = () => {
+    if (!autoTransitionStartTime) return false;
+    return Date.now() - autoTransitionStartTime > TIMEOUT_DURATION;
   };
 
 
@@ -135,7 +141,12 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
   if (isAutoTransitionEnabled()) {
-    startAutoTransition();
+    if (isTransitionTimedOut()) {
+      console.warn('Auto-transition timed out (5 minutes exceeded), disabling auto-transition');
+      setAutoTransition(false);
+    } else {
+      startAutoTransition();
+    }
   }
 
 
