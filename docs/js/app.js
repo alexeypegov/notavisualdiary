@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
   let pausedElapsed = 0;
   let animationFrame = null;
   const TRANSITION_DURATION = parseInt(document.querySelector('meta[name="auto-transition-duration"]')?.content) || 3000;
-  const TIMEOUT_DURATION = 5 * 60 * 1000; // 5 minutes in milliseconds
+  const TIMEOUT_DURATION = 20 * 1000; // 20 seconds in milliseconds
 
   const isAutoTransitionEnabled = () => {
     return isDesktop && localStorage.getItem('autoTransition') === 'true';
@@ -19,9 +19,10 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   };
 
-  const isTransitionTimedOut = () => {
-    if (!autoTransitionStartTime) return false;
-    return Date.now() - autoTransitionStartTime > TIMEOUT_DURATION;
+  const isAutoTransitionTimedOut = () => {
+    const lastAutoTransitionStartTime = localStorage.getItem('autoTransitionStartTime');
+    if (!lastAutoTransitionStartTime) return false;
+    return Date.now() - lastAutoTransitionStartTime > TIMEOUT_DURATION;
   };
 
 
@@ -59,6 +60,8 @@ document.addEventListener("DOMContentLoaded", function () {
     }
     
     autoTransitionStartTime = Date.now();
+    localStorage.setItem('autoTransitionStartTime', autoTransitionStartTime);
+
     const remainingTime = TRANSITION_DURATION - pausedElapsed;
     
     updateProgressBar();
@@ -81,7 +84,8 @@ document.addEventListener("DOMContentLoaded", function () {
     if (!isDesktop) return;
 
     setAutoTransition(false);
-    
+    localStorage.removeItem('autoTransitionStartTime');
+        
     if (autoTransitionStartTime) {
       pausedElapsed += Date.now() - autoTransitionStartTime;
       autoTransitionStartTime = null;
@@ -105,8 +109,6 @@ document.addEventListener("DOMContentLoaded", function () {
       startAutoTransition();
     }
   };
-
-
 
   document.addEventListener("keydown", (e) => {
     if (e.key === "ArrowRight") {
@@ -141,14 +143,13 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
   if (isAutoTransitionEnabled()) {
-    if (isTransitionTimedOut()) {
+    if (isAutoTransitionTimedOut()) {
       console.warn('Auto-transition timed out (5 minutes exceeded), disabling auto-transition');
       setAutoTransition(false);
     } else {
       startAutoTransition();
     }
   }
-
 
   const f = function (id) {
     return function () {
