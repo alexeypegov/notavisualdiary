@@ -32,7 +32,7 @@ body {
 main {
   box-sizing: border-box;
   height: 100dvh;
-  background-color: #f8f8f8;
+  background-color: #fefefa;
   position: relative;
 
   display: flex;

@@ -144,7 +144,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   if (isAutoTransitionEnabled()) {
     if (isAutoTransitionTimedOut()) {
-      console.warn('Auto-transition timed out (5 minutes exceeded), disabling auto-transition');
+      console.warn('Auto-transition timed out (20 seconds exceeded), disabling auto-transition');
       setAutoTransition(false);
     } else {
       startAutoTransition();
