@@ -7,7 +7,7 @@
     <#if bg?? && bg == "dark">
     <meta name="theme-color" content="#1a1a1a">
     <#else>
-    <meta name="theme-color" content="#f8f8f8">
+    <meta name="theme-color" content="#fefefa">
     </#if>
 
     <link rel="index" id="link-index" href="${vars.blog_url}">
