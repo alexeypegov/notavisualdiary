@@ -4,7 +4,22 @@
   <link href="https://www.alexeypegov.com/atom.xml" rel="self" />
   <link href="https://www.alexeypegov.com" />
   <id>https://www.alexeypegov.com/</id>
-  <updated>2025-07-15T00:00:00+00:00</updated>
+  <updated>2025-07-20T00:00:00+00:00</updated>
+    <entry>
+      <title><![CDATA[ice cream, 2025]]></title>
+      <link href="https://www.alexeypegov.com/091.html" />
+      <id>urn:uuid:e8ed2bb3-de65-36ed-bb12-f0f20ff95253</id>
+      <updated>2025-07-20T00:00:00+00:00</updated>
+      <content type="html">
+	<![CDATA[
+        <img src="https://www.alexeypegov.com/images/091.webp"/>
+	]]>
+      </content>
+      <author>
+        <name>Alexey Pegov</name>
+        <email>iam@alexeypegov.com</email>
+      </author>
+    </entry>
     <entry>
       <title><![CDATA[nowhere in between, 2024]]></title>
       <link href="https://www.alexeypegov.com/090.html" />
@@ -133,21 +148,6 @@
       <content type="html">
 	<![CDATA[
         <img src="https://www.alexeypegov.com/images/082.webp"/>
-	]]>
-      </content>
-      <author>
-        <name>Alexey Pegov</name>
-        <email>iam@alexeypegov.com</email>
-      </author>
-    </entry>
-    <entry>
-      <title><![CDATA[sasha & tanya, 2024]]></title>
-      <link href="https://www.alexeypegov.com/081.html" />
-      <id>urn:uuid:2efe2706-9fcf-34a0-a6a5-3a13e6d461e3</id>
-      <updated>2025-03-13T00:00:00+00:00</updated>
-      <content type="html">
-	<![CDATA[
-        <img src="https://www.alexeypegov.com/images/081.webp"/>
 	]]>
       </content>
       <author>
