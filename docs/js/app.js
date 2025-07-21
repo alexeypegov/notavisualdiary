@@ -1,9 +1,27 @@
 document.addEventListener("DOMContentLoaded", function () {
   const isDesktop = !('ontouchstart' in window);
+  
+  const isTVBrowser = () => {
+    const userAgent = navigator.userAgent.toLowerCase();
+    
+    return userAgent.includes('smart-tv') || 
+           userAgent.includes('tizen') || 
+           userAgent.includes('webos') || 
+           userAgent.includes('netcast') || 
+           userAgent.includes('tv') || 
+           userAgent.includes('smarttv') || 
+           userAgent.includes('bravia') || 
+           userAgent.includes('googletv') || 
+           userAgent.includes('appletv') ||
+           (userAgent.includes('samsung') && userAgent.includes('tv')) ||
+           (userAgent.includes('lg') && userAgent.includes('browser'));
+  };
+
   let autoTransitionTimer = null;
   let autoTransitionStartTime = null;
   let pausedElapsed = 0;
   let animationFrame = null;
+
   const TRANSITION_DURATION = parseInt(document.querySelector('meta[name="auto-transition-duration"]')?.content) || 3000;
   const TIMEOUT_DURATION = 20 * 1000; // 20 seconds in milliseconds
 
@@ -111,6 +129,10 @@ document.addEventListener("DOMContentLoaded", function () {
   };
 
   document.addEventListener("keydown", (e) => {
+    if (e.altKey || e.ctrlKey || e.metaKey) {
+      return;
+    }
+    
     if (e.key === "ArrowRight") {
       document.dispatchEvent(new CustomEvent("stop-auto"));
       document.dispatchEvent(new CustomEvent("right"));
@@ -172,12 +194,20 @@ document.addEventListener("DOMContentLoaded", function () {
     main.classList.toggle('dark');
   };
 
+  const click = function() {
+    if (isTVBrowser()) {
+      toggleAutoTransition();
+    } else {
+      info();
+    }
+  };
+
   document.addEventListener("swiped-left", f("prev"));
   document.addEventListener("swiped-right", f("next"));
   document.addEventListener("left", f("next"));
   document.addEventListener("right", f("prev"));
 
-  document.addEventListener("click", info);
+  document.addEventListener("click", click);
   document.addEventListener("info", info);
 
   document.addEventListener("theme", dark);
