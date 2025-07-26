@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function () {
   let autoTransitionTimer = null;
   let autoTransitionStartTime = null;
   let pausedElapsed = 0;
-  let animationFrame = null;
+  let updateTimer = null;
 
   const TRANSITION_DURATION = parseInt(document.querySelector('meta[name="auto-transition-duration"]')?.content) || 3000;
   const TIMEOUT_DURATION = 20 * 1000; // 20 seconds in milliseconds
@@ -49,19 +49,19 @@ document.addEventListener("DOMContentLoaded", function () {
     return overlay && overlay.style.display !== 'none';
   };
 
-  const updateProgressBar = () => {
+  const updateProgressIndicator = () => {
     if (!autoTransitionStartTime) return;
     
     const elapsed = Date.now() - autoTransitionStartTime + pausedElapsed;
     const progress = Math.min(elapsed / TRANSITION_DURATION, 1);
     
-    const progressBar = document.querySelector('.progress-bar');
-    if (progressBar) {
-      progressBar.style.width = (progress * 100) + '%';
-    }
+    const chars = ['█', '▙', '▌', '▘', ''];
+    const charIndex = Math.floor(progress * chars.length);
+    const char = chars[Math.min(charIndex, chars.length - 1)];
     
-    if (progress < 1) {
-      animationFrame = requestAnimationFrame(updateProgressBar);
+    const indicator = document.querySelector('.progress-indicator');
+    if (indicator) {
+      indicator.textContent = char;
     }
   };
 
@@ -73,8 +73,15 @@ document.addEventListener("DOMContentLoaded", function () {
     if (autoTransitionTimer) {
       clearTimeout(autoTransitionTimer);
     }
-    if (animationFrame) {
-      cancelAnimationFrame(animationFrame);
+    if (updateTimer) {
+      clearInterval(updateTimer);
+    }
+    
+    // Show and reset indicator
+    const indicator = document.querySelector('.progress-indicator');
+    if (indicator) {
+      indicator.style.display = 'block';
+      indicator.textContent = '█';
     }
     
     autoTransitionStartTime = Date.now();
@@ -82,16 +89,17 @@ document.addEventListener("DOMContentLoaded", function () {
 
     const remainingTime = TRANSITION_DURATION - pausedElapsed;
     
-    updateProgressBar();
+    updateProgressIndicator();
+    updateTimer = setInterval(updateProgressIndicator, 100);
     
     autoTransitionTimer = setTimeout(() => {
-      if (animationFrame) {
-        cancelAnimationFrame(animationFrame);
-        animationFrame = null;
+      if (updateTimer) {
+        clearInterval(updateTimer);
+        updateTimer = null;
       }
-      const progressBar = document.querySelector('.progress-bar');
-      if (progressBar) {
-        progressBar.style.width = '0%';
+      const indicator = document.querySelector('.progress-indicator');
+      if (indicator) {
+        indicator.textContent = '█';
       }
       pausedElapsed = 0;
       document.dispatchEvent(new CustomEvent("right"));
@@ -114,9 +122,14 @@ document.addEventListener("DOMContentLoaded", function () {
       autoTransitionTimer = null;
     }
     
-    if (animationFrame) {
-      cancelAnimationFrame(animationFrame);
-      animationFrame = null;
+    if (updateTimer) {
+      clearInterval(updateTimer);
+      updateTimer = null;
+    }
+    
+    const indicator = document.querySelector('.progress-indicator');
+    if (indicator) {
+      indicator.style.display = 'none';
     }
   };
 
@@ -171,6 +184,12 @@ document.addEventListener("DOMContentLoaded", function () {
     } else {
       startAutoTransition();
     }
+  }
+  
+  // Initialize indicator
+  const indicator = document.querySelector('.progress-indicator');
+  if (indicator && !isAutoTransitionEnabled()) {
+    indicator.style.display = 'none';
   }
 
   const f = function (id) {

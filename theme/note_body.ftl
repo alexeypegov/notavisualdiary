@@ -4,7 +4,7 @@
 <#assign parsed=date?date("yyyy-MM-dd")>
 
 <main id="wrapper" class="${bg!""}" data-prev="${prev!""}" data-next="${next!""}">
-  <div class="progress-bar"></div>
+  <div class="progress-indicator">█</div>
   <div class="overlay" style="display: none">
     <div class="content">
       <div class="author">${vars.blog_title}</div>
