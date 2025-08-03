@@ -9,7 +9,7 @@
     <div class="content">
       <div class="author">${vars.blog_title}</div>
       <div class="title">${title}</div>
-      <div class="help"><span class="key">_</span> <span class="key">↵</span> <span class="key">←</span> <span class="key">→</span> <span class="key">i</span> <span class="key">t</span> / <span class="swiping">👆</span></div>
+      <div class="help"><span class="key">_</span> <span class="key">↵</span> <span class="key">←</span> <span class="key">→</span> <span class="key">t</span> / <span class="swiping">👆</span></div>
     </div>
   </div>
   <custom-pic src="${image?replace("@2x", "")}" srcset="${image?replace("@2x", "")} 1x, ${image} 2x"/>
