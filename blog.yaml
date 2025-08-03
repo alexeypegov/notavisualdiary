@@ -20,7 +20,7 @@ general:
     - static/favicon.ico
 
 vars:
-  version: 13
+  version: 14
   blog-title: (not) a visual diary
   blog-author: Alexey Pegov
   blog-url: https://www.alexeypegov.com

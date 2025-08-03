@@ -156,23 +156,18 @@ document.addEventListener("DOMContentLoaded", function () {
       document.dispatchEvent(new CustomEvent("left"));
     }
 
-    if (e.code === "Enter") {
-      document.dispatchEvent(new CustomEvent("stop-auto"));
-      document.dispatchEvent(new CustomEvent("right"));
-    }
-
     if (e.code === "KeyT") {
       document.dispatchEvent(new CustomEvent("stop-auto"));
       document.dispatchEvent(new CustomEvent("theme"));
     }
     
-    if (e.code === "KeyI") {
+    if (e.code === "Space") {
       document.dispatchEvent(new CustomEvent("stop-auto"));
       document.dispatchEvent(new CustomEvent("info"));
     }
 
 
-    if (e.code === "Space") {
+    if (e.code === "Enter") {
       document.dispatchEvent(new CustomEvent("toggle-auto"))
     }
   });
