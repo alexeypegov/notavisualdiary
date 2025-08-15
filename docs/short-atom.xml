@@ -4,7 +4,13 @@
   <link href="https://www.alexeypegov.com/short-atom.xml" rel="self" />
   <link href="https://www.alexeypegov.com" />
   <id>https://www.alexeypegov.com/</id>
-  <updated>2025-08-02T00:00:00+00:00</updated>
+  <updated>2025-08-15T00:00:00+00:00</updated>
+    <entry>
+      <title><![CDATA[the levashovo wasteland, 2021]]></title>
+      <link href="https://www.alexeypegov.com/094.html" />
+      <id>urn:uuid:799fdc3b-e3ad-3f59-8cb1-43731b01b684</id>
+      <updated>2025-08-15T00:00:00+00:00</updated>
+    </entry>
     <entry>
       <title><![CDATA[against the sun, 2025]]></title>
       <link href="https://www.alexeypegov.com/093.html" />
@@ -58,11 +64,5 @@
       <link href="https://www.alexeypegov.com/085.html" />
       <id>urn:uuid:89589f41-9405-31d1-a293-334f6cf1dd5d</id>
       <updated>2025-06-01T00:00:00+00:00</updated>
-    </entry>
-    <entry>
-      <title><![CDATA[sons, 2023]]></title>
-      <link href="https://www.alexeypegov.com/084.html" />
-      <id>urn:uuid:a1760da5-4c18-3dbb-ac8b-1934216f9f43</id>
-      <updated>2025-04-10T00:00:00+00:00</updated>
     </entry>
 </feed>
