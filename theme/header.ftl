@@ -35,6 +35,11 @@
     <link rel="prefetch" href="${prev}.html">
     <link rel="preload" href="images/${prev}.webp" as="image" type="image/webp" imagesrcset="images/${prev}.webp 1x, images/${prev}@2x.webp 2x">
     </#if>
+    
+    <#if next??>
+    <link rel="prefetch" href="${next}.html">
+    <link rel="preload" href="images/${next}.webp" as="image" type="image/webp" imagesrcset="images/${next}.webp 1x, images/${next}@2x.webp 2x">
+    </#if>
 
     <script src="js/pic.js?seed=${vars.version}"></script>
     <script src="js/swiped-events.min.js?seed=${vars.version}"></script>
