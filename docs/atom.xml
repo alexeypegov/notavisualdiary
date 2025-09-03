@@ -4,7 +4,22 @@
   <link href="https://www.alexeypegov.com/atom.xml" rel="self" />
   <link href="https://www.alexeypegov.com" />
   <id>https://www.alexeypegov.com/</id>
-  <updated>2025-08-15T00:00:00+00:00</updated>
+  <updated>2025-09-03T00:00:00+00:00</updated>
+    <entry>
+      <title><![CDATA[neretva, 2025]]></title>
+      <link href="https://www.alexeypegov.com/095.html" />
+      <id>urn:uuid:17e6fb93-f890-3890-aa40-17fa6a8bb420</id>
+      <updated>2025-09-03T00:00:00+00:00</updated>
+      <content type="html">
+	<![CDATA[
+        <img src="https://www.alexeypegov.com/images/095.webp"/>
+	]]>
+      </content>
+      <author>
+        <name>Alexey Pegov</name>
+        <email>iam@alexeypegov.com</email>
+      </author>
+    </entry>
     <entry>
       <title><![CDATA[the levashovo wasteland, 2021]]></title>
       <link href="https://www.alexeypegov.com/094.html" />
@@ -133,21 +148,6 @@
       <content type="html">
 	<![CDATA[
         <img src="https://www.alexeypegov.com/images/086.webp"/>
-	]]>
-      </content>
-      <author>
-        <name>Alexey Pegov</name>
-        <email>iam@alexeypegov.com</email>
-      </author>
-    </entry>
-    <entry>
-      <title><![CDATA[dinosaurs & bubbles, 2025]]></title>
-      <link href="https://www.alexeypegov.com/085.html" />
-      <id>urn:uuid:89589f41-9405-31d1-a293-334f6cf1dd5d</id>
-      <updated>2025-06-01T00:00:00+00:00</updated>
-      <content type="html">
-	<![CDATA[
-        <img src="https://www.alexeypegov.com/images/085.webp"/>
 	]]>
       </content>
       <author>
