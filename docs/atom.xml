@@ -4,7 +4,22 @@
   <link href="https://www.alexeypegov.com/atom.xml" rel="self" />
   <link href="https://www.alexeypegov.com" />
   <id>https://www.alexeypegov.com/</id>
-  <updated>2025-09-03T00:00:00+00:00</updated>
+  <updated>2025-09-12T00:00:00+00:00</updated>
+    <entry>
+      <title><![CDATA[timur, 2025]]></title>
+      <link href="https://www.alexeypegov.com/096.html" />
+      <id>urn:uuid:aada9e7c-3d17-34d0-95d5-7afe60ea0f10</id>
+      <updated>2025-09-12T00:00:00+00:00</updated>
+      <content type="html">
+	<![CDATA[
+        <img src="https://www.alexeypegov.com/images/096.webp"/>
+	]]>
+      </content>
+      <author>
+        <name>Alexey Pegov</name>
+        <email>iam@alexeypegov.com</email>
+      </author>
+    </entry>
     <entry>
       <title><![CDATA[neretva river, 2025]]></title>
       <link href="https://www.alexeypegov.com/095.html" />
@@ -133,21 +148,6 @@
       <content type="html">
 	<![CDATA[
         <img src="https://www.alexeypegov.com/images/087.webp"/>
-	]]>
-      </content>
-      <author>
-        <name>Alexey Pegov</name>
-        <email>iam@alexeypegov.com</email>
-      </author>
-    </entry>
-    <entry>
-      <title><![CDATA[sugar tower, 2025]]></title>
-      <link href="https://www.alexeypegov.com/086.html" />
-      <id>urn:uuid:5705289b-b367-3aea-9d98-201d17206221</id>
-      <updated>2025-06-15T00:00:00+00:00</updated>
-      <content type="html">
-	<![CDATA[
-        <img src="https://www.alexeypegov.com/images/086.webp"/>
 	]]>
       </content>
       <author>
