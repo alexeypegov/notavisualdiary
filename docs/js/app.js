@@ -145,7 +145,7 @@ document.addEventListener("DOMContentLoaded", function () {
     if (e.altKey || e.ctrlKey || e.metaKey) {
       return;
     }
-    
+
     if (e.key === "ArrowRight") {
       document.dispatchEvent(new CustomEvent("stop-auto"));
       document.dispatchEvent(new CustomEvent("right"));
@@ -160,7 +160,12 @@ document.addEventListener("DOMContentLoaded", function () {
       document.dispatchEvent(new CustomEvent("stop-auto"));
       document.dispatchEvent(new CustomEvent("theme"));
     }
-    
+
+    if (e.code === "KeyI") {
+      document.dispatchEvent(new CustomEvent("stop-auto"));
+      document.dispatchEvent(new CustomEvent("info"));
+    }
+
     if (e.code === "Space") {
       document.dispatchEvent(new CustomEvent("stop-auto"));
       document.dispatchEvent(new CustomEvent("info"));
@@ -212,12 +217,15 @@ document.addEventListener("DOMContentLoaded", function () {
     if (isTVBrowser()) {
       toggleAutoTransition();
     } else {
-      info();
+      // Click navigates to prev (next chronological image)
+      f("prev")();
     }
   };
 
   document.addEventListener("swiped-left", f("prev"));
   document.addEventListener("swiped-right", f("next"));
+  document.addEventListener("swiped-up", info);
+  document.addEventListener("swiped-down", info);
   document.addEventListener("left", f("next"));
   document.addEventListener("right", f("prev"));
 
