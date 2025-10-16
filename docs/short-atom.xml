@@ -4,7 +4,13 @@
   <link href="https://www.alexeypegov.com/short-atom.xml" rel="self" />
   <link href="https://www.alexeypegov.com" />
   <id>https://www.alexeypegov.com/</id>
-  <updated>2025-10-15T00:00:00+00:00</updated>
+  <updated>2025-10-16T00:00:00+00:00</updated>
+    <entry>
+      <title><![CDATA[dunav, 2025]]></title>
+      <link href="https://www.alexeypegov.com/100.html" />
+      <id>urn:uuid:e7958d1d-60e7-3976-8b0d-850f164ddb3a</id>
+      <updated>2025-10-16T00:00:00+00:00</updated>
+    </entry>
     <entry>
       <title><![CDATA[flowers, 2021]]></title>
       <link href="https://www.alexeypegov.com/099.html" />
@@ -58,11 +64,5 @@
       <link href="https://www.alexeypegov.com/091.html" />
       <id>urn:uuid:e8ed2bb3-de65-36ed-bb12-f0f20ff95253</id>
       <updated>2025-07-20T00:00:00+00:00</updated>
-    </entry>
-    <entry>
-      <title><![CDATA[nowhere in between, 2024]]></title>
-      <link href="https://www.alexeypegov.com/090.html" />
-      <id>urn:uuid:7fd30956-42e0-377e-bd80-2a12fcddf4c3</id>
-      <updated>2025-07-15T00:00:00+00:00</updated>
     </entry>
 </feed>
