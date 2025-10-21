@@ -4,7 +4,22 @@
   <link href="https://www.alexeypegov.com/atom.xml" rel="self" />
   <link href="https://www.alexeypegov.com" />
   <id>https://www.alexeypegov.com/</id>
-  <updated>2025-10-16T00:00:00+00:00</updated>
+  <updated>2025-10-21T00:00:00+00:00</updated>
+    <entry>
+      <title><![CDATA[small leaves, 2021]]></title>
+      <link href="https://www.alexeypegov.com/101.html" />
+      <id>urn:uuid:2a1142f9-3b64-3134-a913-fcc1f2d11c24</id>
+      <updated>2025-10-21T00:00:00+00:00</updated>
+      <content type="html">
+	<![CDATA[
+        <img src="https://www.alexeypegov.com/images/101.webp"/>
+	]]>
+      </content>
+      <author>
+        <name>Alexey Pegov</name>
+        <email>iam@alexeypegov.com</email>
+      </author>
+    </entry>
     <entry>
       <title><![CDATA[dunav, 2024]]></title>
       <link href="https://www.alexeypegov.com/100.html" />
@@ -133,21 +148,6 @@
       <content type="html">
 	<![CDATA[
         <img src="https://www.alexeypegov.com/images/092.webp"/>
-	]]>
-      </content>
-      <author>
-        <name>Alexey Pegov</name>
-        <email>iam@alexeypegov.com</email>
-      </author>
-    </entry>
-    <entry>
-      <title><![CDATA[ice cream, 2025]]></title>
-      <link href="https://www.alexeypegov.com/091.html" />
-      <id>urn:uuid:e8ed2bb3-de65-36ed-bb12-f0f20ff95253</id>
-      <updated>2025-07-20T00:00:00+00:00</updated>
-      <content type="html">
-	<![CDATA[
-        <img src="https://www.alexeypegov.com/images/091.webp"/>
 	]]>
       </content>
       <author>
