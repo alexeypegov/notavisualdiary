@@ -29,7 +29,7 @@
 
     <link rel="shortcut icon" type="image/ico" href="favicon.ico">
     <link rel="alternate" type="application/atom+xml" title="All images" href="${vars.feed_url}">
-    <link rel="stylesheet" type="text/css" href="styles/styles.css">
+    <link rel="stylesheet" type="text/css" href="styles/styles.css?seed=${vars.version}">
 
     <#if prev??>
     <link rel="prefetch" href="${prev}.html">
