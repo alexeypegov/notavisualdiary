@@ -4,7 +4,22 @@
   <link href="https://www.alexeypegov.com/atom.xml" rel="self" />
   <link href="https://www.alexeypegov.com" />
   <id>https://www.alexeypegov.com/</id>
-  <updated>2025-11-02T00:00:00+00:00</updated>
+  <updated>2025-11-07T00:00:00+00:00</updated>
+    <entry>
+      <title><![CDATA[waters, 2021]]></title>
+      <link href="https://www.alexeypegov.com/105.html" />
+      <id>urn:uuid:e21459a4-3e6e-34f0-a908-02e43cf5dbc0</id>
+      <updated>2025-11-07T00:00:00+00:00</updated>
+      <content type="html">
+	<![CDATA[
+        <img src="https://www.alexeypegov.com/images/105.webp"/>
+	]]>
+      </content>
+      <author>
+        <name>Alexey Pegov</name>
+        <email>iam@alexeypegov.com</email>
+      </author>
+    </entry>
     <entry>
       <title><![CDATA[boy at the balcony 2, 2025]]></title>
       <link href="https://www.alexeypegov.com/104.html" />
@@ -133,21 +148,6 @@
       <content type="html">
 	<![CDATA[
         <img src="https://www.alexeypegov.com/images/096.webp"/>
-	]]>
-      </content>
-      <author>
-        <name>Alexey Pegov</name>
-        <email>iam@alexeypegov.com</email>
-      </author>
-    </entry>
-    <entry>
-      <title><![CDATA[neretva river, 2025]]></title>
-      <link href="https://www.alexeypegov.com/095.html" />
-      <id>urn:uuid:17e6fb93-f890-3890-aa40-17fa6a8bb420</id>
-      <updated>2025-09-03T00:00:00+00:00</updated>
-      <content type="html">
-	<![CDATA[
-        <img src="https://www.alexeypegov.com/images/095.webp"/>
 	]]>
       </content>
       <author>

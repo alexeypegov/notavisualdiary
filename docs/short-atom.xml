@@ -4,7 +4,13 @@
   <link href="https://www.alexeypegov.com/short-atom.xml" rel="self" />
   <link href="https://www.alexeypegov.com" />
   <id>https://www.alexeypegov.com/</id>
-  <updated>2025-11-02T00:00:00+00:00</updated>
+  <updated>2025-11-07T00:00:00+00:00</updated>
+    <entry>
+      <title><![CDATA[waters, 2021]]></title>
+      <link href="https://www.alexeypegov.com/105.html" />
+      <id>urn:uuid:e21459a4-3e6e-34f0-a908-02e43cf5dbc0</id>
+      <updated>2025-11-07T00:00:00+00:00</updated>
+    </entry>
     <entry>
       <title><![CDATA[boy at the balcony 2, 2025]]></title>
       <link href="https://www.alexeypegov.com/104.html" />
@@ -58,11 +64,5 @@
       <link href="https://www.alexeypegov.com/096.html" />
       <id>urn:uuid:aada9e7c-3d17-34d0-95d5-7afe60ea0f10</id>
       <updated>2025-09-12T00:00:00+00:00</updated>
-    </entry>
-    <entry>
-      <title><![CDATA[neretva river, 2025]]></title>
-      <link href="https://www.alexeypegov.com/095.html" />
-      <id>urn:uuid:17e6fb93-f890-3890-aa40-17fa6a8bb420</id>
-      <updated>2025-09-03T00:00:00+00:00</updated>
     </entry>
 </feed>
