@@ -4,7 +4,13 @@
   <link href="https://www.alexeypegov.com/short-atom.xml" rel="self" />
   <link href="https://www.alexeypegov.com" />
   <id>https://www.alexeypegov.com/</id>
-  <updated>2025-11-07T00:00:00+00:00</updated>
+  <updated>2025-11-29T00:00:00+00:00</updated>
+    <entry>
+      <title><![CDATA[hands & hairs, 2025]]></title>
+      <link href="https://www.alexeypegov.com/106.html" />
+      <id>urn:uuid:e7b70f01-a933-301a-b396-e14f011a124d</id>
+      <updated>2025-11-29T00:00:00+00:00</updated>
+    </entry>
     <entry>
       <title><![CDATA[waters, 2021]]></title>
       <link href="https://www.alexeypegov.com/105.html" />
@@ -58,11 +64,5 @@
       <link href="https://www.alexeypegov.com/097.html" />
       <id>urn:uuid:e2b20937-1e33-3b51-83ba-7a038970413c</id>
       <updated>2025-10-12T00:00:00+00:00</updated>
-    </entry>
-    <entry>
-      <title><![CDATA[timur, 2025]]></title>
-      <link href="https://www.alexeypegov.com/096.html" />
-      <id>urn:uuid:aada9e7c-3d17-34d0-95d5-7afe60ea0f10</id>
-      <updated>2025-09-12T00:00:00+00:00</updated>
     </entry>
 </feed>
