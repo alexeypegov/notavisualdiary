@@ -4,7 +4,13 @@
   <link href="https://www.alexeypegov.com/short-atom.xml" rel="self" />
   <link href="https://www.alexeypegov.com" />
   <id>https://www.alexeypegov.com/</id>
-  <updated>2025-12-31T00:00:00+00:00</updated>
+  <updated>2026-01-25T00:00:00+00:00</updated>
+    <entry>
+      <title><![CDATA[selfportrait, 2025]]></title>
+      <link href="https://www.alexeypegov.com/109.html" />
+      <id>urn:uuid:92c1126f-5b82-332e-9f92-0e2ee25ccc35</id>
+      <updated>2026-01-25T00:00:00+00:00</updated>
+    </entry>
     <entry>
       <title><![CDATA[under the star, 2025]]></title>
       <link href="https://www.alexeypegov.com/108.html" />
@@ -58,11 +64,5 @@
       <link href="https://www.alexeypegov.com/100.html" />
       <id>urn:uuid:e7958d1d-60e7-3976-8b0d-850f164ddb3a</id>
       <updated>2025-10-16T00:00:00+00:00</updated>
-    </entry>
-    <entry>
-      <title><![CDATA[flowers, 2021]]></title>
-      <link href="https://www.alexeypegov.com/099.html" />
-      <id>urn:uuid:6c36a818-2340-3031-aca9-d7b7fcb80e3a</id>
-      <updated>2025-10-15T00:00:00+00:00</updated>
     </entry>
 </feed>
