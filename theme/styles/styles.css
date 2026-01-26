@@ -27,7 +27,6 @@ body {
   overscroll-behavior-x: none;
   overflow-y: hidden;
   touch-action: pan-x;
-  cursor: e-resize;
 }
 
 main {
@@ -64,3 +63,4 @@ main {
     background-color: #1a1a1a;
   }
 }
+
