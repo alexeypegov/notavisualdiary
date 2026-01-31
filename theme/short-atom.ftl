@@ -12,17 +12,16 @@
       <link href="${vars.blog_url}${note.link}" />
       <id>urn:uuid:${note.uuid}</id>
       <updated>${note.date?date("yyyy-MM-dd")?date}</updated>
-      <#if description?exists>
       <content type="html">
 	<![CDATA[
         <img src="${vars.blog_url}/${note.cover}"/>
+        <p>${note.title}, ${note.year}</p>
 	]]>
       </content>
       <author>
         <name>${vars.feed_author}</name>
         <email>${vars.feed_email}</email>
       </author>
-      </#if>
     </entry>
   </#list>
 </feed>

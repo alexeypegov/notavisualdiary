@@ -6,7 +6,7 @@
   --font-family: "Literata", fallback, serif;
   --text-color: #777;
   --link-color: #000;
-  --line-height: 1.5;
+  --line-height: 1.2;
 
   --row-height: calc(var(--base-size) * var(--line-height));
   --unit-100vh: 100vh;
@@ -51,16 +51,21 @@ main {
   }
 
   .info {
-    color: #999;
+    color: #555;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+
+    .meta {
+      color: #aaa;
+    }
   }
 
   custom-pic {
-    height: calc(100dvh - 1em - 1rem - 10dvh);
+    height: calc(100dvh - 1em - 1rem - 12dvh);
   }
 
   &.dark {
     background-color: #1a1a1a;
   }
 }
-

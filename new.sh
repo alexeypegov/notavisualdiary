@@ -10,6 +10,8 @@ filename=$(printf "posts/%s.md" $prefixed_number)
 cat <<EOL > "${filename}"
 ---
 Title:
+Location:
+Year:
 Date: $(date +'%Y-%m-%d')
 Cover: images/$prefixed_number.webp
 Image: images/$prefixed_number@2x.webp
