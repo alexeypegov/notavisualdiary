@@ -9,6 +9,6 @@
   </div>
   <div class="info">
     <div class="title">${title}, ${year!"unknown"}</div>
-    <div class="nav"><a href="index.html">home</a> · <a href="about.html">about</a></div>
+    <div class="nav"><a href="index.html">recent</a> · <a href="about.html">about</a></div>
   </div>
 </main>

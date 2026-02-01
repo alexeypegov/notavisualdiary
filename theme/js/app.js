@@ -53,6 +53,11 @@ document.addEventListener("DOMContentLoaded", function () {
     localStorage.setItem("cursor", cursor);
   };
 
+  const wrapper = document.getElementById("wrapper");
+  if (!wrapper) {
+    return;
+  }
+  
   const savedCursor = localStorage.getItem("cursor");
   if (savedCursor) {
     document.body.style.cursor = savedCursor;
