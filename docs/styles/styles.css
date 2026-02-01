@@ -5,7 +5,7 @@
   --font-family: "Literata", fallback, serif;
   --background-color: #fefefa;
   --text-color: #555;
-  --link-color: #000;
+  --link-color: #555;
   --line-height: 1.4;
 
   --row-height: calc(var(--base-size) * var(--line-height));
