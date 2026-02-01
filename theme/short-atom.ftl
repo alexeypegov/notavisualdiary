@@ -8,7 +8,7 @@
   <updated>${items[0].date?date("yyyy-MM-dd")?date}</updated>
   <#list items as note>
     <entry>
-      <title><![CDATA[${note.title}]]></title>
+      <title><![CDATA[#${note.slug}]]></title>
       <link href="${vars.blog_url}${note.link}" />
       <id>urn:uuid:${note.uuid}</id>
       <updated>${note.date?date("yyyy-MM-dd")?date}</updated>
