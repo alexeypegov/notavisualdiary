@@ -1,15 +1,25 @@
 @import url("https://fonts.googleapis.com/css2?family=Literata:wght@400&display=swap");
 
 :root {
-  --background-color: #fcfcfc;
   --base-size: 16px;
   --font-family: "Literata", fallback, serif;
-  --text-color: #777;
+  --background-color: #fefefa;
+  --text-color: #555;
   --link-color: #000;
-  --line-height: 1.2;
+  --line-height: 1.4;
 
   --row-height: calc(var(--base-size) * var(--line-height));
   --unit-100vh: 100vh;
+
+  --safe-h: max(env(safe-area-inset-left), env(safe-area-inset-right));
+  --padding-h: max(5dvh, var(--safe-h));
+  --padding-v: 2dvh;
+
+  @media (max-width: 500px) {
+    --padding-h: max(1vh, var(--safe-h));
+    --padding-v: 1vh;
+  }
+
 }
 
 * {
@@ -27,45 +37,87 @@ body {
   overscroll-behavior-x: none;
   overflow-y: hidden;
   touch-action: pan-x;
+
+  color: var(--text-color);
+  background-color: var(--background-color);
+}
+
+a {
+  color: var(--link-color);
+}
+
+.compact {
+  display: none;
 }
 
 main {
   box-sizing: border-box;
   height: 100dvh;
-  background-color: #fefefa;
   position: relative;
 
   display: flex;
   flex-direction: column;
+  gap: var(--padding-v);
+
   align-items: center;
-  justify-content: center;
-  gap: 1rem;
 
-  padding: 5dvh;
-
-  padding-left: env(safe-area-inset-left);
-  padding-right: env(safe-area-inset-right);
-
-  @media (max-width: 500px) {
-    padding: 1vh;
+  &.left {
+    align-items: start;
   }
 
-  .info {
-    color: #555;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
+  &.vcenter {
+    justify-content: center;
+  }
 
-    .meta {
-      color: #aaa;
-    }
+  &.hpad {
+    padding: 0 calc((100dvw - 500px) / 2);
+  }
+
+  &#wrapper {
+    padding: var(--padding-v) var(--padding-h);
+  }
+
+  .pic-container {
+    flex: 1;
+    min-height: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   custom-pic {
-    height: calc(100dvh - 1em - 1rem - 12dvh);
+    max-height: 100%;
   }
 
-  &.dark {
-    background-color: #1a1a1a;
+  .info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1rem;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 500px) {
+  .regular {
+    display: none;
+  }
+
+  .compact {
+    display: revert;
+  }
+
+  main {
+    .info {
+      flex-direction: column;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    &.hpad {
+      padding: 0 1rem;
+    }
   }
 }
