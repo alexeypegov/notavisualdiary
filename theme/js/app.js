@@ -32,11 +32,6 @@ document.addEventListener("DOMContentLoaded", function () {
     };
   };
 
-  const dark = function() {
-    const main = document.getElementById("wrapper");
-    main.classList.toggle('dark');
-  };
-
   const home = function() {
     location.href = "/";
   }
@@ -47,7 +42,6 @@ document.addEventListener("DOMContentLoaded", function () {
   document.addEventListener("left", f("next"));
   document.addEventListener("right", f("prev"));
   document.addEventListener("home", home);
-  document.addEventListener("theme", dark);
 
   const isLeftHalf = (x) => x < window.innerWidth / 2;
 
