@@ -1,7 +1,8 @@
 general:
   notes-dir: posts/
-  page-template: page
-  notes-per-page: 0
+  page-template: index
+  notes-per-page: 1000
+  first-page-as-index: false
   copy-last-as-index: true
   sitemap-template: sitemap
   singles-dir: pages/
@@ -20,7 +21,7 @@ general:
     - static/favicon.ico
 
 vars:
-  version: 18
+  version: 19
   blog-title: (not) a visual diary
   blog-author: Alexey Pegov
   blog-url: https://www.alexeypegov.com

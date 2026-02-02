@@ -2,9 +2,13 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:base="https://www.alexeypegov.com/">
   <title>(not) a visual diary</title>
   <link href="https://www.alexeypegov.com/atom.xml" rel="self" />
-  <link href="https://www.alexeypegov.com" />
+  <link href="https://www.alexeypegov.com" rel="alternate" />
   <id>https://www.alexeypegov.com/</id>
   <updated>2026-01-31T00:00:00+00:00</updated>
+  <author>
+    <name>Alexey Pegov</name>
+    <email>iam@alexeypegov.com</email>
+  </author>
     <entry>
       <title><![CDATA[#111]]></title>
       <link href="https://www.alexeypegov.com/111.html" />
@@ -12,14 +16,10 @@
       <updated>2026-01-31T00:00:00+00:00</updated>
       <content type="html">
 	<![CDATA[
-        <img src="https://www.alexeypegov.com/images/111.webp"/>
+        <img src="https://www.alexeypegov.com/images/111.webp" alt="ice & grass"/>
         <p>ice & grass, 2020</p>
 	]]>
       </content>
-      <author>
-        <name>Alexey Pegov</name>
-        <email>iam@alexeypegov.com</email>
-      </author>
     </entry>
     <entry>
       <title><![CDATA[#110]]></title>
@@ -28,14 +28,10 @@
       <updated>2026-01-29T00:00:00+00:00</updated>
       <content type="html">
 	<![CDATA[
-        <img src="https://www.alexeypegov.com/images/110.webp"/>
+        <img src="https://www.alexeypegov.com/images/110.webp" alt="the clearing"/>
         <p>the clearing, 2021</p>
 	]]>
       </content>
-      <author>
-        <name>Alexey Pegov</name>
-        <email>iam@alexeypegov.com</email>
-      </author>
     </entry>
     <entry>
       <title><![CDATA[#109]]></title>
@@ -44,14 +40,10 @@
       <updated>2026-01-25T00:00:00+00:00</updated>
       <content type="html">
 	<![CDATA[
-        <img src="https://www.alexeypegov.com/images/109.webp"/>
+        <img src="https://www.alexeypegov.com/images/109.webp" alt="self-portrait in a hotel's mirror"/>
         <p>self-portrait in a hotel's mirror, 2025</p>
 	]]>
       </content>
-      <author>
-        <name>Alexey Pegov</name>
-        <email>iam@alexeypegov.com</email>
-      </author>
     </entry>
     <entry>
       <title><![CDATA[#108]]></title>
@@ -60,14 +52,10 @@
       <updated>2025-12-31T00:00:00+00:00</updated>
       <content type="html">
 	<![CDATA[
-        <img src="https://www.alexeypegov.com/images/108.webp"/>
+        <img src="https://www.alexeypegov.com/images/108.webp" alt="under the star"/>
         <p>under the star, 2025</p>
 	]]>
       </content>
-      <author>
-        <name>Alexey Pegov</name>
-        <email>iam@alexeypegov.com</email>
-      </author>
     </entry>
     <entry>
       <title><![CDATA[#107]]></title>
@@ -76,14 +64,10 @@
       <updated>2025-12-28T00:00:00+00:00</updated>
       <content type="html">
 	<![CDATA[
-        <img src="https://www.alexeypegov.com/images/107.webp"/>
+        <img src="https://www.alexeypegov.com/images/107.webp" alt="fragile city"/>
         <p>fragile city, 2020</p>
 	]]>
       </content>
-      <author>
-        <name>Alexey Pegov</name>
-        <email>iam@alexeypegov.com</email>
-      </author>
     </entry>
     <entry>
       <title><![CDATA[#106]]></title>
@@ -92,14 +76,10 @@
       <updated>2025-11-29T00:00:00+00:00</updated>
       <content type="html">
 	<![CDATA[
-        <img src="https://www.alexeypegov.com/images/106.webp"/>
+        <img src="https://www.alexeypegov.com/images/106.webp" alt="hands & hair"/>
         <p>hands & hair, 2025</p>
 	]]>
       </content>
-      <author>
-        <name>Alexey Pegov</name>
-        <email>iam@alexeypegov.com</email>
-      </author>
     </entry>
     <entry>
       <title><![CDATA[#105]]></title>
@@ -108,14 +88,10 @@
       <updated>2025-11-07T00:00:00+00:00</updated>
       <content type="html">
 	<![CDATA[
-        <img src="https://www.alexeypegov.com/images/105.webp"/>
+        <img src="https://www.alexeypegov.com/images/105.webp" alt="waters"/>
         <p>waters, 2021</p>
 	]]>
       </content>
-      <author>
-        <name>Alexey Pegov</name>
-        <email>iam@alexeypegov.com</email>
-      </author>
     </entry>
     <entry>
       <title><![CDATA[#104]]></title>
@@ -124,14 +100,10 @@
       <updated>2025-11-02T00:00:00+00:00</updated>
       <content type="html">
 	<![CDATA[
-        <img src="https://www.alexeypegov.com/images/104.webp"/>
+        <img src="https://www.alexeypegov.com/images/104.webp" alt="boy at the balcony"/>
         <p>boy at the balcony, 2025</p>
 	]]>
       </content>
-      <author>
-        <name>Alexey Pegov</name>
-        <email>iam@alexeypegov.com</email>
-      </author>
     </entry>
     <entry>
       <title><![CDATA[#103]]></title>
@@ -140,14 +112,10 @@
       <updated>2025-10-29T00:00:00+00:00</updated>
       <content type="html">
 	<![CDATA[
-        <img src="https://www.alexeypegov.com/images/103.webp"/>
+        <img src="https://www.alexeypegov.com/images/103.webp" alt="foggy forest"/>
         <p>foggy forest, 2021</p>
 	]]>
       </content>
-      <author>
-        <name>Alexey Pegov</name>
-        <email>iam@alexeypegov.com</email>
-      </author>
     </entry>
     <entry>
       <title><![CDATA[#102]]></title>
@@ -156,13 +124,9 @@
       <updated>2025-10-25T00:00:00+00:00</updated>
       <content type="html">
 	<![CDATA[
-        <img src="https://www.alexeypegov.com/images/102.webp"/>
+        <img src="https://www.alexeypegov.com/images/102.webp" alt="roots"/>
         <p>roots, 2023</p>
 	]]>
       </content>
-      <author>
-        <name>Alexey Pegov</name>
-        <email>iam@alexeypegov.com</email>
-      </author>
     </entry>
 </feed>

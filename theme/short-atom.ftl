@@ -3,9 +3,13 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:base="${base_url}">
   <title>${vars.blog_title}</title>
   <link href="${vars.blog_url}/${name}.xml" rel="self" />
-  <link href="${vars.blog_url}" />
+  <link href="${vars.blog_url}" rel="alternate" />
   <id>${vars.blog_url}/</id>
   <updated>${items[0].date?date("yyyy-MM-dd")?date}</updated>
+  <author>
+    <name>${vars.feed_author}</name>
+    <email>${vars.feed_email}</email>
+  </author>
   <#list items as note>
     <entry>
       <title><![CDATA[#${note.slug}]]></title>
@@ -14,14 +18,10 @@
       <updated>${note.date?date("yyyy-MM-dd")?date}</updated>
       <content type="html">
 	<![CDATA[
-        <img src="${vars.blog_url}/${note.cover}"/>
+        <img src="${vars.blog_url}/${note.cover}" alt="${note.title}"/>
         <p>${note.title}, ${note.year}</p>
 	]]>
       </content>
-      <author>
-        <name>${vars.feed_author}</name>
-        <email>${vars.feed_email}</email>
-      </author>
     </entry>
   </#list>
 </feed>
