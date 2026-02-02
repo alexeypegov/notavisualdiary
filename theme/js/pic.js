@@ -16,10 +16,10 @@ customElements.define(
       await new Promise((resolve) => {
         result = new Image();
         result.onload = resolve;
-        result.src = src;
         if (srcset) {
           result.srcset = srcset;
         }
+        result.src = src;
       });
 
       return result;
