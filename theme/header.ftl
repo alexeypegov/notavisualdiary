@@ -6,6 +6,13 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
     <link rel="index" id="link-index" href="${vars.blog_url}">
+    <#if title?? && year??>
+      <#assign full_title = title + ", " + year>
+    <#elseif title??>
+      <#assign full_title = title>
+    <#else>
+      <#assign full_title = vars.blog_title>
+    </#if>
     <#if title??>
     <title>${title} - ${vars.blog_title}</title>
     <#else>
@@ -23,7 +30,7 @@
     <meta name="keywords" content="${vars.keywords}">
     <meta name="description" content="${vars.description}">
     <meta property="og:description" content="${vars.description}">
-    <meta property="og:title" content="${title!vars.blog_title}">
+    <meta property="og:title" content="${full_title}">
     <#if link??>
       <#assign url = vars.blog_url + link>
     <#elseif ndx?? && ndx gt 1>
@@ -36,11 +43,11 @@
     <#assign og_image = cover!vars.default_cover!"images/000.webp">
     <meta property="og:image" content="${vars.blog_url}/${og_image}">
     <meta property="og:image:type" content="image/webp">
-    <meta property="og:image:alt" content="${title!vars.blog_title}">
+    <meta property="og:image:alt" content="${full_title}">
 
     <!-- twitter card -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="${title!vars.blog_title}">
+    <meta name="twitter:title" content="${full_title}">
     <meta name="twitter:description" content="${vars.description}">
     <meta name="twitter:image" content="${vars.blog_url}/${og_image}">
 
@@ -51,7 +58,7 @@
       <#if real_slug??>
       "@type": "ImageObject",
       "name": "${title}",
-      "description": "${title}, ${year!""}",
+      "description": "${full_title}",
       "contentUrl": "${vars.blog_url}/${image}",
       "thumbnailUrl": "${vars.blog_url}/${cover}",
       "author": {
