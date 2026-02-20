@@ -4,11 +4,23 @@
   <link href="https://www.alexeypegov.com/short-atom.xml" rel="self" />
   <link href="https://www.alexeypegov.com" rel="alternate" />
   <id>https://www.alexeypegov.com/</id>
-  <updated>2026-01-31T00:00:00+00:00</updated>
+  <updated>2026-02-20T00:00:00+00:00</updated>
   <author>
     <name>Alexey Pegov</name>
     <email>iam@alexeypegov.com</email>
   </author>
+    <entry>
+      <title><![CDATA[#112]]></title>
+      <link href="https://www.alexeypegov.com/112.html" />
+      <id>urn:uuid:2b15a3c2-be21-317f-aac0-34cbe7930901</id>
+      <updated>2026-02-20T00:00:00+00:00</updated>
+      <content type="html">
+	<![CDATA[
+        <img src="https://www.alexeypegov.com/images/112.webp" alt="katya"/>
+        <p>katya, 2022</p>
+	]]>
+      </content>
+    </entry>
     <entry>
       <title><![CDATA[#111]]></title>
       <link href="https://www.alexeypegov.com/111.html" />
@@ -114,18 +126,6 @@
 	<![CDATA[
         <img src="https://www.alexeypegov.com/images/103.webp" alt="foggy forest"/>
         <p>foggy forest, 2021</p>
-	]]>
-      </content>
-    </entry>
-    <entry>
-      <title><![CDATA[#102]]></title>
-      <link href="https://www.alexeypegov.com/102.html" />
-      <id>urn:uuid:b71089a7-f185-3cd6-b5a1-f816ce84c563</id>
-      <updated>2025-10-25T00:00:00+00:00</updated>
-      <content type="html">
-	<![CDATA[
-        <img src="https://www.alexeypegov.com/images/102.webp" alt="roots"/>
-        <p>roots, 2023</p>
 	]]>
       </content>
     </entry>
