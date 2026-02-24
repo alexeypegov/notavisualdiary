@@ -47,23 +47,28 @@ document.addEventListener("DOMContentLoaded", function () {
   const leftArrow = `url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 32 32'><path d='M22 6 L10 16 L22 26' fill='none' stroke='black' stroke-width='6' stroke-linecap='round' stroke-linejoin='round'/><path d='M22 6 L10 16 L22 26' fill='none' stroke='white' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/></svg>") 16 16, w-resize`;
   const rightArrow = `url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 32 32'><path d='M10 6 L22 16 L10 26' fill='none' stroke='black' stroke-width='6' stroke-linecap='round' stroke-linejoin='round'/><path d='M10 6 L22 16 L10 26' fill='none' stroke='white' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/></svg>") 16 16, e-resize`;
 
-  const setCursor = (cursor) => {
-    document.body.style.cursor = cursor;
-    localStorage.setItem("cursor", cursor);
+  const cursorStyle = document.createElement("style");
+  document.head.appendChild(cursorStyle);
+
+  const setCursor = (id, cursor) => {
+    cursorStyle.textContent = `body { cursor: ${cursor}; }`;
+    localStorage.setItem("cursor", id);
   };
 
   const wrapper = document.getElementById("wrapper");
   if (!wrapper) {
     return;
   }
-  
+
+  const cursors = { left: leftArrow, right: rightArrow };
   const savedCursor = localStorage.getItem("cursor");
-  if (savedCursor) {
-    document.body.style.cursor = savedCursor;
+  if (savedCursor && cursors[savedCursor]) {
+    setCursor(savedCursor, cursors[savedCursor]);
   }
 
   document.addEventListener("mousemove", (e) => {
-    setCursor(isLeftHalf(e.clientX) ? leftArrow : rightArrow);
+    const id = isLeftHalf(e.clientX) ? "left" : "right";
+    setCursor(id, cursors[id]);
   });
 
   document.addEventListener("click", (e) => {
