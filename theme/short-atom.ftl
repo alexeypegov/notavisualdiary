@@ -12,13 +12,14 @@
   </author>
   <#list items as note>
     <entry>
+      <#assign image_2x = note.image!note.cover>
       <title><![CDATA[#${note.slug}]]></title>
       <link href="${vars.blog_url}${note.link}" />
       <id>urn:uuid:${note.uuid}</id>
       <updated>${note.date?date("yyyy-MM-dd")?date}</updated>
       <content type="html">
 	<![CDATA[
-        <img src="${vars.blog_url}/${note.cover}" alt="${note.title}"/>
+        <img src="${vars.blog_url}/${note.cover}" srcset="${vars.blog_url}/${note.cover} 1x, ${vars.blog_url}/${image_2x} 2x" alt="${note.title}"/>
         <p>${note.title}, ${note.year}</p>
 	]]>
       </content>
