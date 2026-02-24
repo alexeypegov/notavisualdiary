@@ -47,7 +47,6 @@ customElements.define(
             display: block;
             max-width: 100%;
             max-height: 100%;
-            animation: fadeIn 1s ease-in-out;
           }
 
           @keyframes fadeIn {

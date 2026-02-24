@@ -19,7 +19,10 @@
     --padding-h: max(1vh, var(--safe-h));
     --padding-v: 1vh;
   }
+}
 
+@view-transition {
+  navigation: auto;
 }
 
 * {
@@ -144,7 +147,6 @@ main {
   height: 100%;
   object-fit: cover;
   opacity: 0;
-  transition: opacity 1s ease-in-out;
 }
 
 .grid-item img.loaded {

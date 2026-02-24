@@ -16,7 +16,7 @@
       <updated>2026-02-20T00:00:00+00:00</updated>
       <content type="html">
 	<![CDATA[
-        <img src="https://www.alexeypegov.com/images/112.webp" alt="katya"/>
+        <img src="https://www.alexeypegov.com/images/112.webp" srcset="https://www.alexeypegov.com/images/112.webp 1x, https://www.alexeypegov.com/images/112@2x.webp 2x" alt="katya"/>
         <p>katya, 2022</p>
 	]]>
       </content>
@@ -28,7 +28,7 @@
       <updated>2026-01-31T00:00:00+00:00</updated>
       <content type="html">
 	<![CDATA[
-        <img src="https://www.alexeypegov.com/images/111.webp" alt="ice & grass"/>
+        <img src="https://www.alexeypegov.com/images/111.webp" srcset="https://www.alexeypegov.com/images/111.webp 1x, https://www.alexeypegov.com/images/111@2x.webp 2x" alt="ice & grass"/>
         <p>ice & grass, 2020</p>
 	]]>
       </content>
@@ -40,7 +40,7 @@
       <updated>2026-01-29T00:00:00+00:00</updated>
       <content type="html">
 	<![CDATA[
-        <img src="https://www.alexeypegov.com/images/110.webp" alt="the clearing"/>
+        <img src="https://www.alexeypegov.com/images/110.webp" srcset="https://www.alexeypegov.com/images/110.webp 1x, https://www.alexeypegov.com/images/110@2x.webp 2x" alt="the clearing"/>
         <p>the clearing, 2021</p>
 	]]>
       </content>
@@ -52,7 +52,7 @@
       <updated>2026-01-25T00:00:00+00:00</updated>
       <content type="html">
 	<![CDATA[
-        <img src="https://www.alexeypegov.com/images/109.webp" alt="self-portrait in a hotel's mirror"/>
+        <img src="https://www.alexeypegov.com/images/109.webp" srcset="https://www.alexeypegov.com/images/109.webp 1x, https://www.alexeypegov.com/images/109@2x.webp 2x" alt="self-portrait in a hotel's mirror"/>
         <p>self-portrait in a hotel's mirror, 2025</p>
 	]]>
       </content>
@@ -64,7 +64,7 @@
       <updated>2025-12-31T00:00:00+00:00</updated>
       <content type="html">
 	<![CDATA[
-        <img src="https://www.alexeypegov.com/images/108.webp" alt="under the star"/>
+        <img src="https://www.alexeypegov.com/images/108.webp" srcset="https://www.alexeypegov.com/images/108.webp 1x, https://www.alexeypegov.com/images/108@2x.webp 2x" alt="under the star"/>
         <p>under the star, 2025</p>
 	]]>
       </content>
@@ -76,7 +76,7 @@
       <updated>2025-12-28T00:00:00+00:00</updated>
       <content type="html">
 	<![CDATA[
-        <img src="https://www.alexeypegov.com/images/107.webp" alt="fragile city"/>
+        <img src="https://www.alexeypegov.com/images/107.webp" srcset="https://www.alexeypegov.com/images/107.webp 1x, https://www.alexeypegov.com/images/107@2x.webp 2x" alt="fragile city"/>
         <p>fragile city, 2020</p>
 	]]>
       </content>
@@ -88,7 +88,7 @@
       <updated>2025-11-29T00:00:00+00:00</updated>
       <content type="html">
 	<![CDATA[
-        <img src="https://www.alexeypegov.com/images/106.webp" alt="hands & hair"/>
+        <img src="https://www.alexeypegov.com/images/106.webp" srcset="https://www.alexeypegov.com/images/106.webp 1x, https://www.alexeypegov.com/images/106@2x.webp 2x" alt="hands & hair"/>
         <p>hands & hair, 2025</p>
 	]]>
       </content>
@@ -100,7 +100,7 @@
       <updated>2025-11-07T00:00:00+00:00</updated>
       <content type="html">
 	<![CDATA[
-        <img src="https://www.alexeypegov.com/images/105.webp" alt="waters"/>
+        <img src="https://www.alexeypegov.com/images/105.webp" srcset="https://www.alexeypegov.com/images/105.webp 1x, https://www.alexeypegov.com/images/105@2x.webp 2x" alt="waters"/>
         <p>waters, 2021</p>
 	]]>
       </content>
@@ -112,7 +112,7 @@
       <updated>2025-11-02T00:00:00+00:00</updated>
       <content type="html">
 	<![CDATA[
-        <img src="https://www.alexeypegov.com/images/104.webp" alt="boy at the balcony"/>
+        <img src="https://www.alexeypegov.com/images/104.webp" srcset="https://www.alexeypegov.com/images/104.webp 1x, https://www.alexeypegov.com/images/104@2x.webp 2x" alt="boy at the balcony"/>
         <p>boy at the balcony, 2025</p>
 	]]>
       </content>
@@ -124,7 +124,7 @@
       <updated>2025-10-29T00:00:00+00:00</updated>
       <content type="html">
 	<![CDATA[
-        <img src="https://www.alexeypegov.com/images/103.webp" alt="foggy forest"/>
+        <img src="https://www.alexeypegov.com/images/103.webp" srcset="https://www.alexeypegov.com/images/103.webp 1x, https://www.alexeypegov.com/images/103@2x.webp 2x" alt="foggy forest"/>
         <p>foggy forest, 2021</p>
 	]]>
       </content>
