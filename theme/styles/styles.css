@@ -21,9 +21,10 @@
   }
 }
 
-@view-transition {
-  navigation: auto;
-}
+/* not yet well-cupported by firefox */
+/* @view-transition { */
+/* navigation: auto; */
+/* } */
 
 * {
   padding: 0;
