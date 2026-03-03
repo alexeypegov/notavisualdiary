@@ -10,6 +10,18 @@
     <email>iam@alexeypegov.com</email>
   </author>
     <entry>
+      <title><![CDATA[#114]]></title>
+      <link href="https://www.alexeypegov.com/114.html" />
+      <id>urn:uuid:e70be34a-4970-3762-9489-8abd3358a88d</id>
+      <updated>2026-03-03T00:00:00+00:00</updated>
+      <content type="html">
+	<![CDATA[
+        <img src="https://www.alexeypegov.com/images/114.webp" srcset="https://www.alexeypegov.com/images/114.webp 1x, https://www.alexeypegov.com/images/114@2x.webp 2x" alt="snow & water"/>
+        <p>snow & water, 2026</p>
+	]]>
+      </content>
+    </entry>
+    <entry>
       <title><![CDATA[#113]]></title>
       <link href="https://www.alexeypegov.com/113.html" />
       <id>urn:uuid:da041955-4036-3d50-bdf9-2326eaf64fc1</id>
@@ -114,18 +126,6 @@
 	<![CDATA[
         <img src="https://www.alexeypegov.com/images/105.webp" srcset="https://www.alexeypegov.com/images/105.webp 1x, https://www.alexeypegov.com/images/105@2x.webp 2x" alt="waters"/>
         <p>waters, 2021</p>
-	]]>
-      </content>
-    </entry>
-    <entry>
-      <title><![CDATA[#104]]></title>
-      <link href="https://www.alexeypegov.com/104.html" />
-      <id>urn:uuid:3a22ab46-15fc-399c-82e0-03745460e28e</id>
-      <updated>2025-11-02T00:00:00+00:00</updated>
-      <content type="html">
-	<![CDATA[
-        <img src="https://www.alexeypegov.com/images/104.webp" srcset="https://www.alexeypegov.com/images/104.webp 1x, https://www.alexeypegov.com/images/104@2x.webp 2x" alt="boy at the balcony"/>
-        <p>boy at the balcony, 2025</p>
 	]]>
       </content>
     </entry>
