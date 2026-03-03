@@ -4,11 +4,23 @@
   <link href="https://www.alexeypegov.com/atom.xml" rel="self" />
   <link href="https://www.alexeypegov.com" rel="alternate" />
   <id>https://www.alexeypegov.com/</id>
-  <updated>2026-02-20T00:00:00+00:00</updated>
+  <updated>2026-03-03T00:00:00+00:00</updated>
   <author>
     <name>Alexey Pegov</name>
     <email>iam@alexeypegov.com</email>
   </author>
+    <entry>
+      <title><![CDATA[#113]]></title>
+      <link href="https://www.alexeypegov.com/113.html" />
+      <id>urn:uuid:da041955-4036-3d50-bdf9-2326eaf64fc1</id>
+      <updated>2026-03-03T00:00:00+00:00</updated>
+      <content type="html">
+	<![CDATA[
+        <img src="https://www.alexeypegov.com/images/113.webp" srcset="https://www.alexeypegov.com/images/113.webp 1x, https://www.alexeypegov.com/images/113@2x.webp 2x" alt="traces / inverted"/>
+        <p>traces / inverted, 2025</p>
+	]]>
+      </content>
+    </entry>
     <entry>
       <title><![CDATA[#112]]></title>
       <link href="https://www.alexeypegov.com/112.html" />
@@ -114,18 +126,6 @@
 	<![CDATA[
         <img src="https://www.alexeypegov.com/images/104.webp" srcset="https://www.alexeypegov.com/images/104.webp 1x, https://www.alexeypegov.com/images/104@2x.webp 2x" alt="boy at the balcony"/>
         <p>boy at the balcony, 2025</p>
-	]]>
-      </content>
-    </entry>
-    <entry>
-      <title><![CDATA[#103]]></title>
-      <link href="https://www.alexeypegov.com/103.html" />
-      <id>urn:uuid:2ed4b919-feb2-3aae-a383-fbcfba670449</id>
-      <updated>2025-10-29T00:00:00+00:00</updated>
-      <content type="html">
-	<![CDATA[
-        <img src="https://www.alexeypegov.com/images/103.webp" srcset="https://www.alexeypegov.com/images/103.webp 1x, https://www.alexeypegov.com/images/103@2x.webp 2x" alt="foggy forest"/>
-        <p>foggy forest, 2021</p>
 	]]>
       </content>
     </entry>
