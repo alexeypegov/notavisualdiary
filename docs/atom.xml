@@ -4,11 +4,23 @@
   <link href="https://www.alexeypegov.com/atom.xml" rel="self" />
   <link href="https://www.alexeypegov.com" rel="alternate" />
   <id>https://www.alexeypegov.com/</id>
-  <updated>2026-03-25T00:00:00+00:00</updated>
+  <updated>2026-04-13T00:00:00+00:00</updated>
   <author>
     <name>Alexey Pegov</name>
     <email>iam@alexeypegov.com</email>
   </author>
+    <entry>
+      <title><![CDATA[#116]]></title>
+      <link href="https://www.alexeypegov.com/116.html" />
+      <id>urn:uuid:027bde9c-8f40-3aec-a628-e8ac61cd71ba</id>
+      <updated>2026-04-13T00:00:00+00:00</updated>
+      <content type="html">
+	<![CDATA[
+        <img src="https://www.alexeypegov.com/images/116.webp" srcset="https://www.alexeypegov.com/images/116.webp 1x, https://www.alexeypegov.com/images/116@2x.webp 2x" alt="paths"/>
+        <p>paths, 2026</p>
+	]]>
+      </content>
+    </entry>
     <entry>
       <title><![CDATA[#115]]></title>
       <link href="https://www.alexeypegov.com/115.html" />
@@ -114,18 +126,6 @@
 	<![CDATA[
         <img src="https://www.alexeypegov.com/images/107.webp" srcset="https://www.alexeypegov.com/images/107.webp 1x, https://www.alexeypegov.com/images/107@2x.webp 2x" alt="fragile city"/>
         <p>fragile city, 2020</p>
-	]]>
-      </content>
-    </entry>
-    <entry>
-      <title><![CDATA[#106]]></title>
-      <link href="https://www.alexeypegov.com/106.html" />
-      <id>urn:uuid:e7b70f01-a933-301a-b396-e14f011a124d</id>
-      <updated>2025-11-29T00:00:00+00:00</updated>
-      <content type="html">
-	<![CDATA[
-        <img src="https://www.alexeypegov.com/images/106.webp" srcset="https://www.alexeypegov.com/images/106.webp 1x, https://www.alexeypegov.com/images/106@2x.webp 2x" alt="hands & hair"/>
-        <p>hands & hair, 2025</p>
 	]]>
       </content>
     </entry>
