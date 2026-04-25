@@ -4,11 +4,23 @@
   <link href="https://www.alexeypegov.com/short-atom.xml" rel="self" />
   <link href="https://www.alexeypegov.com" rel="alternate" />
   <id>https://www.alexeypegov.com/</id>
-  <updated>2026-04-13T00:00:00+00:00</updated>
+  <updated>2026-04-25T00:00:00+00:00</updated>
   <author>
     <name>Alexey Pegov</name>
     <email>iam@alexeypegov.com</email>
   </author>
+    <entry>
+      <title><![CDATA[#117]]></title>
+      <link href="https://www.alexeypegov.com/117.html" />
+      <id>urn:uuid:71e30e2d-5426-3c99-a699-d92cf3868f32</id>
+      <updated>2026-04-25T00:00:00+00:00</updated>
+      <content type="html">
+	<![CDATA[
+        <img src="https://www.alexeypegov.com/images/117.webp" srcset="https://www.alexeypegov.com/images/117.webp 1x, https://www.alexeypegov.com/images/117@2x.webp 2x" alt="look down"/>
+        <p>look down, 2025</p>
+	]]>
+      </content>
+    </entry>
     <entry>
       <title><![CDATA[#116]]></title>
       <link href="https://www.alexeypegov.com/116.html" />
@@ -114,18 +126,6 @@
 	<![CDATA[
         <img src="https://www.alexeypegov.com/images/108.webp" srcset="https://www.alexeypegov.com/images/108.webp 1x, https://www.alexeypegov.com/images/108@2x.webp 2x" alt="under the star"/>
         <p>under the star, 2025</p>
-	]]>
-      </content>
-    </entry>
-    <entry>
-      <title><![CDATA[#107]]></title>
-      <link href="https://www.alexeypegov.com/107.html" />
-      <id>urn:uuid:f147919c-0437-37de-b9fa-ba2e1f0b9b73</id>
-      <updated>2025-12-28T00:00:00+00:00</updated>
-      <content type="html">
-	<![CDATA[
-        <img src="https://www.alexeypegov.com/images/107.webp" srcset="https://www.alexeypegov.com/images/107.webp 1x, https://www.alexeypegov.com/images/107@2x.webp 2x" alt="fragile city"/>
-        <p>fragile city, 2020</p>
 	]]>
       </content>
     </entry>
