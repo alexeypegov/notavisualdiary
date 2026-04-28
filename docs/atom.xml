@@ -4,11 +4,23 @@
   <link href="https://www.alexeypegov.com/atom.xml" rel="self" />
   <link href="https://www.alexeypegov.com" rel="alternate" />
   <id>https://www.alexeypegov.com/</id>
-  <updated>2026-04-25T00:00:00+00:00</updated>
+  <updated>2026-04-28T00:00:00+00:00</updated>
   <author>
     <name>Alexey Pegov</name>
     <email>iam@alexeypegov.com</email>
   </author>
+    <entry>
+      <title><![CDATA[#118]]></title>
+      <link href="https://www.alexeypegov.com/118.html" />
+      <id>urn:uuid:b8987491-f427-3821-a90f-97e7c1023198</id>
+      <updated>2026-04-28T00:00:00+00:00</updated>
+      <content type="html">
+	<![CDATA[
+        <img src="https://www.alexeypegov.com/images/118.webp" srcset="https://www.alexeypegov.com/images/118.webp 1x, https://www.alexeypegov.com/images/118@2x.webp 2x" alt="leaves"/>
+        <p>leaves, 2025</p>
+	]]>
+      </content>
+    </entry>
     <entry>
       <title><![CDATA[#117]]></title>
       <link href="https://www.alexeypegov.com/117.html" />
@@ -114,18 +126,6 @@
 	<![CDATA[
         <img src="https://www.alexeypegov.com/images/109.webp" srcset="https://www.alexeypegov.com/images/109.webp 1x, https://www.alexeypegov.com/images/109@2x.webp 2x" alt="self-portrait in a hotel's mirror"/>
         <p>self-portrait in a hotel's mirror, 2025</p>
-	]]>
-      </content>
-    </entry>
-    <entry>
-      <title><![CDATA[#108]]></title>
-      <link href="https://www.alexeypegov.com/108.html" />
-      <id>urn:uuid:aacec1ca-d246-3611-b23b-b648f60eee68</id>
-      <updated>2025-12-31T00:00:00+00:00</updated>
-      <content type="html">
-	<![CDATA[
-        <img src="https://www.alexeypegov.com/images/108.webp" srcset="https://www.alexeypegov.com/images/108.webp 1x, https://www.alexeypegov.com/images/108@2x.webp 2x" alt="under the star"/>
-        <p>under the star, 2025</p>
 	]]>
       </content>
     </entry>
