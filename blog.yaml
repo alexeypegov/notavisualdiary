@@ -21,7 +21,7 @@ general:
     - static/favicon.ico
 
 vars:
-  version: 22
+  version: 23
   blog-title: (not) a visual diary
   blog-subtitle: alexey pegov photography
   blog-author: Alexey Pegov

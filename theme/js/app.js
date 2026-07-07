@@ -4,11 +4,11 @@ document.addEventListener("DOMContentLoaded", function () {
       return;
     }
 
-    if (e.key === "ArrowRight") {
+    if (e.key === "ArrowRight" || e.key === "Space" || e.code === "KeyK") {
       document.dispatchEvent(new CustomEvent("right"));
     }
 
-    if (e.key === "ArrowLeft") {
+    if (e.key === "ArrowLeft" || e.code === "KeyJ") {
       document.dispatchEvent(new CustomEvent("left"));
     }
 
@@ -18,6 +18,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
     if (e.code === "KeyH") {
       document.dispatchEvent(new CustomEvent("home"));
+    }
+
+    if (e.code === "KeyI") {
+      document.dispatchEvent(new CustomEvent("index"));
     }
   });
 
@@ -36,11 +40,16 @@ document.addEventListener("DOMContentLoaded", function () {
     location.href = "/";
   }
 
+  const index = function() {
+    location.href = "/page-1.html";
+  }
+
   document.addEventListener("swiped-left", f("prev"));
   document.addEventListener("swiped-right", f("next"));
   document.addEventListener("left", f("next"));
   document.addEventListener("right", f("prev"));
   document.addEventListener("home", home);
+  document.addEventListener("index", index);
 
   const isLeftHalf = (x) => x < window.innerWidth / 2;
 
