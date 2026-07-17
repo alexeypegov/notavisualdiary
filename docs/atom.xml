@@ -4,11 +4,23 @@
   <link href="https://www.alexeypegov.com/atom.xml" rel="self" />
   <link href="https://www.alexeypegov.com" rel="alternate" />
   <id>https://www.alexeypegov.com/</id>
-  <updated>2026-04-28T00:00:00+00:00</updated>
+  <updated>2026-07-17T00:00:00+00:00</updated>
   <author>
     <name>Alexey Pegov</name>
     <email>iam@alexeypegov.com</email>
   </author>
+    <entry>
+      <title><![CDATA[#119]]></title>
+      <link href="https://www.alexeypegov.com/119.html" />
+      <id>urn:uuid:8501dfc3-ec96-3588-b4f5-ab3a715af208</id>
+      <updated>2026-07-17T00:00:00+00:00</updated>
+      <content type="html">
+	<![CDATA[
+        <img src="https://www.alexeypegov.com/images/119.webp" srcset="https://www.alexeypegov.com/images/119.webp 1x, https://www.alexeypegov.com/images/119@2x.webp 2x" alt="In a hammock"/>
+        <p>In a hammock, 2026</p>
+	]]>
+      </content>
+    </entry>
     <entry>
       <title><![CDATA[#118]]></title>
       <link href="https://www.alexeypegov.com/118.html" />
@@ -114,18 +126,6 @@
 	<![CDATA[
         <img src="https://www.alexeypegov.com/images/110.webp" srcset="https://www.alexeypegov.com/images/110.webp 1x, https://www.alexeypegov.com/images/110@2x.webp 2x" alt="the clearing"/>
         <p>the clearing, 2021</p>
-	]]>
-      </content>
-    </entry>
-    <entry>
-      <title><![CDATA[#109]]></title>
-      <link href="https://www.alexeypegov.com/109.html" />
-      <id>urn:uuid:92c1126f-5b82-332e-9f92-0e2ee25ccc35</id>
-      <updated>2026-01-25T00:00:00+00:00</updated>
-      <content type="html">
-	<![CDATA[
-        <img src="https://www.alexeypegov.com/images/109.webp" srcset="https://www.alexeypegov.com/images/109.webp 1x, https://www.alexeypegov.com/images/109@2x.webp 2x" alt="self-portrait in a hotel's mirror"/>
-        <p>self-portrait in a hotel's mirror, 2025</p>
 	]]>
       </content>
     </entry>
