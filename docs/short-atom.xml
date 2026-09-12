@@ -4,11 +4,23 @@
   <link href="https://www.alexeypegov.com/short-atom.xml" rel="self" />
   <link href="https://www.alexeypegov.com" rel="alternate" />
   <id>https://www.alexeypegov.com/</id>
-  <updated>2026-08-10T00:00:00+00:00</updated>
+  <updated>2026-09-12T00:00:00+00:00</updated>
   <author>
     <name>Alexey Pegov</name>
     <email>iam@alexeypegov.com</email>
   </author>
+    <entry>
+      <title><![CDATA[#122]]></title>
+      <link href="https://www.alexeypegov.com/122.html" />
+      <id>urn:uuid:e3392134-23ce-394a-8e14-2ea2038dddee</id>
+      <updated>2026-09-12T00:00:00+00:00</updated>
+      <content type="html">
+	<![CDATA[
+        <img src="https://www.alexeypegov.com/images/122.webp" srcset="https://www.alexeypegov.com/images/122.webp 1x, https://www.alexeypegov.com/images/122@2x.webp 2x" alt="hands"/>
+        <p>hands, 2026</p>
+	]]>
+      </content>
+    </entry>
     <entry>
       <title><![CDATA[#121]]></title>
       <link href="https://www.alexeypegov.com/121.html" />
@@ -114,18 +126,6 @@
 	<![CDATA[
         <img src="https://www.alexeypegov.com/images/113.webp" srcset="https://www.alexeypegov.com/images/113.webp 1x, https://www.alexeypegov.com/images/113@2x.webp 2x" alt="traces / inverted"/>
         <p>traces / inverted, 2025</p>
-	]]>
-      </content>
-    </entry>
-    <entry>
-      <title><![CDATA[#112]]></title>
-      <link href="https://www.alexeypegov.com/112.html" />
-      <id>urn:uuid:2b15a3c2-be21-317f-aac0-34cbe7930901</id>
-      <updated>2026-02-20T00:00:00+00:00</updated>
-      <content type="html">
-	<![CDATA[
-        <img src="https://www.alexeypegov.com/images/112.webp" srcset="https://www.alexeypegov.com/images/112.webp 1x, https://www.alexeypegov.com/images/112@2x.webp 2x" alt="katya"/>
-        <p>katya, 2022</p>
 	]]>
       </content>
     </entry>
